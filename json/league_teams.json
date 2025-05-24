@@ -1,0 +1,27 @@
+{
+  "english-premier-league": {
+    "league_link": "https://africa.espn.com/football/teams/_/league/ENG.1/english-premier-league",
+    "teams_list_link": [
+      "https://africa.espn.com/football/team/results/_/id/349/afc-bournemouth",
+      "https://africa.espn.com/football/team/results/_/id/359/arsenal",
+      "https://africa.espn.com/football/team/results/_/id/362/aston-villa",
+      "https://africa.espn.com/football/team/results/_/id/337/brentford",
+      "https://africa.espn.com/football/team/results/_/id/331/brighton-hove-albion",
+      "https://africa.espn.com/football/team/results/_/id/379/burnley",
+      "https://africa.espn.com/football/team/results/_/id/363/chelsea",
+      "https://africa.espn.com/football/team/results/_/id/384/crystal-palace",
+      "https://africa.espn.com/football/team/results/_/id/368/everton",
+      "https://africa.espn.com/football/team/results/_/id/370/fulham",
+      "https://africa.espn.com/football/team/results/_/id/364/liverpool",
+      "https://africa.espn.com/football/team/results/_/id/301/luton-town",
+      "https://africa.espn.com/football/team/results/_/id/382/manchester-city",
+      "https://africa.espn.com/football/team/results/_/id/360/manchester-united",
+      "https://africa.espn.com/football/team/results/_/id/361/newcastle-united",
+      "https://africa.espn.com/football/team/results/_/id/393/nottingham-forest",
+      "https://africa.espn.com/football/team/results/_/id/398/sheffield-united",
+      "https://africa.espn.com/football/team/results/_/id/367/tottenham-hotspur",
+      "https://africa.espn.com/football/team/results/_/id/371/west-ham-united",
+      "https://africa.espn.com/football/team/results/_/id/380/wolverhampton-wanderers"
+    ]
+  }
+}
