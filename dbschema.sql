@@ -2,9 +2,11 @@ PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS Player (
     espn_id INTEGER PRIMARY KEY,
-    DOB TEXT NOT NULL,
+    Name TEXT NOT NULL,
+    DOB REAL NOT NULL,
     Nationality TEXT NOT NULL,
-    Height REAL NOT NULL
+    Height REAL NOT NULL,
+    Weight REAL NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS Team (

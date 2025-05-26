@@ -27,13 +27,6 @@ player_link_selector = ".AnchorLink.SoccerLineUpPlayer__Header__Name"
 team_page_logo_selector = "img.Image.Logo.Logo__xxl"
 game_detail_page_logos_selector = ".Gamestrip__InfoLogo"
 
-# Player Bio Selectors
-player_position_selector = "//span[@class='Bio__Label ttu mr2 dib clr-gray-04' and text()='Position ']/following-sibling::span[@class='dib flex-uniform mr3 clr-gray-01']"
-player_birthdate_selector = "//span[@class='Bio__Label ttu mr2 dib clr-gray-04' and text()='Birthdate']/following-sibling::span[@class='dib flex-uniform mr3 clr-gray-01']"
-player_nationality_selector = "//span[@class='Bio__Label ttu mr2 dib clr-gray-04' and text()='Nationality']/following-sibling::span[@class='dib flex-uniform mr3 clr-gray-01']"
-player_ht_wt_selector = "//span[@class='Bio__Label ttu mr2 dib clr-gray-04' and text()='HT/WT']/following-sibling::span[@class='dib flex-uniform mr3 clr-gray-01']"
-player_name_selector = ".PlayerHeader__Name"
-
 #Game Info Selectors
 referee_selector = ".Card.GameInfo .GameInfo__List__Item"
 attendance_selector = ".Card.GameInfo .Attendance__Numbers"
@@ -41,6 +34,17 @@ state_country_selector = ".Card.GameInfo .Location__Text"
 field_selector = ".Card.GameInfo .GameInfo__Location__Name--noImg"
 date_selector = ".Card.GameInfo .GameInfo__Meta span"
 commentary_selector ='.match-commentary tbody'
+
+#LineUp Stats Selectors
+both_team_lineup_selectors = ".LineUps__PlayersTable tbody"
+
+#Player Bio
+weight_height_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='HT/WT']/following-sibling::span[contains(text(), 'kg')]/text()"
+bday_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Birthdate']/following-sibling::span/text()"
+nationality_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Nationality']/following-sibling::span/text()"
+player_name_selector = ".PlayerHeader__Name"
+
+
 
 # Setup Chrome options (optional, for headless mode)
 chrome_options = Options()
@@ -52,8 +56,6 @@ chrome_options.add_argument('--blink-settings=imagesEnabled=false')
 driver = webdriver.Chrome(options=chrome_options)
 
 def get_links_of_all_games_played(team_url_list):
-    
-    combined_team_games = []
     for index, team_url in enumerate(team_url_list):
         team_games = []
         team_name = team_url.split('/')[-1]
@@ -99,6 +101,9 @@ def get_links_of_all_games_played(team_url_list):
             espn_game_id = get_espn_id_from_url(game_detail_url)
             driver.get(game_detail_url)
             logos = driver.find_elements(By.CSS_SELECTOR, game_detail_page_logos_selector)
+            lineup_url = game_detail_url.replace('match', 'lineups')
+            commentary_url = game_detail_url.replace('match', 'commentary')
+            game_stats_url = game_detail_url.replace('match', 'matchstats')
 
             for logo in logos:
                 if (db_utils.team_exists(team_espn_id)==False):
@@ -106,8 +111,16 @@ def get_links_of_all_games_played(team_url_list):
                     db_utils.insert_team({'espn_id': team_espn_id, 'name': team_name, 'logo': logo_url})
 
             if(db_utils.game_info_exists(espn_game_id)==False):
-                game_details = get_details_of_game(driver, espn_game_id)
+                game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
                 db_utils.insert_game_info(game_details)
+            
+            driver.get(lineup_url)
+
+            get_all_players(driver)
+
+           
+            
+
                
 
 
@@ -140,7 +153,7 @@ def get_details_of_all_games_played(team_data_list):
 
 
 
-def get_details_of_game(driver, espn_id):
+def get_details_and_commentary_of_game(driver, espn_id, commentary_url):
     details = {
         "espn_id": espn_id,
         "date": None,
@@ -214,8 +227,6 @@ def get_details_of_game(driver, espn_id):
     except NoSuchElementException:
         details["attendance"] = ""
 
-    current_url = driver.current_url
-    commentary_url = current_url.replace('match', 'commentary')
     driver.get(commentary_url)
     try:
         tbody = driver.find_element(By.CSS_SELECTOR, ".MatchCommentary tbody")
@@ -231,3 +242,58 @@ def get_details_of_game(driver, espn_id):
 
     return details
 
+
+def get_all_players(driver):
+    all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
+    print(len(all_team_players_tables))
+    try:
+        home_players = all_team_players_tables[0]
+        away_players = all_team_players_tables[1]
+    except:
+        print(driver.current_url)
+        input('line up error at the above')
+    
+    
+
+    #Save all Players details 
+    for team_players_table in all_team_players_tables:
+        player_elements = team_players_table.find_elements(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
+        player_links = [player.get_attribute('href') for player in player_elements]
+        for links in player_links:
+            driver.get(links)
+            player_data = {
+                "espn_id": None,
+                "Name": None,
+                "DOB": None,
+                "Nationality": None,
+                "Height": None,
+                "Weight": None
+            }
+
+            # Extract PLAYER ESPN ID and parse
+            player_data["espn_id"]= get_espn_id_from_url(links)
+
+            # Extract HT/WT and parse
+            htwt_text = driver.find_element(By.XPATH, weight_height_selector).text.strip()
+            ht_match = re.search(r'([\d\.]+)\s*m', htwt_text)
+            wt_match = re.search(r'([\d\.]+)\s*kg', htwt_text)
+            height = float(ht_match.group(1)) if ht_match else None
+            weight = float(wt_match.group(1)) if wt_match else None
+            player_data["Height"]=height
+            player_data["Weight"]=weight
+
+            # Extract DOB and convert to UNIX timestamp
+            bday_text = driver.find_element(By.XPATH, bday_selector).text.strip().split(' ')[0]  # e.g., "18/2/2000"
+            dob_dt = datetime.strptime(bday_text, "%d/%m/%Y")
+            player_data["DOB"] = int(dob_dt.timestamp())
+
+            # Extract nationality
+            nationality = driver.find_element(By.XPATH, nationality_selector).text.strip()
+            player_data["Nationality"]
+
+            # Extract Player Name
+            player_name = driver.find_element(By.XPATH, player_name_selector).text.strip()
+            player_data['Name']= player_name
+
+            print(player_data)
+        
