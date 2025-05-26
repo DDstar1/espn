@@ -39,9 +39,9 @@ commentary_selector ='.match-commentary tbody'
 both_team_lineup_selectors = ".LineUps__PlayersTable tbody"
 
 #Player Bio
-weight_height_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='HT/WT']/following-sibling::span[contains(text(), 'kg')]/text()"
-bday_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Birthdate']/following-sibling::span/text()"
-nationality_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Nationality']/following-sibling::span/text()"
+weight_height_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='HT/WT']/following-sibling::span[contains(text(), 'kg')]"
+bday_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Birthdate']/following-sibling::span"
+nationality_selector = "//section[contains(@class, 'Card') and contains(@class, 'Bio')]//span[.='Nationality']/following-sibling::span"
 player_name_selector = ".PlayerHeader__Name"
 
 
@@ -258,9 +258,11 @@ def get_all_players(driver):
     #Save all Players details 
     for team_players_table in all_team_players_tables:
         player_elements = team_players_table.find_elements(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
-        player_links = [player.get_attribute('href') for player in player_elements]
-        for links in player_links:
-            driver.get(links)
+        player_links = [player.get_attribute('href').replace("player/", "player/bio/") for player in player_elements]
+        for link in player_links:
+            print(link)
+            driver.get(link)
+            input('')
             player_data = {
                 "espn_id": None,
                 "Name": None,
@@ -271,7 +273,7 @@ def get_all_players(driver):
             }
 
             # Extract PLAYER ESPN ID and parse
-            player_data["espn_id"]= get_espn_id_from_url(links)
+            player_data["espn_id"]= get_espn_id_from_url(link)
 
             # Extract HT/WT and parse
             htwt_text = driver.find_element(By.XPATH, weight_height_selector).text.strip()
@@ -289,11 +291,12 @@ def get_all_players(driver):
 
             # Extract nationality
             nationality = driver.find_element(By.XPATH, nationality_selector).text.strip()
-            player_data["Nationality"]
+            player_data["Nationality"] = nationality
 
             # Extract Player Name
-            player_name = driver.find_element(By.XPATH, player_name_selector).text.strip()
-            player_data['Name']= player_name
+            player_name = driver.find_element(By.CSS_SELECTOR, player_name_selector).text.strip()
+            player_data['Name'] = player_name.replace('\n', ' ').lower()
+
 
             print(player_data)
         
