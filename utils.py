@@ -199,16 +199,21 @@ def open_all_players_stats(driver, all_team_players_tables):
             for row in table.find_elements(By.CSS_SELECTOR, 'tr'):
                 try:
                     # Goals or Saves
-                    goal = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
+                    goals = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
+                    if(goals):
+                        for g in goals:
+                            time = g.get_attribute("aria-label").split('minute')[-1].strip()
+                            own_goal = "OwnGoalIcon" in g.get_attribute("class")
+
+
 
 
                     # Last row stats
-                    yellow_card = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
-                    red_card = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
+                    yellow_card = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
+                    red_card = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
 
                     #Substitution
-                    substitution = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Substitution"]')
-
+                    substitution = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Substitution"]')
 
 
                     #Player espn ID
