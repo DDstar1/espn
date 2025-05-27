@@ -2,6 +2,10 @@ import json
 import os
 import re
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
+
 
 combined_team_games_bk_path = 'json\\backups\\combined_team_games_bk.json'
 team_game_history_bk_path = 'json\\backups\\team_game_history.bk.json'
@@ -120,3 +124,117 @@ def parse_commentary_rows(rows):
             input('sdv')
 
     return "\n".join(all_comments)
+
+
+
+
+def open_all_players_stats(driver, all_team_players_tables):
+    all_players_stats = []
+
+    for table in all_team_players_tables:
+        # Click all buttons to expand player stats
+        for button in table.find_elements(By.CSS_SELECTOR, 'tr button'):
+            try:
+                driver.execute_script("arguments[0].click();", button)
+            except Exception as e:
+                print(f"Button click failed: {e}")
+        
+        if(table.find_elements(By.CSS_SELECTOR, 'tr button')[0].get_attribute('aria-expanded')=='true'):
+            # Loop through each row/player
+            for row in table.find_elements(By.CSS_SELECTOR, 'tr'):
+                try:
+                    # Goals or Saves
+                    stat_label = row.find_element(By.CSS_SELECTOR, '.LineUpsStats__GoalsOrSaves span:nth-of-type(1)').text.strip().lower()
+                    stat_value = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__GoalsOrSaves span:nth-of-type(2)').text.strip())
+                    goals = stat_value if stat_label == "goals" else 0
+                    saves = stat_value if stat_label == "saves" else 0
+
+                    # Shots and Shots on Target
+                    shots = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Shots .BarLine__Item:nth-of-type(1) .BarLine__Stat').text.strip())
+                    shots_on_target = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Shots .BarLine__Item:nth-of-type(2) .BarLine__Stat').text.strip())
+
+                    # Fouls
+                    fouls_committed = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Fouls .BarLine__Item:nth-of-type(1) .BarLine__Stat').text.strip())
+                    fouls_against = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Fouls .BarLine__Item:nth-of-type(2) .BarLine__Stat').text.strip())
+
+                    # Last row stats
+                    last_row_items = row.find_elements(By.CSS_SELECTOR, '.LineUpsStats__LastRow li')
+                    assists = int(last_row_items[0].find_elements(By.TAG_NAME, 'span')[-1].text.strip())
+                    offsides = int(last_row_items[1].find_elements(By.TAG_NAME, 'span')[-1].text.strip()) if len(last_row_items) == 3 else 0
+                    yellow_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(1) span:nth-of-type(1)').text.strip())
+                    red_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(2) span:nth-of-type(1)').text.strip())
+
+                    #
+
+                    #Player espn ID
+                    player_espn_url = row.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
+                    player_espn_id = get_espn_id_from_url(player_espn_url)
+
+                    #Player Num
+                    player_num = row.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number')
+                    
+                    # Store player stats
+                    player_stats = {
+                        "player_num":player_num,
+                        "espn_id": player_espn_id,
+                        "goals": goals,
+                        "saves": saves,
+                        "shots": shots,
+                        "shots_on_target": shots_on_target,
+                        "fouls_committed": fouls_committed,
+                        "fouls_against": fouls_against,
+                        "assists": assists,
+                        "offsides": offsides,
+                        "yellow_cards": yellow_cards,
+                        "red_cards": red_cards
+                    }
+
+                    all_players_stats.append(player_stats)
+
+                except Exception as e:
+                    print("Some elements not found in this row, skipping...")
+        else:
+            input('found missing')
+              # Loop through each row/player
+            for row in table.find_elements(By.CSS_SELECTOR, 'tr'):
+                try:
+                    # Goals or Saves
+                    goal = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
+
+
+                    # Last row stats
+                    yellow_card = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
+                    red_card = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
+
+                    #Substitution
+                    substitution = row.find_element(By.CSS_SELECTOR, 'svg[aria-label*="Substitution"]')
+
+
+
+                    #Player espn ID
+                    player_espn_url = row.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
+                    player_espn_id = get_espn_id_from_url(player_espn_url)
+
+                    #Player Num
+                    player_num = row.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number')
+                    
+                    # Store player stats
+                    player_stats = {
+                        "player_num":player_num,
+                        "espn_id": player_espn_id,
+                        "goals": goals,
+                        "saves": saves,
+                        "yellow_cards": yellow_cards,
+                        "red_cards": red_cards
+                    }
+
+                    all_players_stats.append(player_stats)
+
+                except NoSuchElementException:
+                    print("Some elements not found in this row, skipping...")
+
+    # Print final list of player stat dictionaries
+    for idx, player in enumerate(all_players_stats, 1):
+        print(f"Player {idx} Stats: {player}")
+    
+    return all_players_stats

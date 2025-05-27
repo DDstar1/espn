@@ -173,6 +173,17 @@ def insert_offside(data):
     conn.close()
 
 
+def get_team_game_history_id(espn_game_info_id, espn_team_id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT id FROM Team_Game_History WHERE espn_team_id = ? AND espn_game_info_id = ?",
+        (espn_team_id, espn_game_info_id)
+    )
+    row = cursor.fetchone()
+    conn.close()
+    return row[0] if row else None
+
 conn.commit()
 cursor.close()
 conn.close()
