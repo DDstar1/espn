@@ -1,12 +1,12 @@
 import sqlite3
 
-db_name="football_stats.db"
+db_name="db/football_stats.db"
 
 conn = sqlite3.connect(db_name)
 conn.execute("PRAGMA foreign_keys = ON;")
 cursor = conn.cursor()
 
-with open("dbschema.sql", "r") as f:
+with open("db/dbschema.sql", "r") as f:
     cursor.executescript(f.read())
 
 def get_db_connection():

@@ -9,7 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 
 from datetime import datetime
-from utils import extract_team_logos_from_detail_page, get_all_players_stats, get_espn_id_from_url, parse_commentary_rows
+from lineup_page.get_all_players_stats import get_all_players_stats
+from utils import extract_team_logos_from_detail_page, get_espn_id_from_url, parse_commentary_rows
 import db_utils 
 
 
