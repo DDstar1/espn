@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 
 from datetime import datetime
-from utils import extract_team_logos_from_detail_page, get_espn_id_from_url, open_all_players_stats, parse_commentary_rows
+from utils import extract_team_logos_from_detail_page, get_all_players_stats, get_espn_id_from_url, parse_commentary_rows
 import db_utils 
 
 
@@ -322,4 +322,5 @@ def get_line_up_stats(driver, lineup_url):
         print(driver.current_url)
         input('line up error at the above')
     
-    open_all_players_stats(driver, all_team_players_tables)
+    data = get_all_players_stats(driver, all_team_players_tables)
+    pprint(data)

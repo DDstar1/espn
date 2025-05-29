@@ -128,54 +128,63 @@ def parse_commentary_rows(rows):
 
 
 
-def open_all_players_stats(driver, all_team_players_tables):
+def get_all_players_stats(driver, all_team_players_tables):
     all_players_stats = []
+    goals_list = []
+    fouls_list = []
 
     for table in all_team_players_tables:
-        # Click all buttons to expand player stats
-        for button in table.find_elements(By.CSS_SELECTOR, 'tr button'):
+        # Expand all buttons (same as before)
+        buttons = table.find_elements(By.CSS_SELECTOR, 'tr button')
+        for button in buttons:
             try:
                 driver.execute_script("arguments[0].click();", button)
             except Exception as e:
                 print(f"Button click failed: {e}")
-        
-        if(table.find_elements(By.CSS_SELECTOR, 'tr button')[0].get_attribute('aria-expanded')=='true'):
-            # Loop through each row/player
-            for row in table.find_elements(By.CSS_SELECTOR, 'tr'):
+
+        try:
+            expanded = table.find_elements(By.CSS_SELECTOR, 'td button')[0].get_attribute('aria-expanded') == 'true'
+        except IndexError:
+            expanded = False
+
+        if expanded:
+            rows = table.find_elements(By.CSS_SELECTOR, 'tr')
+            for row in rows:
                 try:
-                    # Goals or Saves
+
+                    # Try to find if the row is inside any of the substitute tables (LineUps__SubstitutesTable)
+                    unused_player_tables = driver.find_elements(By.CSS_SELECTOR, '.LineUps__SubstitutesTable')
+                    for unused_table in unused_player_tables:
+                        match_found = unused_table.find_elements(By.XPATH, f".//td[contains(., '{row.text.strip()}')]")
+                        if match_found:
+                            unused_player = True
+                            break  # No need to keep checking once found
+                        else: unused_player = False
+                    
+                    player_espn_url = row.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]').get_attribute('href')
+                    player_espn_id = get_espn_id_from_url(player_espn_url)
+                    player_num = row.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number').text.strip()
+
+                    # Collect goals info from expanded stats if available
                     stat_label = row.find_element(By.CSS_SELECTOR, '.LineUpsStats__GoalsOrSaves span:nth-of-type(1)').text.strip().lower()
                     stat_value = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__GoalsOrSaves span:nth-of-type(2)').text.strip())
                     goals = stat_value if stat_label == "goals" else 0
                     saves = stat_value if stat_label == "saves" else 0
 
-                    # Shots and Shots on Target
+                    # Other stats ...
                     shots = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Shots .BarLine__Item:nth-of-type(1) .BarLine__Stat').text.strip())
                     shots_on_target = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Shots .BarLine__Item:nth-of-type(2) .BarLine__Stat').text.strip())
-
-                    # Fouls
                     fouls_committed = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Fouls .BarLine__Item:nth-of-type(1) .BarLine__Stat').text.strip())
                     fouls_against = int(row.find_element(By.CSS_SELECTOR, '.LineUpsStats__Fouls .BarLine__Item:nth-of-type(2) .BarLine__Stat').text.strip())
 
-                    # Last row stats
                     last_row_items = row.find_elements(By.CSS_SELECTOR, '.LineUpsStats__LastRow li')
                     assists = int(last_row_items[0].find_elements(By.TAG_NAME, 'span')[-1].text.strip())
                     offsides = int(last_row_items[1].find_elements(By.TAG_NAME, 'span')[-1].text.strip()) if len(last_row_items) == 3 else 0
                     yellow_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(1) span:nth-of-type(1)').text.strip())
                     red_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(2) span:nth-of-type(1)').text.strip())
 
-                    #
-
-                    #Player espn ID
-                    player_espn_url = row.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
-                    player_espn_id = get_espn_id_from_url(player_espn_url)
-
-                    #Player Num
-                    player_num = row.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number')
-                    
-                    # Store player stats
                     player_stats = {
-                        "player_num":player_num,
+                        "player_num": player_num,
                         "espn_id": player_espn_id,
                         "goals": goals,
                         "saves": saves,
@@ -186,60 +195,87 @@ def open_all_players_stats(driver, all_team_players_tables):
                         "assists": assists,
                         "offsides": offsides,
                         "yellow_cards": yellow_cards,
-                        "red_cards": red_cards
+                        "red_cards": red_cards,
+                        "unused_player": unused_player,
                     }
+                    all_players_stats.append(player_stats)
 
+                    # For this expanded block, no detailed goal time data, so only total goals/cards counts available
+                    # You might want to handle detailed times in collapsed section
+
+                except Exception as e:
+                    print(f"Skipping expanded row due to error: {e}")
+
+        else:
+            players = table.find_elements(By.CSS_SELECTOR, 'td .SoccerLineUpPlayer')
+            unused_player_tables = driver.find_elements(By.CSS_SELECTOR, '.LineUps__SubstitutesTable')
+
+            for player in players:
+                try:
+                    player_espn_url = player.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]').get_attribute("href")
+                    player_espn_id = get_espn_id_from_url(player_espn_url)
+
+                    player_num = player.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number').text.strip()
+
+                    #Unused Players
+                    # Try to find if the row is inside any of the substitute tables (LineUps__SubstitutesTable)
+                    unused_player_tables = driver.find_elements(By.CSS_SELECTOR, '.LineUps__SubstitutesTable')
+                    for unused_table in unused_player_tables:
+                        match_found = unused_table.find_elements(By.XPATH, f".//td[contains(., '{row.text.strip()}')]")
+                        if match_found:
+                            unused_player = True
+                            break  # No need to keep checking once found
+                        else: unused_player = False
+
+                    # Goals with time and own goal info
+                    goals_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
+                    goals_count = len(goals_elems)
+                    for g in goals_elems:
+                        time = g.get_attribute("aria-label").split('minute')[-1].strip()
+                        own_goal = "OwnGoalIcon" in g.get_attribute("class")
+                        goals_list.append({
+                            "team_game_history_id": None,
+                            "player_id": player_espn_id,
+                            "time": time,
+                            "own_goal": own_goal  # You can store this or ignore based on schema
+                        })
+
+                    # Cards with time
+                    yellow_cards_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
+                    for yc in yellow_cards_elems:
+                        time = yc.get_attribute("aria-label").split('minute')[-1].strip()
+                        fouls_list.append({
+                            "team_game_history_id": None,
+                            "player_id": player_espn_id,
+                            "card": "yellow",
+                            "time": time
+                        })
+
+                    red_cards_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
+                    for rc in red_cards_elems:
+                        time = rc.get_attribute("aria-label").split('minute')[-1].strip()
+                        fouls_list.append({
+                            "team_game_history_id":None,
+                            "player_id": player_espn_id,
+                            "card": "red",
+                            "time": time
+                        })
+
+                    player_stats = {
+                        "player_num": player_num,
+                        "espn_id": player_espn_id,
+                        "goals": goals_count,
+                        "yellow_cards": len(yellow_cards_elems),
+                        "red_cards": len(red_cards_elems),
+                        "unused_player":unused_player
+                    }
                     all_players_stats.append(player_stats)
 
                 except Exception as e:
-                    print("Some elements not found in this row, skipping...")
-        else:
-            input('found missing')
-              # Loop through each row/player
-            for row in table.find_elements(By.CSS_SELECTOR, 'tr'):
-                try:
-                    # Goals or Saves
-                    goals = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
-                    if(goals):
-                        for g in goals:
-                            time = g.get_attribute("aria-label").split('minute')[-1].strip()
-                            own_goal = "OwnGoalIcon" in g.get_attribute("class")
+                    print(f"Skipping collapsed row due to error: {e}")
 
-
-
-
-                    # Last row stats
-                    yellow_card = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
-                    red_card = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
-
-                    #Substitution
-                    substitution = row.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Substitution"]')
-
-
-                    #Player espn ID
-                    player_espn_url = row.find_element(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
-                    player_espn_id = get_espn_id_from_url(player_espn_url)
-
-                    #Player Num
-                    player_num = row.find_element(By.CSS_SELECTOR, '.SoccerLineUpPlayer__Header__Number')
-                    
-                    # Store player stats
-                    player_stats = {
-                        "player_num":player_num,
-                        "espn_id": player_espn_id,
-                        "goals": goals,
-                        "saves": saves,
-                        "yellow_cards": yellow_cards,
-                        "red_cards": red_cards
-                    }
-
-                    all_players_stats.append(player_stats)
-
-                except NoSuchElementException:
-                    print("Some elements not found in this row, skipping...")
-
-    # Print final list of player stat dictionaries
-    for idx, player in enumerate(all_players_stats, 1):
-        print(f"Player {idx} Stats: {player}")
-    
-    return all_players_stats
+    return {
+        "players_stats": all_players_stats,
+        "goals": goals_list,
+        "cards": fouls_list
+    }

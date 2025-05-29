@@ -52,6 +52,7 @@ CREATE TABLE IF NOT EXISTS Line_Up_Statistics (
     offsides INTEGER NOT NULL,
     yellow_cards INTEGER NOT NULL,
     red_cards INTEGER NOT NULL,
+    unused_player INTEGER NOT NULL,
     FOREIGN KEY (team_game_history_id) REFERENCES Team_Game_History(id),
     FOREIGN KEY (player_id) REFERENCES Player(espn_id)
 );
@@ -79,6 +80,7 @@ CREATE TABLE IF NOT EXISTS Goals (
     time TEXT NOT NULL,
     FOREIGN KEY (team_game_history_id) REFERENCES Team_Game_History(id),
     FOREIGN KEY (player_id) REFERENCES Player(espn_id)
+    UNIQUE (team_game_history_id, player_id, time)
 );
 
 CREATE TABLE IF NOT EXISTS Fouls (
@@ -89,6 +91,7 @@ CREATE TABLE IF NOT EXISTS Fouls (
     time TEXT NOT NULL,
     FOREIGN KEY (team_game_history_id) REFERENCES Team_Game_History(id),
     FOREIGN KEY (player_id) REFERENCES Player(espn_id)
+    UNIQUE (team_game_history_id, player_id, time)
 );
 
 CREATE TABLE IF NOT EXISTS Free_Kick (

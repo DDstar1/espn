@@ -127,7 +127,7 @@ def insert_goal(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT INTO Goals (team_game_history_id, player_id, time)
+        INSERT OR IGNORE INTO Goals (team_game_history_id, player_id, time)
         VALUES (:team_game_history_id, :player_id, :time)
     """, data)
     conn.commit()
@@ -138,7 +138,7 @@ def insert_foul(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT INTO Fouls (team_game_history_id, player_id, card, time)
+        INSERT OR IGNORE INTO Fouls (team_game_history_id, player_id, card, time)
         VALUES (:team_game_history_id, :player_id, :card, :time)
     """, data)
     conn.commit()
