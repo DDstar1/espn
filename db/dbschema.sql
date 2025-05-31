@@ -31,7 +31,8 @@ CREATE TABLE IF NOT EXISTS Team_Game_History (
     espn_team_id INTEGER NOT NULL,
     espn_game_info_id INTEGER NOT NULL,
     FOREIGN KEY (espn_team_id) REFERENCES Team(espn_id),
-    FOREIGN KEY (espn_game_info_id) REFERENCES Game_Info(espn_id)
+    FOREIGN KEY (espn_game_info_id) REFERENCES Game_Info(espn_id),
+    UNIQUE (espn_team_id, espn_game_info_id)
 );
 
 CREATE TABLE IF NOT EXISTS Line_Up_Statistics (

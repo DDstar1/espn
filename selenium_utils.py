@@ -1,4 +1,4 @@
-from pprint import pprint
+from pprint import pprint, PrettyPrinter
 import re
 import config
 from selenium import webdriver
@@ -13,6 +13,8 @@ from lineup_page.get_all_players_stats import get_all_players_stats
 from utils import extract_team_logos_from_detail_page, get_espn_id_from_url, parse_commentary_rows
 import db_utils 
 
+
+pp = PrettyPrinter(indent=2, width=200, compact=True)
 
 # Backup Paths
 combined_team_games_bk_path = 'json\\backups\\combined_team_games_bk.json'
@@ -108,18 +110,48 @@ def get_links_of_all_games_played(team_url_list):
             lineup_url = game_detail_url.replace('match', 'lineups')
             commentary_url = game_detail_url.replace('match', 'commentary')
             game_stats_url = game_detail_url.replace('match', 'matchstats')
+            both_team_details =[]
 
             for logo in logos:
                 if (db_utils.team_exists(team_espn_id)==False):
                     team_espn_id, team_name, logo_url = extract_team_logos_from_detail_page(logo)
+                    both_team_details.append({team_espn_id, team_name, logo_url})
+                    print(both_team_details)
                     db_utils.insert_team({'espn_id': team_espn_id, 'name': team_name, 'logo': logo_url})
+                    input('dsdv')
+                    
 
             if(db_utils.game_info_exists(espn_game_id)==False):
                 game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
                 db_utils.insert_game_info(game_details)
+            
+            for data in both_team_details:
+                print("BOTH TEAM", data)
+                db_utils.insert_team_game_history({"team_id":data["team_espn_id"], "game_info_id":data["espn_game_id"]})
+                input('sacas')
 
-            #get_all_players(driver,lineup_url)
-            get_line_up_stats(driver,lineup_url)
+
+            driver.get(lineup_url)
+            print(lineup_url)
+            all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
+            
+        
+            try:
+                home_players = all_team_players_tables[0]
+                away_players = all_team_players_tables[1]
+            except:
+                print(driver.current_url)
+                input('line up error at the above')
+            
+            lineup_stats = get_all_players_stats(driver, all_team_players_tables)
+            players_stats, goals, cards = lineup_stats['players_stats'], lineup_stats['goals'], lineup_stats['cards']
+           
+            print("ALL PLAYERS MATCH STATS")
+            pprint(lineup_stats)
+            input('sdvsdfv')
+             
+           
+
 
            
             
@@ -310,18 +342,5 @@ def get_all_players(driver, lineup_url):
     
 
 
-def get_line_up_stats(driver, lineup_url):
-    driver.get(lineup_url)
-    print(lineup_url)
-    all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
+#def get_line_up_stats(driver, lineup_url):
     
-  
-    try:
-        home_players = all_team_players_tables[0]
-        away_players = all_team_players_tables[1]
-    except:
-        print(driver.current_url)
-        input('line up error at the above')
-    
-    data = get_all_players_stats(driver, all_team_players_tables)
-    pprint(data)

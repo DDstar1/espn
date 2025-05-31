@@ -76,7 +76,7 @@ def insert_team_game_history(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT INTO Team_Game_History (team_id, game_info_id)
+        INSERT OR IGNORE INTO Team_Game_History (team_id, game_info_id)
         VALUES (:team_id, :game_info_id)
     """, data)
     conn.commit()

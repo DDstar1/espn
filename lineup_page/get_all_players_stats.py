@@ -1,10 +1,12 @@
+from pprint import pprint, PrettyPrinter
 from utils import get_espn_id_from_url
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
+from lineup_page.get_player_field_pos import get_player_field_positions
 
-
+pp = PrettyPrinter(indent=2, width=200, compact=True)
 def get_all_players_stats(driver, all_team_players_tables):
     all_players_stats = []
     goals_list = []
@@ -38,6 +40,40 @@ def get_all_players_stats(driver, all_team_players_tables):
 
                     if match_found != []: unused_player = True
                     else: unused_player = False
+
+                                        # Goals with time and own goal info
+                    goals_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
+                    goals_count = len(goals_elems)
+                    for g in goals_elems:
+                        time = g.get_attribute("aria-label").split('minute')[-1].strip()
+                        own_goal = "OwnGoalIcon" in g.get_attribute("class")
+                        goals_list.append({
+                            "team_game_history_id": None,
+                            "player_id": player_espn_id,
+                            "time": time,
+                            "own_goal": own_goal  # You can store this or ignore based on schema
+                        })
+
+                    # Cards with time
+                    yellow_cards_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Yellow"]')
+                    for yc in yellow_cards_elems:
+                        time = yc.get_attribute("aria-label").split('minute')[-1].strip()
+                        fouls_list.append({
+                            "team_game_history_id": None,
+                            "player_id": player_espn_id,
+                            "card": "yellow",
+                            "time": time
+                        })
+
+                    red_cards_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Red"]')
+                    for rc in red_cards_elems:
+                        time = rc.get_attribute("aria-label").split('minute')[-1].strip()
+                        fouls_list.append({
+                            "team_game_history_id":None,
+                            "player_id": player_espn_id,
+                            "card": "red",
+                            "time": time
+                        })
                     
                     # Collect goals info from expanded stats if available
                     stat_label = player.find_element(By.CSS_SELECTOR, '.LineUpsStats__GoalsOrSaves span:nth-of-type(1)').text.strip().lower()
@@ -54,13 +90,12 @@ def get_all_players_stats(driver, all_team_players_tables):
                     last_row_items = player.find_elements(By.CSS_SELECTOR, '.LineUpsStats__LastRow li')
                     assists = int(last_row_items[0].find_elements(By.TAG_NAME, 'span')[-1].text.strip())
                     offsides = int(last_row_items[1].find_elements(By.TAG_NAME, 'span')[-1].text.strip()) if len(last_row_items) == 3 else 0
-                    yellow_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(1) span:nth-of-type(1)').text.strip())
-                    red_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(2) span:nth-of-type(1)').text.strip())
+                    #yellow_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(1) span:nth-of-type(1)').text.strip())
+                    #red_cards = int(last_row_items[-1].find_element(By.CSS_SELECTOR, '.LineUpsStats__Discipline__SubStat:nth-of-type(2) span:nth-of-type(1)').text.strip())
 
                     player_stats = {
                         "player_num": player_num,
                         "espn_id": player_espn_id,
-                        "goals": goals,
                         "saves": saves,
                         "shots": shots,
                         "shots_on_target": shots_on_target,
@@ -68,8 +103,9 @@ def get_all_players_stats(driver, all_team_players_tables):
                         "fouls_against": fouls_against,
                         "assists": assists,
                         "offsides": offsides,
-                        "yellow_cards": yellow_cards,
-                        "red_cards": red_cards,
+                        "goals":  len(goals_elems),
+                        "yellow_cards": len(yellow_cards_elems),
+                        "red_cards": len(red_cards_elems),
                         "unused_player": unused_player,
                     }
                     all_players_stats.append(player_stats)
@@ -93,15 +129,11 @@ def get_all_players_stats(driver, all_team_players_tables):
                     #Unused Players
                     # Try to find if the row is inside any of the substitute tables (LineUps__SubstitutesTable)
                     match_found = driver.find_elements(By.XPATH,f"//*[contains(@class, 'LineUps__SubstitutesTable')] //td[contains(., '{player_name}')]")
-                    print(f"//*[contains(@class, 'LineUps__SubstitutesTable')] //td[contains(., '{player_name}')]")
-                    print(player_name)
-                    print(match_found)
                     if match_found != []: unused_player = True
                     else: unused_player = False
 
                     # Goals with time and own goal info
                     goals_elems = player.find_elements(By.CSS_SELECTOR, 'svg[aria-label*="Goal"]')
-                    goals_count = len(goals_elems)
                     for g in goals_elems:
                         time = g.get_attribute("aria-label").split('minute')[-1].strip()
                         own_goal = "OwnGoalIcon" in g.get_attribute("class")
@@ -136,7 +168,7 @@ def get_all_players_stats(driver, all_team_players_tables):
                     player_stats = {
                         "player_num": player_num,
                         "espn_id": player_espn_id,
-                        "goals": goals_count,
+                        "goals":  len(goals_elems),
                         "yellow_cards": len(yellow_cards_elems),
                         "red_cards": len(red_cards_elems),
                         "unused_player":unused_player
@@ -146,6 +178,10 @@ def get_all_players_stats(driver, all_team_players_tables):
                 except Exception as e:
                     print(f"Skipping collapsed row due to error: {e}")
 
+    print("ALL PLAYERS FIELD POSITIONS ")
+    pprint(get_player_field_positions(driver))
+    
+    input('positions')
     return {
         "players_stats": all_players_stats,
         "goals": goals_list,
