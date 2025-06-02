@@ -19,8 +19,8 @@ def insert_player(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT INTO Player (DOB, Nationality, Height)
-        VALUES (:DOB, :Nationality, :Height)
+        INSERT OR IGNORE INTO Player (espn_id, Name, Nationality, DOB, Height, Weight)
+        VALUES (:espn_id, :Name, :Nationality, :DOB, :Height, :Weight)
     """, data)
     conn.commit()
     conn.close()
@@ -76,8 +76,8 @@ def insert_team_game_history(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT OR IGNORE INTO Team_Game_History (team_id, game_info_id)
-        VALUES (:team_id, :game_info_id)
+        INSERT OR IGNORE INTO Team_Game_History (espn_team_id, espn_game_info_id)
+        VALUES (:espn_team_id, :espn_game_info_id)
     """, data)
     conn.commit()
     conn.close()
@@ -87,17 +87,17 @@ def insert_line_up_statistics(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT INTO Line_Up_Statistics (
-            team_game_history_id, player_id, position, player_num,
-            position_x, position_y, role, goals, shots, shot_on_target,
+        INSERT OR IGNORE INTO Line_Up_Statistics (
+            team_game_history_id, espn_player_id, player_num,
+            position_x, position_y, goals, saves, shots, shots_on_target,
             fouls_commited, fouls_against, assists, offsides,
-            yellow_cards, red_cards
+            yellow_cards, red_cards, unused_player
         )
         VALUES (
-            :team_game_history_id, :player_id, :position, :player_num,
-            :position_x, :position_y, :role, :goals, :shots, :shot_on_target,
+            :team_game_history_id, :espn_player_id, :player_num,
+            :position_x, :position_y, :goals, :saves, :shots, :shots_on_target,
             :fouls_commited, :fouls_against, :assists, :offsides,
-            :yellow_cards, :red_cards
+            :yellow_cards, :red_cards, :unused_player
         )
     """, data)
     conn.commit()
@@ -183,6 +183,25 @@ def get_team_game_history_id(espn_game_info_id, espn_team_id):
     row = cursor.fetchone()
     conn.close()
     return row[0] if row else None
+
+def player_exists(espn_id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT 1 FROM Player WHERE espn_id = ?", (espn_id,))
+    result = cursor.fetchone()
+    conn.close()
+    return result is not None
+
+def player_line_up_stat_exists(team_game_history_id, espn_player_id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT 1 FROM Line_Up_Statistics 
+        WHERE team_game_history_id = ? AND espn_player_id = ?
+    """, (team_game_history_id, espn_player_id))
+    result = cursor.fetchone()
+    conn.close()
+    return result is not None
 
 conn.commit()
 cursor.close()

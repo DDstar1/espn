@@ -9,7 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 
 from datetime import datetime
-from lineup_page.get_all_players_stats import get_all_players_stats
+from page_lineup.get_all_players_stats import get_all_players_stats
+from page_player_detail.player_detail import get_all_players_details
 from utils import extract_team_logos_from_detail_page, get_espn_id_from_url, parse_commentary_rows
 import db_utils 
 
@@ -113,42 +114,48 @@ def get_links_of_all_games_played(team_url_list):
             both_team_details =[]
 
             for logo in logos:
-                if (db_utils.team_exists(team_espn_id)==False):
-                    team_espn_id, team_name, logo_url = extract_team_logos_from_detail_page(logo)
-                    both_team_details.append({team_espn_id, team_name, logo_url})
-                    print(both_team_details)
-                    db_utils.insert_team({'espn_id': team_espn_id, 'name': team_name, 'logo': logo_url})
-                    input('dsdv')
+                #if (db_utils.team_exists(team_espn_id)==False):
+                team_espn_id, team_name, logo_url = extract_team_logos_from_detail_page(logo)
+                db_utils.insert_team({'espn_id': team_espn_id, 'name': team_name, 'logo': logo_url})
+                both_team_details.append({"espn_team_id":team_espn_id, "espn_game_info_id":get_espn_id_from_url(driver.current_url)})
+                print(both_team_details)
+                #db_utils.insert_team_game_history({"espn_team_id":team_espn_id, "espn_game_info_id":get_espn_id_from_url(driver.current_url)})
+                input('dsdv')
                     
 
             if(db_utils.game_info_exists(espn_game_id)==False):
                 game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
                 db_utils.insert_game_info(game_details)
+                [db_utils.insert_team_game_history(i) for i in both_team_details]
             
-            for data in both_team_details:
-                print("BOTH TEAM", data)
-                db_utils.insert_team_game_history({"team_id":data["team_espn_id"], "game_info_id":data["espn_game_id"]})
-                input('sacas')
 
-
-            driver.get(lineup_url)
-            print(lineup_url)
-            all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
+            #Get and store all playes data and go back to line_up page
+            all_players_details_list = get_all_players_details(driver, lineup_url)
+            pprint(all_players_details_list)
+            for player_dic in all_players_details_list:
+                 db_utils.insert_player(player_dic)
+            driver.get(lineup_url)            
             
-        
+
             try:
-                home_players = all_team_players_tables[0]
-                away_players = all_team_players_tables[1]
-            except:
+                all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
+                combined_lineup_stats = get_all_players_stats(driver, all_team_players_tables, both_team_details)
+                for i, lineup_stats in enumerate(combined_lineup_stats):
+                    players_stats, goals, cards = lineup_stats['players_stats'], lineup_stats['goals'], lineup_stats['cards']
+                    for stats in players_stats:
+                        db_utils.insert_line_up_statistics(stats)
+                        
+                    input('sdvsdfv')
+                    print("ALL PLAYERS MATCH STATS")
+                    pprint(lineup_stats)
+                    
+                   
+            except Exception as e:
                 print(driver.current_url)
+                print(e)
                 input('line up error at the above')
             
-            lineup_stats = get_all_players_stats(driver, all_team_players_tables)
-            players_stats, goals, cards = lineup_stats['players_stats'], lineup_stats['goals'], lineup_stats['cards']
-           
-            print("ALL PLAYERS MATCH STATS")
-            pprint(lineup_stats)
-            input('sdvsdfv')
+            
              
            
 
@@ -270,77 +277,9 @@ def get_details_and_commentary_of_game(driver, espn_id, commentary_url):
        #input('error at commentary')
 
 
-    #pprint(details)
+    pprint(details)
+    input('Comment Details')
 
     return details
 
 
-def get_all_players(driver, lineup_url):
-    driver.get(lineup_url)
-    print(lineup_url)
-    all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
-  
-    try:
-        home_players = all_team_players_tables[0]
-        away_players = all_team_players_tables[1]
-        all_team_players_tables_combined = home_players.find_elements(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]') + away_players.find_elements(By.CSS_SELECTOR, 'a[href^="https://africa.espn.com/football/player/_/id/"]')
-        combined_player_links = [player.get_attribute('href').replace("player/", "player/bio/") for player in all_team_players_tables_combined]
-    except:
-        print(driver.current_url)
-        input('line up error at the above')
-    
-    #Save all Players details 
-    for link in combined_player_links:
-        print(link)
-        driver.get(link)
-        player_data = {
-            "espn_id": None,
-            "Name": None,
-            "DOB": None,
-            "Nationality": None,
-            "Height": None,
-            "Weight": None
-        }
-
-        # Extract PLAYER ESPN ID and parse
-        player_data["espn_id"]= get_espn_id_from_url(link)
-
-        # Extract HT/WT and parse
-        try:
-            htwt_text = driver.find_element(By.XPATH, weight_height_selector).text.strip()
-            ht_match = re.search(r'([\d\.]+)\s*m', htwt_text)
-            wt_match = re.search(r'([\d\.]+)\s*kg', htwt_text)
-            height = float(ht_match.group(1)) if ht_match else None
-            weight = float(wt_match.group(1)) if wt_match else None
-            player_data["Height"]=height
-            player_data["Weight"]=weight
-        except Exception as e:
-            height = None
-            weight = None
-            #print(f"Could not extract height/weight: {e}")
-
-        # Extract DOB and convert to UNIX timestamp
-        try:
-            bday_text = driver.find_element(By.XPATH, bday_selector).text.strip().split(' ')[0]  # e.g., "18/2/2000"
-            dob_dt = datetime.strptime(bday_text, "%d/%m/%Y")
-            player_data["DOB"] = int(dob_dt.timestamp())
-        except Exception as e:
-            player_data["DOB"] = None
-
-        # Extract nationality
-        try:
-            nationality = driver.find_element(By.XPATH, nationality_selector).text.strip()
-            player_data["Nationality"] = nationality
-        except:
-            player_data["Nationality"] = None
-
-        # Extract Player Name
-        player_name = driver.find_element(By.CSS_SELECTOR, player_name_selector).text.strip()
-        player_data['Name'] = player_name.replace('\n', ' ').lower()
-
-        print(player_data)
-    
-
-
-#def get_line_up_stats(driver, lineup_url):
-    
