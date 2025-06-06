@@ -22,7 +22,9 @@ def get_all_players_details(driver, lineup_url):
     print(lineup_url)
     all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
     all_players_details_list = []
+    #input('wait')
     try:
+        print(all_team_players_tables)
         if(all_team_players_tables == [] ):
             print(f"No line ups for game {lineup_url}")
             return []
@@ -33,7 +35,7 @@ def get_all_players_details(driver, lineup_url):
     except:
         print(combined_player_links)
         print(driver.current_url)
-        input('line up error at the above')
+        #input('line up error at the above')
     
     #Save all Players details 
     for link in combined_player_links:

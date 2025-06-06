@@ -1,5 +1,6 @@
 from pprint import pprint, PrettyPrinter
 import re
+import traceback
 import config
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,6 +12,7 @@ from selenium.common.exceptions import NoSuchElementException
 from datetime import datetime
 from page_lineup.get_all_players_stats import get_all_players_stats
 from page_player_detail.player_detail import get_all_players_details
+from page_team_stats.team_stats import extract_match_stats
 from utils import extract_team_logos_from_detail_page, get_espn_id_from_url, parse_commentary_rows
 import db_utils 
 
@@ -39,6 +41,8 @@ state_country_selector = ".Card.GameInfo .Location__Text"
 field_selector = ".Card.GameInfo .GameInfo__Location__Name--noImg"
 date_selector = ".Card.GameInfo .GameInfo__Meta span"
 commentary_selector ='.match-commentary tbody'
+formation_selectors = ".LineUps__TabsHeader__Title"
+goals_selectors = ".Gamestrip__Score"
 
 #LineUp Stats Selectors
 both_team_lineup_selectors = ".Card__Content.LineUps"
@@ -55,8 +59,12 @@ player_name_selector = ".PlayerHeader__Name"
 
 # Setup Chrome options (optional, for headless mode)
 chrome_options = Options()
-#chrome_options.add_argument("--headless")  # Runs Chrome in the background
-chrome_options.add_argument('--blink-settings=imagesEnabled=false')
+chrome_options.add_argument("--headless")  # Run in headless mode
+chrome_options.add_argument("--window-size=1920,1080")  # Set desktop screen size
+chrome_options.add_argument("--disable-gpu")  # Recommended for headless on Windows
+chrome_options.add_argument("--no-sandbox")  # Recommended in some environments (e.g., Docker)
+chrome_options.add_argument("--disable-dev-shm-usage")  # Helps avoid resource issues
+chrome_options.add_argument("--blink-settings=imagesEnabled=false")  # Disable images
 
 
 # Initialize WebDriver
@@ -108,25 +116,61 @@ def get_links_of_all_games_played(team_url_list):
             espn_game_id = get_espn_id_from_url(game_detail_url)
             driver.get(game_detail_url)
             logos = driver.find_elements(By.CSS_SELECTOR, game_detail_page_logos_selector)
+            formations = driver.find_elements(By.CSS_SELECTOR, formation_selectors)
+            goals = driver.find_elements(By.CSS_SELECTOR, goals_selectors)
+            
             lineup_url = game_detail_url.replace('match', 'lineups')
             commentary_url = game_detail_url.replace('match', 'commentary')
             game_stats_url = game_detail_url.replace('match', 'matchstats')
-            both_team_details =[]
+            
+            both_team_details = []
 
-            for logo in logos:
-                #if (db_utils.team_exists(team_espn_id)==False):
+            for i, logo in enumerate(logos):
                 team_espn_id, team_name, logo_url = extract_team_logos_from_detail_page(logo)
                 db_utils.insert_team({'espn_id': team_espn_id, 'name': team_name, 'logo': logo_url})
-                both_team_details.append({"espn_team_id":team_espn_id, "espn_game_info_id":get_espn_id_from_url(driver.current_url)})
+
+                # Handle missing formation with try-except
+                try:
+                    formation_text = formations[i].text.strip()
+                    if '-' not in formation_text:
+                        formation_text = None
+                except IndexError:
+                    formation_text = None
+             
+                # Goals extraction (optional: can also add bounds check if needed)
+                goals_text = goals[i].text.strip()
+                print(goals_text)
+                #input("Goals")
+
+                data = {
+                    "team_game_history_id":db_utils.get_team_game_history_id(espn_game_id, team_espn_id),
+                    "espn_team_id": team_espn_id,
+                    "espn_game_info_id": espn_game_id,
+                    "formation": formation_text,
+                    "goals": goals_text
+                    }
+                
+                both_team_details.append(data)
                 print(both_team_details)
-                #db_utils.insert_team_game_history({"espn_team_id":team_espn_id, "espn_game_info_id":get_espn_id_from_url(driver.current_url)})
-                input('dsdv')
+                #db_utils.insert_team_game_history(data)
+
+            #input('dsdv')
+
                     
 
-            if(db_utils.game_info_exists(espn_game_id)==False):
+            if not db_utils.game_info_exists(espn_game_id):
                 game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
                 db_utils.insert_game_info(game_details)
-                [db_utils.insert_team_game_history(i) for i in both_team_details]
+
+                for i, details in enumerate(both_team_details):
+                    print(i)
+                    inserted_id = db_utils.insert_team_game_history(details)
+                    both_team_details[i]["team_game_history_id"] = inserted_id
+                    print("Inserted or existing team_game_history_id:", inserted_id)
+
+                print(both_team_details)
+                #input("dffd")
+
             
 
             #Get and store all playes data and go back to line_up page
@@ -145,7 +189,7 @@ def get_links_of_all_games_played(team_url_list):
                     for stats in players_stats:
                         db_utils.insert_line_up_statistics(stats)
                         
-                    input('sdvsdfv')
+                    #input('sdvsdfv')
                     print("ALL PLAYERS MATCH STATS")
                     pprint(lineup_stats)
                     
@@ -153,11 +197,31 @@ def get_links_of_all_games_played(team_url_list):
             except Exception as e:
                 print(driver.current_url)
                 print(e)
-                input('line up error at the above')
+                #input('line up error at the above')
             
             
+            try:
+                home_id = both_team_details[0]["team_game_history_id"]
+                away_id = both_team_details[1]["team_game_history_id"]
+
+                print(f"{home_id}, {away_id}")
+
+                if not all(map(db_utils.team_stats_exists, [home_id, away_id])):
+                    both_team_stats = extract_match_stats(driver, game_stats_url, both_team_details)
+                    print(both_team_stats)
+                    input("Team stats")
+                    for team_stats in both_team_stats:
+                        db_utils.insert_team_statistics(team_stats)
+                else:
+                    print("Skipping both team Stats.....already exists")
+                    input("Team stats not")
+
+            except Exception as e:
+                print("error as team stats", e)
+                traceback.print_exc()
+                #input("error as team stats")
              
-           
+            #input(f"done with {game_detail_url}")
 
 
            
@@ -233,7 +297,7 @@ def get_details_and_commentary_of_game(driver, espn_id, commentary_url):
     except Exception as e:
         print(f"time error at {driver.current_url}")
         print(e)
-        input('error')
+        #input('error')
 
     # Extract location (e.g., "Saint Paul, Minnesota, USA")
     try:
@@ -278,7 +342,7 @@ def get_details_and_commentary_of_game(driver, espn_id, commentary_url):
 
 
     pprint(details)
-    input('Comment Details')
+    #input('Comment Details')
 
     return details
 

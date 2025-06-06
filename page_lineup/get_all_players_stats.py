@@ -227,7 +227,7 @@ def get_all_players_stats(driver, all_team_players_tables, both_team_details):
         except Exception as e:
             print(f"Failed to get player positions: {e}")
     
-        input('positions')
+        #input('positions')
         teams_combined.append({
             "players_stats": all_players_stats,
             "goals": goals_list,

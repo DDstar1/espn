@@ -1,0 +1,6 @@
+APP USE
+1) It helps users see the score\loss pattern of any team in graphs (Line charts)
+2) Users should be able to put their passwords and username and will place bets for them
+3) The app should store winning bet codes 
+4) Users should be able to pay money and it will generate bet codes for them 
+5) They should be able to chat with AI concerning any team and their history

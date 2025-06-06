@@ -72,17 +72,6 @@ def game_info_exists(espn_id):
     return exists
 
 
-def insert_team_game_history(data):
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute("""
-        INSERT OR IGNORE INTO Team_Game_History (espn_team_id, espn_game_info_id)
-        VALUES (:espn_team_id, :espn_game_info_id)
-    """, data)
-    conn.commit()
-    conn.close()
-
-
 def insert_line_up_statistics(data):
     conn = get_db_connection()
     cursor = conn.cursor()
@@ -104,18 +93,44 @@ def insert_line_up_statistics(data):
     conn.close()
 
 
+def insert_team_game_history(data):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT OR IGNORE INTO Team_Game_History (espn_team_id, espn_game_info_id, formation, goals)
+            VALUES (:espn_team_id, :espn_game_info_id, :formation, :goals)
+        """, data)
+        conn.commit()
+
+        if cursor.lastrowid:
+            return cursor.lastrowid  # New row inserted
+        else:
+            # Row already exists, fetch its ID
+            cursor.execute("""
+                SELECT id FROM Team_Game_History
+                WHERE espn_team_id = :espn_team_id AND espn_game_info_id = :espn_game_info_id
+            """, data)
+            result = cursor.fetchone()
+            return result[0] if result else None
+    finally:
+        conn.close()
+
+
+
+
 def insert_team_statistics(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
         INSERT INTO Team_Statistics (
-            team_game_history_id, formation, goals, shot_on_goals,
-            shot_attempts, fouls, yellow_card, red_card, corner_kicks,
+            team_game_history_id, goals, shot_on_goals,
+            shot_attempts, fouls, yellow_cards, red_cards, corner_kicks,
             saves, possession_percent
         )
         VALUES (
-            :team_game_history_id, :formation, :goals, :shot_on_goals,
-            :shot_attempts, :fouls, :yellow_card, :red_card, :corner_kicks,
+            :team_game_history_id, :goals, :shot_on_goals,
+            :shot_attempts, :fouls, :yellow_cards, :red_cards, :corner_kicks,
             :saves, :possession_percent
         )
     """, data)
@@ -199,6 +214,18 @@ def player_line_up_stat_exists(team_game_history_id, espn_player_id):
         SELECT 1 FROM Line_Up_Statistics 
         WHERE team_game_history_id = ? AND espn_player_id = ?
     """, (team_game_history_id, espn_player_id))
+    result = cursor.fetchone()
+    conn.close()
+    return result is not None
+
+def team_stats_exists(team_game_history_id):
+    print(f"team_game_history_id: {team_game_history_id}, type: {type(team_game_history_id)}")
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT 1 FROM Team_Statistics 
+        WHERE team_game_history_id = ?
+    """, (team_game_history_id,))
     result = cursor.fetchone()
     conn.close()
     return result is not None

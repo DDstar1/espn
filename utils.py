@@ -119,7 +119,7 @@ def parse_commentary_rows(rows):
             all_comments.append(f"[{timestamp}] [{aria_label}] {comment}")
         except Exception as e:
             print(f"Skipping row due to error")
-            input('sdv')
+            #input('sdv')
 
     return "\n".join(all_comments)
 

@@ -30,6 +30,8 @@ CREATE TABLE IF NOT EXISTS Team_Game_History (
     id INTEGER PRIMARY KEY,
     espn_team_id INTEGER NOT NULL,
     espn_game_info_id INTEGER NOT NULL,
+    formation TEXT DEFAULT NULL,
+    goals INTEGER NOT NULL,
     FOREIGN KEY (espn_team_id) REFERENCES Team(espn_id),
     FOREIGN KEY (espn_game_info_id) REFERENCES Game_Info(espn_id),
     UNIQUE (espn_team_id, espn_game_info_id)
@@ -61,16 +63,15 @@ CREATE TABLE IF NOT EXISTS Line_Up_Statistics (
 CREATE TABLE IF NOT EXISTS Team_Statistics (
     id INTEGER PRIMARY KEY,
     team_game_history_id INTEGER NOT NULL,
-    formation TEXT NOT NULL,
-    goals INTEGER NOT NULL,
-    shot_on_goals INTEGER NOT NULL,
-    shot_attempts INTEGER NOT NULL,
-    fouls INTEGER NOT NULL,
-    yellow_card INTEGER NOT NULL,
-    red_card INTEGER NOT NULL,
-    corner_kicks INTEGER NOT NULL,
-    saves INTEGER NOT NULL,
-    possession_percent REAL NOT NULL,
+    shot_on_goals INTEGER,
+    shot_attempts INTEGER,
+    fouls INTEGER,
+    goals INTEGER,
+    yellow_cards INTEGER,
+    red_cards INTEGER,
+    corner_kicks INTEGER,
+    saves INTEGER,
+    possession_percent REAL,
     FOREIGN KEY (team_game_history_id) REFERENCES Team_Game_History(id)
 );
 
