@@ -71,17 +71,47 @@ def get_espn_id_from_url(url):
     
 
 def extract_team_logos_from_detail_page(logo_parent):
+    default_logo_url = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png"
+
+    # Try to get the image element and extract logo URL
     try:
         img = logo_parent.find_element(By.TAG_NAME, 'img')
         logo_url = img.get_attribute('src').split('&')[0]
     except:
-        logo_url = "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png"
-    
-    a = logo_parent.find_element(By.TAG_NAME, 'a')
-    team_espn_id = get_espn_id_from_url(a.get_attribute('href'))
-    team_name = a.get_attribute('href').split("/")[-1]
+        logo_url = default_logo_url
+        img = None  # fallback in case it's needed later
+
+    team_espn_id = None
+    team_name = None
+
+    try:
+        # Try to get team name and ID from <a> href
+        a = logo_parent.find_element(By.TAG_NAME, 'a')
+        href = a.get_attribute('href')
+        team_espn_id = get_espn_id_from_url(href)
+        team_name = href.rstrip('/').split('/')[-1]
+    except:
+        # Fallback using image alt and team_links_list
+        if not img:
+            try:
+                img = logo_parent.find_element(By.TAG_NAME, 'img')
+            except:
+                return None, None, logo_url
+
+        team_name = img.get_attribute('alt').lower().replace(' ', '-')
+        try:
+            with open(all_teams_path, 'r') as f:
+                team_links_list = json.load(f)
+
+            for link in team_links_list:
+                if link.endswith(f"/{team_name}"):
+                    team_espn_id = get_espn_id_from_url(link)
+                    break
+        except:
+            pass
 
     return team_espn_id, team_name, logo_url
+
         
 
 
@@ -124,5 +154,13 @@ def parse_commentary_rows(rows):
     return "\n".join(all_comments)
 
 
+    
 
-
+def get_index_latest_scraped_team(latest_scraped_team):
+    with open(all_teams_path, 'r') as f:
+        team_links_list = json.load(f)
+    
+    try:
+        return team_links_list.index(latest_scraped_team)
+    except ValueError:
+        return 0  # Return -1 if the URL is not found in the list

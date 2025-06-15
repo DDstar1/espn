@@ -142,8 +142,8 @@ def insert_goal(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT OR IGNORE INTO Goals (team_game_history_id, player_id, time)
-        VALUES (:team_game_history_id, :player_id, :time)
+        INSERT OR IGNORE INTO Goals (team_game_history_id, espn_player_id, time)
+        VALUES (:team_game_history_id, :espn_player_id, :time)
     """, data)
     conn.commit()
     conn.close()
@@ -153,8 +153,8 @@ def insert_foul(data):
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT OR IGNORE INTO Fouls (team_game_history_id, player_id, card, time)
-        VALUES (:team_game_history_id, :player_id, :card, :time)
+        INSERT OR IGNORE INTO Fouls (team_game_history_id, espn_player_id, card_type, time)
+        VALUES (:team_game_history_id, :espn_player_id, :card_type, :time)
     """, data)
     conn.commit()
     conn.close()
@@ -233,3 +233,24 @@ def team_stats_exists(team_game_history_id):
 conn.commit()
 cursor.close()
 conn.close()
+
+
+def set_latest_scraped_team_url(url):
+    """Insert or replace the single team URL in the Tracker table."""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        INSERT OR REPLACE INTO Tracker (id, latest_scraped_team_url)
+        VALUES (1, ?)
+    """, (url,))
+    conn.commit()
+    conn.close()
+
+def get_latest_scraped_team_url():
+    """Retrieve the single team URL from the Tracker table."""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT latest_scraped_team_url FROM Tracker WHERE id = 1")
+    row = cursor.fetchone()
+    conn.close()
+    return row[0] if row else None

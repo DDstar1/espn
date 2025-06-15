@@ -56,7 +56,27 @@ def extract_match_stats(driver, url, both_team_data):
     # ==== COLLECT RAW STATS ====
     raw_stats = {}
     for label in stat_labels:
-        raw_stats[label] = extract_stat(label)
+        if(label=="Possession"):
+           # ==== EXTRACT POSSESSION ====
+            possession_label = driver.find_element(By.XPATH, XPATH_TEXT_LABEL.format("Possession"))
+            possession_container = possession_label.find_element(By.XPATH, XPATH_TEXT_CONTAINER)
+            possession_spans = possession_container.find_elements(By.XPATH, XPATH_TEXT_VALUES)
+
+            # ==== EXTRACT SHOTS ON GOAL ====
+            shots_on_goal = driver.find_element(By.XPATH, XPATH_TEXT_LABEL.format("Shots on Goal"))
+            shots_on_goal_containers = shots_on_goal.find_elements(By.XPATH, XPATH_TEXT_CONTAINER)
+            shots_on_goal_values = []
+            for container in shots_on_goal_containers[:2]:  # limit to first 2 divs for safety
+                spans = container.find_elements(By.XPATH, XPATH_TEXT_VALUES)
+                if spans:
+                    shots_on_goal_values.append(spans[0].text.replace('%', '').strip())
+
+
+            # Clean and print values (remove "%" if present)
+            raw_stats[label] = [span.text.replace('%', '').strip()  for span in possession_spans]
+            print(raw_stats[label])
+        else:
+            raw_stats[label] = extract_stat(label)
         
     
 

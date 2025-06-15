@@ -31,7 +31,7 @@ SELECTOR_LAST_ROW_ITEMS = '.LineUpsStats__LastRow li'
 pp = PrettyPrinter(indent=2, width=200, compact=True)
 
 
-def extract_card_and_goal_data(player, player_espn_id, goals_list, fouls_list):
+def extract_card_and_goal_data(player, player_espn_id, team_game_history_id, goals_list, fouls_list):
     """Extract goals and cards data for a player"""
     try:
         # Goals with time and own goal info
@@ -40,8 +40,8 @@ def extract_card_and_goal_data(player, player_espn_id, goals_list, fouls_list):
             time = g.get_attribute("aria-label").split('minute')[-1].strip()
             own_goal = "OwnGoalIcon" in g.get_attribute("class")
             goals_list.append({
-                "team_game_history_id": None,
-                "player_id": player_espn_id,
+                "team_game_history_id": team_game_history_id,
+                "espn_player_id": player_espn_id,
                 "time": time,
                 "own_goal": own_goal
             })
@@ -55,9 +55,9 @@ def extract_card_and_goal_data(player, player_espn_id, goals_list, fouls_list):
         for yc in yellow_cards_elems:
             time = yc.get_attribute("aria-label").split('minute')[-1].strip()
             fouls_list.append({
-                "team_game_history_id": None,
-                "player_id": player_espn_id,
-                "card": "yellow",
+                "team_game_history_id": team_game_history_id,
+                "espn_player_id": player_espn_id,
+                "card_type": "yellow",
                 "time": time
             })
     except Exception as e:
@@ -70,9 +70,9 @@ def extract_card_and_goal_data(player, player_espn_id, goals_list, fouls_list):
         for rc in red_cards_elems:
             time = rc.get_attribute("aria-label").split('minute')[-1].strip()
             fouls_list.append({
-                "team_game_history_id": None,
-                "player_id": player_espn_id,
-                "card": "red",
+                "team_game_history_id": team_game_history_id,
+                "espn_player_id": player_espn_id,
+                "card_type": "red",
                 "time": time
             })
     except Exception as e:
@@ -161,13 +161,16 @@ def get_all_players_stats(driver, all_team_players_tables, both_team_details):
 
                 # Extract goals and cards data
                 goals_elems, yellow_cards_elems, red_cards_elems = extract_card_and_goal_data(
-                    player, player_espn_id, goals_list, fouls_list
+                    player, player_espn_id, team_game_history_id, goals_list, fouls_list
                 )
 
                 # Set basic stats
                 player_stats["goals"] = len(goals_elems)
                 player_stats["yellow_cards"] = len(yellow_cards_elems)
                 player_stats["red_cards"] = len(red_cards_elems)
+
+                if(int(len(goals_elems)) > 1):
+                    print(f'Goals scored here are {int(len(goals_elems))}')
 
                 # If expanded, get detailed stats
                 if expanded:

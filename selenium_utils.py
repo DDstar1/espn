@@ -114,6 +114,11 @@ def get_links_of_all_games_played(team_url_list):
         
         for game_detail_url in game_detail_Links:
             espn_game_id = get_espn_id_from_url(game_detail_url)
+
+            if  db_utils.game_info_exists(espn_game_id):
+                print(f'Game id {espn_game_id} already in db...skipping')
+                continue
+
             driver.get(game_detail_url)
             logos = driver.find_elements(By.CSS_SELECTOR, game_detail_page_logos_selector)
             formations = driver.find_elements(By.CSS_SELECTOR, formation_selectors)
@@ -158,18 +163,18 @@ def get_links_of_all_games_played(team_url_list):
 
                     
 
-            if not db_utils.game_info_exists(espn_game_id):
-                game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
-                db_utils.insert_game_info(game_details)
+          
+            game_details = get_details_and_commentary_of_game(driver, espn_game_id, commentary_url)
+            db_utils.insert_game_info(game_details)
 
-                for i, details in enumerate(both_team_details):
-                    print(i)
-                    inserted_id = db_utils.insert_team_game_history(details)
-                    both_team_details[i]["team_game_history_id"] = inserted_id
-                    print("Inserted or existing team_game_history_id:", inserted_id)
+            for i, details in enumerate(both_team_details):
+                print(i)
+                inserted_id = db_utils.insert_team_game_history(details)
+                both_team_details[i]["team_game_history_id"] = inserted_id
+                print("Inserted or existing team_game_history_id:", inserted_id)
 
-                print(both_team_details)
-                #input("dffd")
+            print(both_team_details)
+            #input("dffd")
 
             
 
@@ -184,20 +189,27 @@ def get_links_of_all_games_played(team_url_list):
             try:
                 all_team_players_tables = driver.find_elements(By.CSS_SELECTOR, both_team_lineup_selectors)
                 combined_lineup_stats = get_all_players_stats(driver, all_team_players_tables, both_team_details)
-                for i, lineup_stats in enumerate(combined_lineup_stats):
+                print(f"combined_lineup_stats is {combined_lineup_stats}")
+                for lineup_stats in combined_lineup_stats:
                     players_stats, goals, cards = lineup_stats['players_stats'], lineup_stats['goals'], lineup_stats['cards']
                     for stats in players_stats:
                         db_utils.insert_line_up_statistics(stats)
+                    for goal in goals:
+                        db_utils.insert_goal(goal)
+                    for card in cards:
+                        db_utils.insert_foul(card)
                         
                     #input('sdvsdfv')
                     print("ALL PLAYERS MATCH STATS")
                     pprint(lineup_stats)
                     
-                   
+    
             except Exception as e:
                 print(driver.current_url)
-                print(e)
-                #input('line up error at the above')
+                print("Error:", e)
+                traceback.print_exc()  # This prints the full traceback including the line number
+                input('Line-up error at the above')
+
             
             
             try:
@@ -209,12 +221,12 @@ def get_links_of_all_games_played(team_url_list):
                 if not all(map(db_utils.team_stats_exists, [home_id, away_id])):
                     both_team_stats = extract_match_stats(driver, game_stats_url, both_team_details)
                     print(both_team_stats)
-                    input("Team stats")
+                    #input("Team stats")
                     for team_stats in both_team_stats:
                         db_utils.insert_team_statistics(team_stats)
                 else:
                     print("Skipping both team Stats.....already exists")
-                    input("Team stats not")
+                    #input("Team stats not")
 
             except Exception as e:
                 print("error as team stats", e)
@@ -222,6 +234,8 @@ def get_links_of_all_games_played(team_url_list):
                 #input("error as team stats")
              
             #input(f"done with {game_detail_url}")
+            
+        db_utils.set_latest_scraped_team_url(team_url)
 
 
            
@@ -229,32 +243,6 @@ def get_links_of_all_games_played(team_url_list):
 
                
 
-
-
-
-
-
-
-def get_details_of_all_games_played(team_data_list):
-    for data in team_data_list:
-        team_name = data['team name']
-        team_games_url = data['team games']
-        team_url= data['team url']
-        found_team_id = re.search(r'/id/(\d+)', team_url)
-        if found_team_id:
-            team_id = int(found_team_id.group(1))
-        else:
-            raise Exception("ID not found in URL") 
-        
-        for game_url in team_games_url:
-            driver.get(game_url)
-            game_id = game_url.split("/gameId/")[1].split("/")[0]
-
-            db_utils.insert_team({'espn_id':team_id,'name':team_name})
-            db_utils.insert_team_game_history({'team_id':team_id,'game_info_id':game_id})
-
-
-            
 
 
 

@@ -4,3 +4,23 @@ APP USE
 3) The app should store winning bet codes 
 4) Users should be able to pay money and it will generate bet codes for them 
 5) They should be able to chat with AI concerning any team and their history
+
+
+
+# ==== EXTRACT POSSESSION ====
+possession_label = driver.find_element(By.XPATH, XPATH_TEXT_LABEL.format("Possession"))
+possession_container = possession_label.find_element(By.XPATH, XPATH_TEXT_CONTAINER)
+possession_spans = possession_container.find_elements(By.XPATH, XPATH_TEXT_VALUES)
+
+# ==== EXTRACT SHOTS ON GOAL ====
+shots_on_goal = driver.find_element(By.XPATH, XPATH_TEXT_LABEL.format("Shots on Goal"))
+shots_on_goal_containers = shots_on_goal.find_elements(By.XPATH, XPATH_TEXT_CONTAINER)
+shots_on_goal_values = []
+for container in shots_on_goal_containers[:2]:  # limit to first 2 divs for safety
+    spans = container.find_elements(By.XPATH, XPATH_TEXT_VALUES)
+    if spans:
+        shots_on_goal_values.append(spans[0].text.replace('%', '').strip())
+
+
+# Clean and print values (remove "%" if present)
+possession_values = [span.text.replace('%', '') for span in possession_spans]
