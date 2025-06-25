@@ -6,18 +6,18 @@ A Python scraper designed to extract football data from ESPN’s website and sto
 
 ## Features
 
-* Scrapes football team URLs and match data from ESPN
-* Stores data in SQLite to avoid duplicates and keep track of scraping progress
-* Supports resuming scraping from the last saved state
-* Modular scripts for fetching teams and their matches separately
+- Scrapes football team URLs and match data from ESPN
+- Stores data in SQLite to avoid duplicates and keep track of scraping progress
+- Supports resuming scraping from the last saved state
+- Modular scripts for fetching teams and their matches separately
 
 ---
 
 ## Tech Stack
 
-* Python 3.x
-* Selenium (HTTP requests and User interaction)
-* SQLite (local data storage via `sqlite3`)
+- Python 3.x
+- Selenium (HTTP requests and User interaction)
+- SQLite (local data storage via `sqlite3`)
 
 ---
 
@@ -38,8 +38,14 @@ pip install -r requirements.txt
 
 ### 3. Run scraper scripts
 
-* To get the list of teams and save locally:
+- To get the list of teams and save locally:
 
 ```bash
 python main.py
+```
+
+### 4. Build Exe
+
+```bash
+pyinstaller --onefile --noconsole --add-data "json;json" --add-data "db;db" main.py
 ```

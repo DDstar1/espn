@@ -1,9 +1,12 @@
+import importlib
 from pprint import pprint
 import re
 from selenium.webdriver.common.by import By
-import db_utils
+import config
 from utils import get_espn_id_from_url
 from datetime import datetime
+
+db_utils = importlib.import_module(config.WHICH_DB)
 
 #LineUp Stats Selectors
 both_team_lineup_selectors = ".Card__Content.LineUps"
@@ -51,11 +54,11 @@ def get_all_players_details(driver, lineup_url):
         
         player_data = {
             "espn_id": None,
-            "Name": None,
-            "Nationality": None,
-            "DOB": None,
-            "Height": None,
-            "Weight": None
+            "name": None,
+            "nationality": None,
+            "dob": None,
+            "height": None,
+            "weight": None
         }
 
         
@@ -80,28 +83,31 @@ def get_all_players_details(driver, lineup_url):
                 height = None
                 weight = None
 
-        player_data["Height"] = height
-        player_data["Weight"] = weight
+        player_data["height"] = height
+        player_data["weight"] = weight
 
 
         # Extract DOB and convert to UNIX timestamp
         try:
             bday_text = driver.find_element(By.XPATH, bday_selector).text.strip().split(' ')[0]  # e.g., "18/2/2000"
             dob_dt = datetime.strptime(bday_text, "%d/%m/%Y")
-            player_data["DOB"] = int(dob_dt.timestamp())
+            player_data["dob"] = int(dob_dt.timestamp())
         except Exception as e:
-            player_data["DOB"] = None
+            player_data["dob"] = None
 
         # Extract nationality
         try:
             nationality = driver.find_element(By.XPATH, nationality_selector).text.strip()
-            player_data["Nationality"] = nationality
+            player_data["nationality"] = nationality
         except:
-            player_data["Nationality"] = None
+            player_data["nationality"] = None
 
         # Extract Player Name
-        player_name = driver.find_element(By.CSS_SELECTOR, player_name_selector).text.strip()
-        player_data['Name'] = player_name.replace('\n', ' ').lower()
+        try:
+            player_name = driver.find_element(By.CSS_SELECTOR, player_name_selector).text.strip()
+            player_data['name'] = player_name.replace('\n', ' ').lower()
+        except:
+            player_data['name']='NOT FOUND'
 
         pprint("Player appened to list")
         all_players_details_list.append(player_data)

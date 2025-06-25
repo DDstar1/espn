@@ -153,14 +153,17 @@ def parse_commentary_rows(rows):
 
     return "\n".join(all_comments)
 
-
     
 
 def get_index_latest_scraped_team(latest_scraped_team):
     with open(all_teams_path, 'r') as f:
         team_links_list = json.load(f)
-    
+
+    team_url = latest_scraped_team["scraped_team_url"]
+    status = latest_scraped_team["status"]
+
     try:
-        return team_links_list.index(latest_scraped_team)
+        index = team_links_list.index(team_url)
+        return index + 1 if status == "done" or status == "live processing"  else index
     except ValueError:
-        return 0  # Return -1 if the URL is not found in the list
+        return 0  # If URL not found, start from beginning

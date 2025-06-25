@@ -1,14 +1,17 @@
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS Tracker (
-    id INTEGER PRIMARY KEY DEFAULT 1 CHECK (id = 1), 
-    latest_scraped_team_url TEXT NOT NULL
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    scraped_team_url TEXT NOT NULL,
+    scraped_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    status TEXT NOT NULL
 );
+
 
 CREATE TABLE IF NOT EXISTS Player (
     espn_id INTEGER PRIMARY KEY,
     Name TEXT NOT NULL,
-    DOB REAL,
+    dob REAL,
     Nationality TEXT,
     Height REAL,
     Weight REAL
@@ -84,6 +87,7 @@ CREATE TABLE IF NOT EXISTS Goals (
     id INTEGER PRIMARY KEY,
     team_game_history_id INTEGER NOT NULL,
     espn_player_id INTEGER NOT NULL,
+    own_goal TEXT NOT NULL,
     time TEXT NOT NULL,
     FOREIGN KEY (team_game_history_id) REFERENCES Team_Game_History(id),
     FOREIGN KEY (espn_player_id) REFERENCES Player(espn_id)

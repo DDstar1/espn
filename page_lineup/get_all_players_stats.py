@@ -1,11 +1,14 @@
+import importlib
 from pprint import pprint, PrettyPrinter
-import db_utils
+import config
 from utils import get_espn_id_from_url
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from page_lineup.get_player_field_pos import get_player_field_positions
+
+db_utils = importlib.import_module(config.WHICH_DB)
 
 
 # ---------------------------

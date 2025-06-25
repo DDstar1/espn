@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SQLite & local DBs
+*.db
+*.sqlite3
+
+# Compiled C files
+*.so
+
+# Test, cache, and coverage
+.pytest_cache/
+.cache/
+coverage.*
+htmlcov/
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.bk.json
+
+# Secrets/config (optional)
+.env

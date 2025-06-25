@@ -1,28 +1,46 @@
+import importlib
 import json
+import config
+import time
 from selenium_utils import get_links_of_all_games_played
-from utils import combined_team_games_bk_path ,all_teams_path, get_index_latest_scraped_team
-import db_utils
+from utils import combined_team_games_bk_path, all_teams_path, get_index_latest_scraped_team
 
-# Open the file and load its contents
+db_utils = importlib.import_module(config.WHICH_DB)
+
+# Load team list once
 with open(all_teams_path, 'r') as f:
     team_links_list = json.load(f)
 
-latest_scraped_team = db_utils.get_latest_scraped_team_url()
-latest_scraped_team_index = get_index_latest_scraped_team(latest_scraped_team)
-
-# Select the first 2 teams
-team_links_of_interest = team_links_list[latest_scraped_team_index:20]
-
-# Scrape game data
-games_played = get_links_of_all_games_played(team_links_of_interest)
-
-with open(combined_team_games_bk_path, 'r') as f:
-    team_game_data_of_interest = json.load(f)[:20]
-
-#games_played_details = get_details_of_all_games_played(team_game_data_of_interest)
 
 
+while True:
+    # Convert to set for fast lookup
+    done_set = set(db_utils.get_all_scraped_and_live_teams())
+    
+    # Get latest scraped info (a dict with 'scraped_team_url' and 'status')
+    latest_scraped_info = db_utils.get_latest_scraped_team_url()
+    latest_scraped_team_url = latest_scraped_info["scraped_team_url"]
 
+    # Get index of the latest scraped team, adjusted based on status
+    start_index = get_index_latest_scraped_team(latest_scraped_info)
 
+    # Filter the remaining unscraped teams, preserving order
+    remaining_teams = [
+        team_url for team_url in team_links_list
+        if team_url not in done_set
+    ]
 
+    if not remaining_teams:
+        print("✅ All teams scraped.")
+        break
 
+    # Pick the next team to scrape
+    team_to_scrape = remaining_teams[0]
+
+    remaining_teams = None
+    print(f"🔍 Scraping team: {team_to_scrape}")
+    games_played = get_links_of_all_games_played(team_to_scrape)
+    input(f"done with {team_to_scrape}")
+    db_utils.set_latest_scraped_team_url(team_to_scrape, status="done")
+
+  
