@@ -38,9 +38,9 @@ while True:
     team_to_scrape = remaining_teams[0]
 
     remaining_teams = None
-    print(f"🔍 Scraping team: {team_to_scrape}")
+    print(f"\n🔍 Scraping team: {team_to_scrape}")
     games_played = get_links_of_all_games_played(team_to_scrape)
-    input(f"done with {team_to_scrape}")
+    print(f"\ndone with {team_to_scrape}\n")
     db_utils.set_latest_scraped_team_url(team_to_scrape, status="done")
 
   
