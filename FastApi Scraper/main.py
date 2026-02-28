@@ -71,6 +71,6 @@ async def update_repo(request: Request, x_github_token: str = Header(None)):
     subprocess.run(["git", "reset", "--hard", "origin/main"], cwd=PROJECT_PATH)
 
     # Restart FastAPI service (requires systemd setup)
-    subprocess.run(["systemctl", "restart", "fastapi"])
+    #subprocess.run(["systemctl", "restart", "fastapi"])
 
     return {"status": "updated and restarting"}

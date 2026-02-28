@@ -37,7 +37,7 @@ except Exception:
 combined_name = f"{username}---{system_model}"
 
 # ── FastAPI base URL — set API_BASE_URL in your .env ─────────────────────────
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+API_BASE_URL = os.getenv("API_BASE_URL", "http://163.245.219.105:8000/")
 SCRAPER     = f"{API_BASE_URL}/scraper"
 LIVE_MINS   = 60
 
