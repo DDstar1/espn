@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:alpine3.22
+    container_name: docker_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres      # superuser name
+      POSTGRES_PASSWORD: mysecretpassword   # choose your password
+      POSTGRES_DB: mydatabase      # optional: default database
+    ports:
+      - "5432:5432"               # map container port to host
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # persist database data
+
+volumes:
+  pgdata:
