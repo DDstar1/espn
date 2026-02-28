@@ -1,5 +1,8 @@
 from contextlib import asynccontextmanager
 import os
+import shutil
+from sys import platform
+import sys
 from fastapi import FastAPI, Header, HTTPException,Request
 from pathlib import Path
 import subprocess
@@ -11,6 +14,38 @@ from routers.scraper_api import scraper_router
 
 
 PROJECT_PATH = Path(__file__).resolve().parent.parent
+
+
+
+def restart_service():
+    system = platform.system()
+
+    if system == "Linux":
+        # Restart via systemctl if available
+        if shutil.which("systemctl"):
+            try:
+                subprocess.run(
+                    ["systemctl", "restart", "espn_fastapi"],
+                    check=True
+                )
+                print("Service restarted via systemctl.")
+            except subprocess.CalledProcessError as e:
+                print(f"Failed to restart service via systemctl: {e}")
+        else:
+            print("systemctl not found. Skipping Linux restart.")
+
+    elif system == "Windows":
+        # Restart the current script on Windows
+        print("Restarting app on Windows...")
+        python_exe = sys.executable
+        script_path = os.path.abspath(sys.argv[0])
+        # Spawn a new process and exit the current one
+        subprocess.Popen([python_exe, script_path])
+        print("New process started. Exiting current process.")
+        sys.exit(0)
+
+    else:
+        print(f"Restart not supported on {system}")
 
 
 @asynccontextmanager
@@ -71,6 +106,6 @@ async def update_repo(request: Request, x_github_token: str = Header(None)):
     subprocess.run(["git", "reset", "--hard", "origin/main"], cwd=PROJECT_PATH)
 
     # Restart FastAPI service (requires systemd setup)
-    #subprocess.run(["systemctl", "restart", "fastapi"])
+    restart_service()
 
     return {"status": "updated and restarting"}
