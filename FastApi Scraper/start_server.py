@@ -1,22 +1,21 @@
-import os
+# start_server.py
 import sys
 import uvicorn
+from db.config import settings  # import your Pydantic Settings object
 
 def main():
-    host = os.getenv("SERVER_HOST", "localhost")
-    port = 8000
-
-    # Optional: read from environment variables
-    port = int(os.getenv("PORT", port))
+    # Use settings from Pydantic
+    host = settings.SERVER_HOST   # fallback if SERVER_HOST is not set
+    port = int(settings.PORT )                # fallback if PORT is not set
 
     print(f"Starting server on {host}:{port}")
     print(f"Platform: {sys.platform}")
 
     uvicorn.run(
-        "main:app",
+        "main:app",  # path to your FastAPI app
         host=host,
         port=port,
-        reload=True  # change to True for development only
+        reload=True  # automatically reloads when files change
     )
 
 if __name__ == "__main__":
