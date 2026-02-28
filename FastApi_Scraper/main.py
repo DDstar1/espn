@@ -18,35 +18,18 @@ PROJECT_PATH = Path(__file__).resolve().parent.parent
 
 
 def restart_service():
-    system = platform.system()
+    system_name = platform.system()
 
-    if system == "Linux":
-        # Restart via systemctl if available
+    if system_name == "Linux":
         if shutil.which("systemctl"):
-            try:
-                subprocess.run(
-                    ["systemctl", "restart", "espn_fastapi"],
-                    check=True
-                )
-                print("Service restarted via systemctl.")
-            except subprocess.CalledProcessError as e:
-                print(f"Failed to restart service via systemctl: {e}")
-        else:
-            print("systemctl not found. Skipping Linux restart.")
-
-    elif system == "Windows":
-        # Restart the current script on Windows
-        print("Restarting app on Windows...")
+            subprocess.run(["systemctl", "restart", "espn_fastapi"], check=True)
+    elif system_name == "Windows":
         python_exe = sys.executable
         script_path = os.path.abspath(sys.argv[0])
-        # Spawn a new process and exit the current one
         subprocess.Popen([python_exe, script_path])
-        print("New process started. Exiting current process.")
         sys.exit(0)
-
     else:
-        print(f"Restart not supported on {system}")
-
+        print(f"Restart not supported on {system_name}")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
