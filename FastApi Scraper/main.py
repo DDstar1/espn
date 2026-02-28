@@ -1,4 +1,5 @@
 from contextlib import asynccontextmanager
+import os
 from fastapi import FastAPI, Header, HTTPException,Request
 from pathlib import Path
 import subprocess
@@ -8,7 +9,7 @@ from models import orm
 from routers import teams_players, games, events, statistics, admin
 from routers.scraper_api import scraper_router
 
-SECRET_TOKEN = "a8392xk39dk29dkd92kdkd"
+
 PROJECT_PATH = Path(__file__).resolve().parent.parent
 
 
@@ -63,7 +64,7 @@ async def update_repo(request: Request, x_github_token: str = Header(None)):
        
     print(f"Updating project at path: {PROJECT_PATH}")
     
-    if x_github_token != SECRET_TOKEN:
+    if x_github_token != os.getenv("GIT_SECRET_TOKEN"):
         raise HTTPException(status_code=403, detail="Forbidden")
 
     subprocess.run(["git", "fetch", "origin"], cwd=PROJECT_PATH)
