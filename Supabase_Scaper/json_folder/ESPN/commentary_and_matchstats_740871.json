@@ -4,9 +4,9 @@
   "type": "gamepackage",
   "meta": {
     "altTags": null,
-    "title": "Hull 0-4 Chelsea (13 Feb, 2026) Final Score - ESPN (UK)",
-    "description": "Game summary of the Hull City vs. Chelsea English Fa Cup game, final score 0-4, from 13 February 2026 on ESPN (UK).",
-    "canonical": "https://www.espn.co.uk/football/match/_/gameId/401850946/chelsea-hull-city",
+    "title": "Arsenal 2-1 Chelsea (1 Mar, 2026) Final Score - ESPN (UK)",
+    "description": "Game summary of the Arsenal vs. Chelsea English Premier League game, final score 2-1, from 1 March 2026 on ESPN (UK).",
+    "canonical": "https://www.espn.co.uk/football/match/_/gameId/740871/chelsea-arsenal",
     "robots": "",
     "ogMetadata": {
       "image": "https://a.espncdn.com/combiner/i?img=/i/espn/misc_logos/500/soccer.png",
@@ -18,112 +18,112 @@
       {
         "key": "en-us",
         "region": "us",
-        "url": "https://www.espn.com/soccer/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com/soccer/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "pt-br",
         "region": "br",
-        "url": "https://www.espn.com.br/futebol/partida/_/jogoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.br/futebol/partida/_/jogoId/740871/chelsea-arsenal"
       },
       {
         "key": "en-in",
         "region": "in",
-        "url": "https://www.espn.in/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.in/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "en-za",
         "region": "za",
-        "url": "https://africa.espn.com/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://africa.espn.com/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "en-au",
         "region": "au",
-        "url": "https://www.espn.com.au/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.au/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "es-ve",
         "region": "ve",
-        "url": "https://www.espn.com.ve/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.ve/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-cl",
         "region": "cl",
-        "url": "https://www.espn.cl/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.cl/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-mx",
         "region": "mx",
-        "url": "https://www.espn.com.mx/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.mx/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-co",
         "region": "co",
-        "url": "https://www.espn.com.co/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.co/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-pe",
         "region": "pe",
-        "url": "https://www.espn.com.pe/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.pe/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-ar",
         "region": "ar",
-        "url": "https://www.espn.com.ar/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.ar/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-us",
         "region": "us",
-        "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "en-ph",
         "region": "ph",
-        "url": "https://www.espn.ph/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.ph/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "en-gb",
         "region": "gb",
-        "url": "https://www.espn.co.uk/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.co.uk/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "en-sg",
         "region": "sg",
-        "url": "https://www.espn.com.sg/football/match/_/gameId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.sg/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "key": "es-gt",
         "region": "gt",
-        "url": "https://www.espn.com.gt/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.gt/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-uy",
         "region": "uy",
-        "url": "https://www.espn.com.uy/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.uy/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-do",
         "region": "do",
-        "url": "https://www.espn.com.do/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.do/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-ec",
         "region": "ec",
-        "url": "https://www.espn.com.ec/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.ec/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-pa",
         "region": "pa",
-        "url": "https://www.espn.com.pa/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.com.pa/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "es-cr",
         "region": "cr",
-        "url": "https://www.espn.co.cr/futbol/partido/_/juegoId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.co.cr/futbol/partido/_/juegoId/740871/chelsea-arsenal"
       },
       {
         "key": "nl-nl",
         "region": "nl",
-        "url": "https://www.espn.nl/voetbal/wedstrijd/_/wedstrijdId/401850946/chelsea-hull-city"
+        "url": "https://www.espn.nl/voetbal/wedstrijd/_/wedstrijdId/740871/chelsea-arsenal"
       }
     ]
   },
@@ -5269,18 +5269,18 @@
     "gamepackage": {
       "autoUpdate": {
         "mode": "fastcast",
-        "topic": "gp-soccer-eng.fa-401850946"
+        "topic": "gp-soccer-eng.1-740871"
       },
       "baseURL": "https://www.espn.co.uk",
       "broadcasts": [],
-      "compUID": "s:600~l:3918~e:401850946~c:401850946",
+      "compUID": "s:600~l:700~e:740871~c:740871",
       "gmStrp": {
-        "uid": "s:600~l:3918~e:401850946",
-        "gid": "401850946",
-        "dt": "2026-02-13T19:45Z",
+        "uid": "s:600~l:700~e:740871",
+        "gid": "740871",
+        "dt": "2026-03-01T16:30Z",
         "isTdy": false,
         "nm": "soccer",
-        "seasonType": 13793,
+        "seasonType": 13481,
         "status": {
           "desc": "Full Time",
           "det": "FT",
@@ -5292,44 +5292,58 @@
         "tbd": false,
         "tms": [
           {
-            "id": "306",
-            "abbrev": "HUL",
-            "displayName": "Hull City",
-            "shortDisplayName": "Hull",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-            "teamColor": "f28800",
-            "altColor": "ffffff",
-            "uid": "s:600~t:306",
-            "guid": "0b8849a3-b74b-fb8a-d14b-e8a6b8022c7d",
+            "id": "359",
+            "abbrev": "ARS",
+            "displayName": "Arsenal",
+            "shortDisplayName": "Arsenal",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "teamColor": "e20520",
+            "altColor": "132257",
+            "uid": "s:600~t:359",
+            "guid": "feb44e87-58fa-9597-2691-b3c32768ebe4",
             "recordSummary": "",
             "standingSummary": "",
-            "nickname": "Tigers",
-            "location": "Hull City",
-            "links": "/football/club/_/id/306/hull-city",
-            "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/306.png",
-            "records": [],
-            "isHome": true,
-            "gmStrpClrV4": "#f28800",
-            "linescores": [
+            "nickname": "Gunners",
+            "location": "Arsenal",
+            "links": "/football/club/_/id/359/arsenal",
+            "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/359.png",
+            "records": [
               {
-                "displayValue": "0"
+                "type": "total",
+                "summary": "19-7-3",
+                "displayValue": "19-7-3"
               },
               {
-                "displayValue": "0"
+                "type": "points",
+                "summary": "64",
+                "displayValue": "64"
+              }
+            ],
+            "recordTotal": "19-7-3",
+            "recordSupplemental": "64 PTS",
+            "isHome": true,
+            "gmStrpClrV4": "#e20520",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "1"
               }
             ],
             "calculatedLinescores": [
               {
-                "displayValue": "0"
+                "displayValue": "1"
               },
               {
-                "displayValue": "0"
+                "displayValue": "1"
               }
             ],
-            "score": "0",
-            "acsblClr": "#1d1e1f",
-            "ltMdAcsblClr": "#1d1e1f",
-            "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/306.png&cquality=80&h=64&w=64"
+            "score": "2",
+            "winner": true,
+            "acsblClr": "#e20520",
+            "ltMdAcsblClr": "#e20520",
+            "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&cquality=80&h=64&w=64"
           },
           {
             "id": "363",
@@ -5347,7 +5361,20 @@
             "location": "Chelsea",
             "links": "/football/club/_/id/363/chelsea",
             "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/363.png",
-            "records": [],
+            "records": [
+              {
+                "type": "total",
+                "summary": "12-9-7",
+                "displayValue": "12-9-7"
+              },
+              {
+                "type": "points",
+                "summary": "45",
+                "displayValue": "45"
+              }
+            ],
+            "recordTotal": "12-9-7",
+            "recordSupplemental": "45 PTS",
             "isHome": false,
             "gmStrpClrV4": "#144992",
             "linescores": [
@@ -5355,7 +5382,7 @@
                 "displayValue": "1"
               },
               {
-                "displayValue": "3"
+                "displayValue": "0"
               }
             ],
             "calculatedLinescores": [
@@ -5363,42 +5390,53 @@
                 "displayValue": "1"
               },
               {
-                "displayValue": "3"
+                "displayValue": "0"
               }
             ],
-            "score": "4",
-            "winner": true,
+            "score": "1",
             "acsblClr": "#144992",
             "ltMdAcsblClr": "#144992",
             "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&cquality=80&h=64&w=64"
           }
         ],
-        "lgId": "3918",
+        "lgId": "700",
         "config": {
           "maxPeriods": 2
         },
         "hasWinner": true,
-        "nte": "2025-26 English FA Cup, Fourth Round",
+        "nte": "2025-26 English Premier League",
         "goals": {
           "home": {
-            "goals": [],
+            "goals": [
+              {
+                "id": "277385",
+                "name": "William Saliba",
+                "clock": "21'"
+              },
+              {
+                "id": "282716",
+                "name": "Jurri\u00ebn Timber",
+                "clock": "66'"
+              }
+            ],
             "redCards": [],
-            "id": "306"
+            "id": "359"
           },
           "away": {
             "goals": [
               {
-                "id": "256115",
-                "name": "Pedro Neto",
-                "clock": "40', 51', 71'"
-              },
-              {
-                "id": "376481",
-                "name": "Est\u00eav\u00e3o",
-                "clock": "59'"
+                "id": "292062",
+                "name": "Piero Hincapi\u00e9",
+                "clock": "45'+2' OG"
               }
             ],
-            "redCards": [],
+            "redCards": [
+              {
+                "id": "256115",
+                "name": "Pedro Neto",
+                "clock": "70'"
+              }
+            ],
             "id": "363"
           }
         },
@@ -5407,25 +5445,25 @@
       "gmSwtchrMta": {
         "firstPillOverride": {
           "statusState": "post",
-          "date": "2026-02-13T19:45Z",
+          "date": "2026-03-01T16:30Z",
           "timeValid": true,
           "primaryText": "FT",
-          "id": 401850946,
-          "link": "/football/match/_/gameId/401850946/chelsea-hull-city",
+          "id": 740871,
+          "link": "/football/match/_/gameId/740871/chelsea-arsenal",
           "leftSide": {
-            "score": 0,
-            "uid": "s:600~t:306",
-            "isWinner": false,
+            "score": 2,
+            "uid": "s:600~t:359",
+            "isWinner": true,
             "homeAway": "home",
             "hasPossession": false,
-            "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/306.png&w=80&h=80&scale=crop&cquality=40&location=origin",
-            "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500-dark/306.png&w=80&h=80&scale=crop&cquality=40&location=origin",
-            "logoAlt": "Hull"
+            "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+            "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500-dark/359.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+            "logoAlt": "Arsenal"
           },
           "rightSide": {
-            "score": 4,
+            "score": 1,
             "uid": "s:600~t:363",
-            "isWinner": true,
+            "isWinner": false,
             "homeAway": "away",
             "hasPossession": false,
             "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&w=80&h=80&scale=crop&cquality=40&location=origin",
@@ -5433,21 +5471,21 @@
             "logoAlt": "Chelsea"
           },
           "selectedMatchupCharacter": "v",
-          "ariaLabel": "Hull v Chelsea",
+          "ariaLabel": "Arsenal v Chelsea",
           "isTie": false
         },
         "gameSwitcherExpected": true,
-        "topic": "picker-soccer-eng.fa"
+        "topic": "picker-soccer-eng.1"
       },
       "gpLinks": {
         "links": [
           {
             "l": {
-              "h": "/football/match/_/gameId/401850946/chelsea-hull-city",
+              "h": "/football/match/_/gameId/740871/chelsea-arsenal",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/match/_/gameId/401850946/chelsea-hull-city",
+                "h": "/football/match/_/gameId/740871/chelsea-arsenal",
                 "e": false,
                 "p": false,
                 "t": "Summary",
@@ -5456,7 +5494,7 @@
               },
               "t": "Summary",
               "w": {
-                "h": "/football/match/_/gameId/401850946/chelsea-hull-city",
+                "h": "/football/match/_/gameId/740871/chelsea-arsenal",
                 "e": false,
                 "p": false,
                 "t": "Summary",
@@ -5472,11 +5510,11 @@
           },
           {
             "l": {
-              "h": "/football/report/_/gameId/401850946",
+              "h": "/football/report/_/gameId/740871",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/report/_/gameId/401850946",
+                "h": "/football/report/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Report",
@@ -5485,7 +5523,7 @@
               },
               "t": "Report",
               "w": {
-                "h": "/football/report/_/gameId/401850946",
+                "h": "/football/report/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Report",
@@ -5501,11 +5539,11 @@
           },
           {
             "l": {
-              "h": "/football/matchstats/_/gameId/401850946",
+              "h": "/football/matchstats/_/gameId/740871",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/matchstats/_/gameId/401850946",
+                "h": "/football/matchstats/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Statistics",
@@ -5514,7 +5552,7 @@
               },
               "t": "Statistics",
               "w": {
-                "h": "/football/matchstats/_/gameId/401850946",
+                "h": "/football/matchstats/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Statistics",
@@ -5530,11 +5568,40 @@
           },
           {
             "l": {
-              "h": "/football/commentary/_/gameId/401850946",
+              "h": "/football/table/_/league/eng.1",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/commentary/_/gameId/401850946",
+                "h": "/football/table/_/league/eng.1",
+                "e": false,
+                "p": false,
+                "t": "Table",
+                "icon": null,
+                "iconAlt": null
+              },
+              "t": "Table",
+              "w": {
+                "h": "/football/table/_/league/eng.1",
+                "e": false,
+                "p": false,
+                "t": "Table",
+                "icon": null,
+                "iconAlt": null
+              }
+            },
+            "d": {
+              "data-track-nav_layer": "secondary nav",
+              "data-track-nav_item": "table",
+              "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+            }
+          },
+          {
+            "l": {
+              "h": "/football/commentary/_/gameId/740871",
+              "e": false,
+              "p": false,
+              "m": {
+                "h": "/football/commentary/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Commentary",
@@ -5543,7 +5610,7 @@
               },
               "t": "Commentary",
               "w": {
-                "h": "/football/commentary/_/gameId/401850946",
+                "h": "/football/commentary/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Commentary",
@@ -5559,11 +5626,11 @@
           },
           {
             "l": {
-              "h": "/football/lineups/_/gameId/401850946",
+              "h": "/football/lineups/_/gameId/740871",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/lineups/_/gameId/401850946",
+                "h": "/football/lineups/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Line-Ups",
@@ -5572,7 +5639,7 @@
               },
               "t": "Line-Ups",
               "w": {
-                "h": "/football/lineups/_/gameId/401850946",
+                "h": "/football/lineups/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Line-Ups",
@@ -5588,11 +5655,11 @@
           },
           {
             "l": {
-              "h": "/football/video/_/gameId/401850946",
+              "h": "/football/video/_/gameId/740871",
               "e": false,
               "p": false,
               "m": {
-                "h": "/football/video/_/gameId/401850946",
+                "h": "/football/video/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Videos",
@@ -5601,7 +5668,7 @@
               },
               "t": "Videos",
               "w": {
-                "h": "/football/video/_/gameId/401850946",
+                "h": "/football/video/_/gameId/740871",
                 "e": false,
                 "p": false,
                 "t": "Videos",
@@ -5622,53 +5689,67 @@
           "subPageType": "match"
         }
       },
-      "lg": "eng.fa",
-      "lgUid": "s:600~l:3918",
+      "lg": "eng.1",
+      "lgUid": "s:600~l:700",
       "maxPeriods": 2,
       "wllClck": {
-        "first": "2026-02-13T19:47:39Z"
+        "first": "2026-03-01T16:36:01Z"
       },
       "network": "",
       "prsdTms": {
         "home": {
-          "id": "306",
-          "abbrev": "HUL",
-          "displayName": "Hull City",
-          "shortDisplayName": "Hull",
-          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-          "teamColor": "f28800",
-          "altColor": "ffffff",
-          "uid": "s:600~t:306",
-          "guid": "0b8849a3-b74b-fb8a-d14b-e8a6b8022c7d",
+          "id": "359",
+          "abbrev": "ARS",
+          "displayName": "Arsenal",
+          "shortDisplayName": "Arsenal",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+          "teamColor": "e20520",
+          "altColor": "132257",
+          "uid": "s:600~t:359",
+          "guid": "feb44e87-58fa-9597-2691-b3c32768ebe4",
           "recordSummary": "",
           "standingSummary": "",
-          "nickname": "Tigers",
-          "location": "Hull City",
-          "links": "/football/club/_/id/306/hull-city",
-          "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/306.png",
-          "records": [],
-          "isHome": true,
-          "gmStrpClrV4": "#f28800",
-          "linescores": [
+          "nickname": "Gunners",
+          "location": "Arsenal",
+          "links": "/football/club/_/id/359/arsenal",
+          "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/359.png",
+          "records": [
             {
-              "displayValue": "0"
+              "type": "total",
+              "summary": "19-7-3",
+              "displayValue": "19-7-3"
             },
             {
-              "displayValue": "0"
+              "type": "points",
+              "summary": "64",
+              "displayValue": "64"
+            }
+          ],
+          "recordTotal": "19-7-3",
+          "recordSupplemental": "64 PTS",
+          "isHome": true,
+          "gmStrpClrV4": "#e20520",
+          "linescores": [
+            {
+              "displayValue": "1"
+            },
+            {
+              "displayValue": "1"
             }
           ],
           "calculatedLinescores": [
             {
-              "displayValue": "0"
+              "displayValue": "1"
             },
             {
-              "displayValue": "0"
+              "displayValue": "1"
             }
           ],
-          "score": "0",
-          "acsblClr": "#1d1e1f",
-          "ltMdAcsblClr": "#1d1e1f",
-          "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/306.png&cquality=80&h=64&w=64"
+          "score": "2",
+          "winner": true,
+          "acsblClr": "#e20520",
+          "ltMdAcsblClr": "#e20520",
+          "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&cquality=80&h=64&w=64"
         },
         "away": {
           "id": "363",
@@ -5686,7 +5767,20 @@
           "location": "Chelsea",
           "links": "/football/club/_/id/363/chelsea",
           "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/363.png",
-          "records": [],
+          "records": [
+            {
+              "type": "total",
+              "summary": "12-9-7",
+              "displayValue": "12-9-7"
+            },
+            {
+              "type": "points",
+              "summary": "45",
+              "displayValue": "45"
+            }
+          ],
+          "recordTotal": "12-9-7",
+          "recordSupplemental": "45 PTS",
           "isHome": false,
           "gmStrpClrV4": "#144992",
           "linescores": [
@@ -5694,7 +5788,7 @@
               "displayValue": "1"
             },
             {
-              "displayValue": "3"
+              "displayValue": "0"
             }
           ],
           "calculatedLinescores": [
@@ -5702,11 +5796,10 @@
               "displayValue": "1"
             },
             {
-              "displayValue": "3"
+              "displayValue": "0"
             }
           ],
-          "score": "4",
-          "winner": true,
+          "score": "1",
           "acsblClr": "#144992",
           "ltMdAcsblClr": "#144992",
           "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&cquality=80&h=64&w=64"
@@ -5714,24 +5807,508 @@
       },
       "shop": null,
       "ssnSrs": [],
+      "stndngs": [
+        {
+          "dspNm": "English Premier League Table",
+          "feed": [
+            {
+              "entries": [
+                {
+                  "team": {
+                    "id": "359",
+                    "displayName": "Arsenal",
+                    "shortDisplayName": "Arsenal",
+                    "uid": "s:600~t:359",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/359/arsenal"
+                  },
+                  "stats": [
+                    "29",
+                    "3",
+                    "+36",
+                    "64",
+                    "7",
+                    "19",
+                    "1",
+                    "19-7-3"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "382",
+                    "displayName": "Manchester City",
+                    "shortDisplayName": "Manchester City",
+                    "uid": "s:600~t:382",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/382/manchester-city"
+                  },
+                  "stats": [
+                    "28",
+                    "5",
+                    "+32",
+                    "59",
+                    "5",
+                    "18",
+                    "2",
+                    "18-5-5"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "360",
+                    "displayName": "Manchester United",
+                    "shortDisplayName": "Manchester United",
+                    "uid": "s:600~t:360",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/360/manchester-united"
+                  },
+                  "stats": [
+                    "28",
+                    "5",
+                    "+12",
+                    "51",
+                    "9",
+                    "14",
+                    "3",
+                    "14-9-5"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "362",
+                    "displayName": "Aston Villa",
+                    "shortDisplayName": "Aston Villa",
+                    "uid": "s:600~t:362",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/362/aston-villa"
+                  },
+                  "stats": [
+                    "28",
+                    "7",
+                    "+8",
+                    "51",
+                    "6",
+                    "15",
+                    "4",
+                    "15-6-7"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "364",
+                    "displayName": "Liverpool",
+                    "shortDisplayName": "Liverpool",
+                    "uid": "s:600~t:364",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/364/liverpool"
+                  },
+                  "stats": [
+                    "28",
+                    "8",
+                    "+10",
+                    "48",
+                    "6",
+                    "14",
+                    "5",
+                    "14-6-8"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "363",
+                    "displayName": "Chelsea",
+                    "shortDisplayName": "Chelsea",
+                    "uid": "s:600~t:363",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/363/chelsea"
+                  },
+                  "stats": [
+                    "28",
+                    "7",
+                    "+16",
+                    "45",
+                    "9",
+                    "12",
+                    "6",
+                    "12-9-7"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "337",
+                    "displayName": "Brentford",
+                    "shortDisplayName": "Brentford",
+                    "uid": "s:600~t:337",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/337/brentford"
+                  },
+                  "stats": [
+                    "28",
+                    "11",
+                    "+4",
+                    "43",
+                    "4",
+                    "13",
+                    "7",
+                    "13-4-11"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "368",
+                    "displayName": "Everton",
+                    "shortDisplayName": "Everton",
+                    "uid": "s:600~t:368",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/368/everton"
+                  },
+                  "stats": [
+                    "28",
+                    "10",
+                    "-1",
+                    "40",
+                    "7",
+                    "11",
+                    "8",
+                    "11-7-10"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "370",
+                    "displayName": "Fulham",
+                    "shortDisplayName": "Fulham",
+                    "uid": "s:600~t:370",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/370/fulham"
+                  },
+                  "stats": [
+                    "28",
+                    "12",
+                    "-2",
+                    "40",
+                    "4",
+                    "12",
+                    "9",
+                    "12-4-12"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "349",
+                    "displayName": "AFC Bournemouth",
+                    "shortDisplayName": "AFC Bournemouth",
+                    "uid": "s:600~t:349",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/349/afc-bournemouth"
+                  },
+                  "stats": [
+                    "28",
+                    "7",
+                    "-2",
+                    "39",
+                    "12",
+                    "9",
+                    "10",
+                    "9-12-7"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "331",
+                    "displayName": "Brighton & Hove Albion",
+                    "shortDisplayName": "Brighton & Hove Albion",
+                    "uid": "s:600~t:331",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/331/brighton-hove-albion"
+                  },
+                  "stats": [
+                    "28",
+                    "9",
+                    "+3",
+                    "37",
+                    "10",
+                    "9",
+                    "11",
+                    "9-10-9"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "366",
+                    "displayName": "Sunderland",
+                    "shortDisplayName": "Sunderland",
+                    "uid": "s:600~t:366",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/366/sunderland"
+                  },
+                  "stats": [
+                    "28",
+                    "9",
+                    "-5",
+                    "37",
+                    "10",
+                    "9",
+                    "12",
+                    "9-10-9"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "361",
+                    "displayName": "Newcastle United",
+                    "shortDisplayName": "Newcastle United",
+                    "uid": "s:600~t:361",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/361/newcastle-united"
+                  },
+                  "stats": [
+                    "28",
+                    "12",
+                    "-2",
+                    "36",
+                    "6",
+                    "10",
+                    "13",
+                    "10-6-12"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "384",
+                    "displayName": "Crystal Palace",
+                    "shortDisplayName": "Crystal Palace",
+                    "uid": "s:600~t:384",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/384/crystal-palace"
+                  },
+                  "stats": [
+                    "28",
+                    "11",
+                    "-4",
+                    "35",
+                    "8",
+                    "9",
+                    "14",
+                    "9-8-11"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "357",
+                    "displayName": "Leeds United",
+                    "shortDisplayName": "Leeds United",
+                    "uid": "s:600~t:357",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/357/leeds-united"
+                  },
+                  "stats": [
+                    "28",
+                    "11",
+                    "-10",
+                    "31",
+                    "10",
+                    "7",
+                    "15",
+                    "7-10-11"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "367",
+                    "displayName": "Tottenham Hotspur",
+                    "shortDisplayName": "Tottenham Hotspur",
+                    "uid": "s:600~t:367",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/367/tottenham-hotspur"
+                  },
+                  "stats": [
+                    "28",
+                    "13",
+                    "-5",
+                    "29",
+                    "8",
+                    "7",
+                    "16",
+                    "7-8-13"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "393",
+                    "displayName": "Nottingham Forest",
+                    "shortDisplayName": "Nottingham Forest",
+                    "uid": "s:600~t:393",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/393/nottingham-forest"
+                  },
+                  "stats": [
+                    "28",
+                    "15",
+                    "-15",
+                    "27",
+                    "6",
+                    "7",
+                    "17",
+                    "7-6-15"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "371",
+                    "displayName": "West Ham United",
+                    "shortDisplayName": "West Ham United",
+                    "uid": "s:600~t:371",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/371/west-ham-united"
+                  },
+                  "stats": [
+                    "28",
+                    "15",
+                    "-20",
+                    "25",
+                    "7",
+                    "6",
+                    "18",
+                    "6-7-15"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "379",
+                    "displayName": "Burnley",
+                    "shortDisplayName": "Burnley",
+                    "uid": "s:600~t:379",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/379/burnley"
+                  },
+                  "stats": [
+                    "28",
+                    "17",
+                    "-24",
+                    "19",
+                    "7",
+                    "4",
+                    "19",
+                    "4-7-17"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "380",
+                    "displayName": "Wolverhampton Wanderers",
+                    "shortDisplayName": "Wolverhampton Wanderers",
+                    "uid": "s:600~t:380",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/380/wolverhampton-wanderers"
+                  },
+                  "stats": [
+                    "29",
+                    "20",
+                    "-31",
+                    "13",
+                    "7",
+                    "2",
+                    "20",
+                    "2-7-20"
+                  ]
+                }
+              ],
+              "statMap": {
+                "gamesplayed": {
+                  "t": "gamesplayed",
+                  "d": "Number of Games Played",
+                  "a": "GP",
+                  "i": 0
+                },
+                "losses": {
+                  "t": "losses",
+                  "d": "Losses",
+                  "a": "L",
+                  "i": 1
+                },
+                "pointdifferential": {
+                  "t": "pointdifferential",
+                  "d": "Goal Difference",
+                  "a": "GD",
+                  "i": 2
+                },
+                "points": {
+                  "t": "points",
+                  "d": "Points",
+                  "a": "P",
+                  "i": 3
+                },
+                "ties": {
+                  "t": "ties",
+                  "d": "Draws",
+                  "a": "D",
+                  "i": 4
+                },
+                "wins": {
+                  "t": "wins",
+                  "d": "Wins",
+                  "a": "W",
+                  "i": 5
+                },
+                "rank": {
+                  "t": "rank",
+                  "d": "Rank",
+                  "a": "Rank",
+                  "i": 6
+                },
+                "total": {
+                  "t": "total",
+                  "d": "Overall Record",
+                  "a": "OVER",
+                  "i": 7
+                }
+              }
+            }
+          ],
+          "tmFeat": [
+            "359",
+            "363"
+          ],
+          "lnk": "https://www.espn.com/soccer/table/_/league/eng.1",
+          "lnkTxt": "Full Table",
+          "lgUid": "s:600~l:700"
+        }
+      ],
       "inCntStrp": true,
       "gmInfo": {
-        "attnd": 24320,
+        "attnd": 60296,
         "broadcasts": [],
         "cvrg": "",
         "gameState": "post",
         "dtTmVld": true,
-        "dtTm": "2026-02-13T19:45Z",
-        "refs": [
-          {
-            "dspNm": "Farai Hallam"
-          }
-        ],
-        "venueId": "3670",
-        "loc": "The MKM Stadium",
+        "dtTm": "2026-03-01T16:30Z",
+        "refs": [],
+        "venueId": "2267",
+        "loc": "Emirates Stadium",
         "locImg": false,
         "locAddr": {
-          "city": "Hull",
+          "city": "London",
           "country": "England"
         },
         "temperature": null,
@@ -5744,7 +6321,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/match/_/gameId/401850946/chelsea-hull-city",
+          "href": "https://www.espn.co.uk/football/match/_/gameId/740871/chelsea-arsenal",
           "text": "Summary",
           "shortText": "Summary",
           "isExternal": false,
@@ -5756,7 +6333,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/report/_/gameId/401850946",
+          "href": "https://www.espn.co.uk/football/report/_/gameId/740871",
           "text": "Report",
           "shortText": "Report",
           "isExternal": false,
@@ -5768,9 +6345,21 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/matchstats/_/gameId/401850946",
+          "href": "https://www.espn.co.uk/football/matchstats/_/gameId/740871",
           "text": "Statistics",
           "shortText": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "rel": [
+            "standings",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.co.uk/football/table/_/league/eng.1",
+          "text": "Table",
+          "shortText": "Table",
           "isExternal": false,
           "isPremium": false
         },
@@ -5780,7 +6369,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/commentary/_/gameId/401850946",
+          "href": "https://www.espn.co.uk/football/commentary/_/gameId/740871",
           "text": "Commentary",
           "shortText": "Commentary",
           "isExternal": false,
@@ -5792,7 +6381,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/lineups/_/gameId/401850946",
+          "href": "https://www.espn.co.uk/football/lineups/_/gameId/740871",
           "text": "Line-Ups",
           "shortText": "Line-Ups",
           "isExternal": false,
@@ -5804,7 +6393,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.co.uk/football/video/_/gameId/401850946",
+          "href": "https://www.espn.co.uk/football/video/_/gameId/740871",
           "text": "Videos",
           "shortText": "Videos",
           "isExternal": false,
@@ -5814,63 +6403,63 @@
       "showSwitcher": true,
       "isCurSzn": true,
       "news": {
-        "header": "English FA Cup News",
+        "header": "Premier League News",
         "articles": [
           {
-            "id": 48042242,
-            "headline": "Marcotti: The time taken for verdict of Man City's 115 charges is absurd",
-            "byLine": "",
-            "description": "Gab Marcotti explains why there has still been no verdict for Manchester City's 115 financial charges.",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0226/dm_260226_COM_SOC_ANALYSIS_Marcotti_The_time_taken_for_verdict_of_Man_Citys_115_charges_is_absurd_2026_2_2/dm_260226_COM_SOC_ANALYSIS_Marcotti_The_time_taken_for_verdict_of_Man_Citys_115_charges_is_absurd_2026_2_2.jpg&w=220",
+            "id": 48079544,
+            "headline": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s",
+            "byLine": "ESPN",
+            "description": "Manchester United could look to the Bundesliga for their newest midfield signing. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-26T13:08:27Z",
+            "published": "2026-03-02T21:18:15Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0226/dm_260226_COM_SOC_ANALYSIS_Marcotti_The_time_taken_for_verdict_of_Man_Citys_115_charges_is_absurd_2026_2_2/dm_260226_COM_SOC_ANALYSIS_Marcotti_The_time_taken_for_verdict_of_Man_Citys_115_charges_is_absurd_2026_2_2.jpg&w=220",
-                "alt": "Marcotti: The time taken for verdict of Man City's 115 charges is absurd"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s"
               }
             ],
-            "link": "/video/clip/_/id/48042242"
+            "link": "/football/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts"
           },
           {
-            "id": 48014090,
-            "headline": "Laurens: Glasner is tarnishing his Crystal Palace legacy",
-            "byLine": "",
-            "description": "Gab & Juls discuss Oliver Glasner's future at Crystal Palace.",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0223/dm_260223_COM_SOC_Analysis_Laurens_Glasner_is_tarnishing_his_Crystal_Palace_legacy__20260223_GLOBAL/dm_260223_COM_SOC_Analysis_Laurens_Glasner_is_tarnishing_his_Crystal_Palace_legacy__20260223_GLOBAL.jpg&w=220",
+            "id": 48082651,
+            "headline": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Anirudh Menon",
+            "description": "Everything you need to know about Newcastle United vs Manchester United including five key talking points",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-23T14:32:53Z",
+            "published": "2026-03-02T20:43:47Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0223/dm_260223_COM_SOC_Analysis_Laurens_Glasner_is_tarnishing_his_Crystal_Palace_legacy__20260223_GLOBAL/dm_260223_COM_SOC_Analysis_Laurens_Glasner_is_tarnishing_his_Crystal_Palace_legacy__20260223_GLOBAL.jpg&w=220",
-                "alt": "Laurens: Glasner is tarnishing his Crystal Palace legacy"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
+                "alt": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news"
               }
             ],
-            "link": "/video/clip/_/id/48014090"
+            "link": "/football/story/_/id/48082651/newcastle-united-manchester-united-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
           },
           {
-            "id": 47989246,
-            "headline": "Henderson: Milner's Premier League appearance record a remarkable achievement",
-            "byLine": "",
-            "description": "Jordan Henderson says James Milner deserves to break the Premier League appearance record.",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0220/dm_260220_COM_SOC_Interview_Henderson_Milners_Premier_League_appearance_record_a_remarkable_achievement__2/dm_260220_COM_SOC_Interview_Henderson_Milners_Premier_League_appearance_record_a_remarkable_achievement__2.jpg&w=220",
+            "id": 48079690,
+            "headline": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Sunaadh Sagar",
+            "description": "All you need to know about the Premier League clash between Brighton & Hove Albion and Arsenal.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-21T13:59:23Z",
+            "published": "2026-03-02T20:38:55Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0220/dm_260220_COM_SOC_Interview_Henderson_Milners_Premier_League_appearance_record_a_remarkable_achievement__2/dm_260220_COM_SOC_Interview_Henderson_Milners_Premier_League_appearance_record_a_remarkable_achievement__2.jpg&w=220",
-                "alt": "Henderson: Milner's Premier League appearance record a remarkable achievement"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
+                "alt": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news"
               }
             ],
-            "link": "/video/clip/_/id/47989246"
+            "link": "/football/story/_/id/48079690/brighton-hove-albion-vs-arsenal-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
           }
         ],
-        "leagueUid": "s:600~l:3918",
-        "link": "/football/league/_/name/eng.fa",
-        "text": "All English FA Cup News"
+        "leagueUid": "s:600~l:700",
+        "link": "/football/league/_/name/eng.1",
+        "text": "All Premier League News"
       },
       "medialst": {
         "vids": [
@@ -5879,19 +6468,19 @@
               "sport": "Soccer",
               "bundle": "espnfc"
             },
-            "cerebroId": "698f9e16a9ccec23fa350df7",
-            "id": "47922604",
-            "description": "Nedum Onuoha reacts to Chelsea's 4-0 win over Hull City in the FA Cup fourth round.",
-            "duration": "0:49",
-            "imgSrc": "https://a.espncdn.com/media/motion/2026/0213/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL.jpg",
+            "cerebroId": "69a5b90b0b902f3ae8a5ba4d",
+            "id": "48081766",
+            "description": "Liam Rosenior describes Chelsea's indiscipline this season as a \"learning experience\" following Pedro Neto's red card vs. Arsenal and looks ahead to visiting Aston Villa.",
+            "duration": "1:40",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302.jpg",
             "imgSrcWidth": 1200,
             "imgSrcHeight": 630,
             "lang": "en",
-            "expirationDate": "2027-02-16T21:54:09Z",
-            "lastModified": "2026-02-13T21:56:55Z",
-            "publishDate": "2026-02-13T21:56:38Z",
+            "expirationDate": "2027-03-05T16:20:02Z",
+            "lastModified": "2026-03-02T16:22:00Z",
+            "publishDate": "2026-03-02T16:21:32Z",
             "source": "espn",
-            "headline": "Onuoha: Chelsea made Hull look very average",
+            "headline": "Rosenior calls for behaviour improvement after Chelsea's ninth red card",
             "customMetaData": {
               "ContentType": "Video",
               "Edition": "en-gb",
@@ -5907,26 +6496,114 @@
               "VideoType": "VOD"
             },
             "videoSrc": {
-              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0213/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL_360p30_1464k.mp4",
-              "webSrc": "https://www.espn.co.uk/video/clip?id=47922604"
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48081766"
             },
             "track": {
-              "coverageType": "Analysis",
-              "leagueName": "English FA Cup",
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
               "sportName": "soccer",
-              "trackId": "dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL",
-              "trackName": "COM_SOC Analysis (Onuoha: Chelsea made Hull look very average) 2026/02/13 GLOBAL"
+              "trackId": "dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302",
+              "trackName": "COM_SOC Presser (Rosenior calls for behaviour improvement after Chelsea's ninth red card) 2026/03/02 GLOBAL"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a49ac6177b157a4e2e4cbf",
+            "id": "48074776",
+            "description": "Mikel Arteta reflects on Arsenal's 2-1 win over local rivals Chelsea to extend their lead at the top of the Premier League table.",
+            "duration": "1:24",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0301/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL.jpg",
+            "imgSrcWidth": 1200,
+            "imgSrcHeight": 630,
+            "lang": "en",
+            "expirationDate": "2027-03-04T19:58:51Z",
+            "lastModified": "2026-03-01T20:01:09Z",
+            "publishDate": "2026-03-01T20:00:06Z",
+            "source": "espn",
+            "headline": "Arteta: Arsenal-Chelsea a 'proper London derby'",
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0301/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48074776"
+            },
+            "track": {
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL",
+              "trackName": "COM_SOC Presser (Arteta: Arsenal-Chelsea a \u2018proper London derby\u2019) 2026/03/01 GLOBAL"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a49742177b157a4e2e4b46",
+            "id": "48074600",
+            "description": "Liam Rosenior shares his disappointment with Chelsea's defending and discipline in their defeat to Arsenal.",
+            "duration": "1:33",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0301/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO.jpg",
+            "imgSrcWidth": 1200,
+            "imgSrcHeight": 630,
+            "lang": "en",
+            "expirationDate": "2027-03-04T19:43:45Z",
+            "lastModified": "2026-03-01T19:45:43Z",
+            "publishDate": "2026-03-01T19:45:06Z",
+            "source": "espn",
+            "headline": "Rosenior: Chelsea's goals conceded against Arsenal 'not acceptable'",
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0301/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48074600"
+            },
+            "track": {
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO",
+              "trackName": "COM_SOC Presser (Rosenior: Chelsea\u2019s goals conceded against Arsenal \u2018not acceptable\u2019) 2026/03/01 GLOBAL"
             }
           }
         ],
         "cmpttn": {
           "awy": "CHE",
-          "hme": "HUL",
+          "hme": "ARS",
           "ntrlSte": false
         }
       },
-      "league": "English FA Cup",
-      "mdszNm": "ENG.FA",
+      "league": "English Premier League",
+      "mdszNm": "ENG.1",
       "fmt": {
         "clckBsd": true,
         "prds": 2,
@@ -5940,44 +6617,58 @@
         "plays": [],
         "tms": {
           "home": {
-            "id": "306",
-            "abbrev": "HUL",
-            "displayName": "Hull City",
-            "shortDisplayName": "Hull",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-            "teamColor": "f28800",
-            "altColor": "ffffff",
-            "uid": "s:600~t:306",
-            "guid": "0b8849a3-b74b-fb8a-d14b-e8a6b8022c7d",
+            "id": "359",
+            "abbrev": "ARS",
+            "displayName": "Arsenal",
+            "shortDisplayName": "Arsenal",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "teamColor": "e20520",
+            "altColor": "132257",
+            "uid": "s:600~t:359",
+            "guid": "feb44e87-58fa-9597-2691-b3c32768ebe4",
             "recordSummary": "",
             "standingSummary": "",
-            "nickname": "Tigers",
-            "location": "Hull City",
-            "links": "/football/club/_/id/306/hull-city",
-            "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/306.png",
-            "records": [],
-            "isHome": true,
-            "gmStrpClrV4": "#f28800",
-            "linescores": [
+            "nickname": "Gunners",
+            "location": "Arsenal",
+            "links": "/football/club/_/id/359/arsenal",
+            "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/359.png",
+            "records": [
               {
-                "displayValue": "0"
+                "type": "total",
+                "summary": "19-7-3",
+                "displayValue": "19-7-3"
               },
               {
-                "displayValue": "0"
+                "type": "points",
+                "summary": "64",
+                "displayValue": "64"
+              }
+            ],
+            "recordTotal": "19-7-3",
+            "recordSupplemental": "64 PTS",
+            "isHome": true,
+            "gmStrpClrV4": "#e20520",
+            "linescores": [
+              {
+                "displayValue": "1"
+              },
+              {
+                "displayValue": "1"
               }
             ],
             "calculatedLinescores": [
               {
-                "displayValue": "0"
+                "displayValue": "1"
               },
               {
-                "displayValue": "0"
+                "displayValue": "1"
               }
             ],
-            "score": "0",
-            "acsblClr": "#1d1e1f",
-            "ltMdAcsblClr": "#1d1e1f",
-            "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/306.png&cquality=80&h=64&w=64"
+            "score": "2",
+            "winner": true,
+            "acsblClr": "#e20520",
+            "ltMdAcsblClr": "#e20520",
+            "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&cquality=80&h=64&w=64"
           },
           "away": {
             "id": "363",
@@ -5995,7 +6686,20 @@
             "location": "Chelsea",
             "links": "/football/club/_/id/363/chelsea",
             "logoDk": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/363.png",
-            "records": [],
+            "records": [
+              {
+                "type": "total",
+                "summary": "12-9-7",
+                "displayValue": "12-9-7"
+              },
+              {
+                "type": "points",
+                "summary": "45",
+                "displayValue": "45"
+              }
+            ],
+            "recordTotal": "12-9-7",
+            "recordSupplemental": "45 PTS",
             "isHome": false,
             "gmStrpClrV4": "#144992",
             "linescores": [
@@ -6003,7 +6707,7 @@
                 "displayValue": "1"
               },
               {
-                "displayValue": "3"
+                "displayValue": "0"
               }
             ],
             "calculatedLinescores": [
@@ -6011,11 +6715,10 @@
                 "displayValue": "1"
               },
               {
-                "displayValue": "3"
+                "displayValue": "0"
               }
             ],
-            "score": "4",
-            "winner": true,
+            "score": "1",
             "acsblClr": "#144992",
             "ltMdAcsblClr": "#144992",
             "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&cquality=80&h=64&w=64"
@@ -6026,28 +6729,102 @@
         "mxPrds": 2,
         "plyrsWShtAtt": {}
       },
+      "tmStatsGrph": {
+        "teams": [
+          {
+            "abbrv": "ARS",
+            "id": "359",
+            "dspNm": "Arsenal",
+            "color": "#e20520",
+            "isHome": true,
+            "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&cquality=80&h=80&w=80",
+            "link": "/football/club/_/id/359/arsenal",
+            "uid": "s:600~t:359"
+          },
+          {
+            "abbrv": "CHE",
+            "id": "363",
+            "dspNm": "Chelsea",
+            "color": "#144992",
+            "isHome": false,
+            "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&cquality=80&h=80&w=80",
+            "link": "/football/club/_/id/363/chelsea",
+            "uid": "s:600~t:363"
+          }
+        ],
+        "stats": [
+          {
+            "data": [
+              {
+                "name": "Possession",
+                "values": [
+                  "41.1",
+                  "58.9"
+                ],
+                "isPctStat": true,
+                "type": "pie"
+              },
+              {
+                "name": "Shots on Goal",
+                "values": [
+                  "5",
+                  "3"
+                ]
+              },
+              {
+                "name": "Shot Attempts",
+                "values": [
+                  "12",
+                  "9"
+                ]
+              },
+              {
+                "name": "Yellow Cards",
+                "values": [
+                  "1",
+                  "3"
+                ]
+              },
+              {
+                "name": "Corner Kicks",
+                "values": [
+                  "5",
+                  "10"
+                ]
+              },
+              {
+                "name": "Saves",
+                "values": [
+                  "4",
+                  "3"
+                ]
+              }
+            ]
+          }
+        ]
+      },
       "gmStry": {
-        "modDt": "2026-02-13T21:58:06Z",
-        "pubDt": "2026-02-13T21:58:06Z",
+        "modDt": "2026-03-01T19:20:59Z",
+        "pubDt": "2026-03-01T19:20:59Z",
         "vids": [
           {
             "ad": {
               "sport": "Soccer",
               "bundle": "espnfc"
             },
-            "cerebroId": "698f9e16a9ccec23fa350df7",
-            "id": "47922604",
-            "description": "Nedum Onuoha reacts to Chelsea's 4-0 win over Hull City in the FA Cup fourth round.",
-            "duration": "0:49",
-            "imgSrc": "https://a.espncdn.com/media/motion/2026/0213/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL.jpg",
+            "cerebroId": "69a5b90b0b902f3ae8a5ba4d",
+            "id": "48081766",
+            "description": "Liam Rosenior describes Chelsea's indiscipline this season as a \"learning experience\" following Pedro Neto's red card vs. Arsenal and looks ahead to visiting Aston Villa.",
+            "duration": "1:40",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302.jpg",
             "imgSrcWidth": 1200,
             "imgSrcHeight": 630,
             "lang": "en",
-            "expirationDate": "2027-02-16T21:54:09Z",
-            "lastModified": "2026-02-13T21:56:55Z",
-            "publishDate": "2026-02-13T21:56:38Z",
+            "expirationDate": "2027-03-05T16:20:02Z",
+            "lastModified": "2026-03-02T16:22:00Z",
+            "publishDate": "2026-03-02T16:21:32Z",
             "source": "espn",
-            "headline": "Onuoha: Chelsea made Hull look very average",
+            "headline": "Rosenior calls for behaviour improvement after Chelsea's ninth red card",
             "customMetaData": {
               "ContentType": "Video",
               "Edition": "en-gb",
@@ -6063,24 +6840,203 @@
               "VideoType": "VOD"
             },
             "videoSrc": {
-              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0213/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL/dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL_360p30_1464k.mp4",
-              "webSrc": "https://www.espn.co.uk/video/clip?id=47922604"
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302/dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48081766"
+            },
+            "track": {
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260302_COM_SOC_Presser_Rosenior_calls_for_behaviour_improvement_after_Chelseas_ninth_red_card_20260302",
+              "trackName": "COM_SOC Presser (Rosenior calls for behaviour improvement after Chelsea's ninth red card) 2026/03/02 GLOBAL"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a49ac6177b157a4e2e4cbf",
+            "id": "48074776",
+            "description": "Mikel Arteta reflects on Arsenal's 2-1 win over local rivals Chelsea to extend their lead at the top of the Premier League table.",
+            "duration": "1:24",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0301/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL.jpg",
+            "imgSrcWidth": 1200,
+            "imgSrcHeight": 630,
+            "lang": "en",
+            "expirationDate": "2027-03-04T19:58:51Z",
+            "lastModified": "2026-03-01T20:01:09Z",
+            "publishDate": "2026-03-01T20:00:06Z",
+            "source": "espn",
+            "headline": "Arteta: Arsenal-Chelsea a 'proper London derby'",
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0301/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL/dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48074776"
+            },
+            "track": {
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260301_COM_SOC_Presser_Arteta_Arsenal_Chelsea_a_proper_London_derby_20260301_GLOBAL",
+              "trackName": "COM_SOC Presser (Arteta: Arsenal-Chelsea a \u2018proper London derby\u2019) 2026/03/01 GLOBAL"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a49742177b157a4e2e4b46",
+            "id": "48074600",
+            "description": "Liam Rosenior shares his disappointment with Chelsea's defending and discipline in their defeat to Arsenal.",
+            "duration": "1:33",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0301/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO.jpg",
+            "imgSrcWidth": 1200,
+            "imgSrcHeight": 630,
+            "lang": "en",
+            "expirationDate": "2027-03-04T19:43:45Z",
+            "lastModified": "2026-03-01T19:45:43Z",
+            "publishDate": "2026-03-01T19:45:06Z",
+            "source": "espn",
+            "headline": "Rosenior: Chelsea's goals conceded against Arsenal 'not acceptable'",
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0301/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO/dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48074600"
+            },
+            "track": {
+              "coverageType": "PressConference",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260301_COM_SOC_Presser_Rosenior_Chelseas_goals_conceded_against_Arsenal_not_acceptable_20260301_GLO",
+              "trackName": "COM_SOC Presser (Rosenior: Chelsea\u2019s goals conceded against Arsenal \u2018not acceptable\u2019) 2026/03/01 GLOBAL"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a593dc0b902f3ae8a52091",
+            "id": "48080818",
+            "description": "Gab Marcotti hopes the Premier League clamps down on \"grabbing\" from set-pieces after being bored by Arsenal's win over Chelsea.",
+            "duration": "2:07",
+            "imgSrc": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Analysis_Marcotti_brands_Arsenal524/dm_260302_COM_SOC_Analysis_Marcotti_brands_Arsenal524.jpg",
+            "imgSrcWidth": 576,
+            "imgSrcHeight": 324,
+            "imgSrcFull": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Analysis_Marcotti_brands_Arsenal524/dm_260302_COM_SOC_Analysis_Marcotti_brands_Arsenal524.jpg",
+            "lang": "en",
+            "expirationDate": "2027-03-05T13:40:54Z",
+            "lastModified": "2026-03-02T13:45:24Z",
+            "publishDate": "2026-03-02T13:42:53Z",
+            "source": "espn",
+            "title": "Marcotti brands Arsenal's win over Chelsea 'garbage to watch'",
+            "headline": "Marcotti brands Arsenal's win over Chelsea 'garbage to watch'",
+            "syndicatable": true,
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Analysis_Marcotti_brands_ArsenalE28099s_win_over_Chelsea_E28098garbage_to_watchE28099_GLOBAL_2026-03-02/dm_260302_COM_SOC_Analysis_Marcotti_brands_ArsenalE28099s_win_over_Chelsea_E28098garbage_to_watchE28099_GLOBAL_2026-03-02_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48080818"
             },
             "track": {
               "coverageType": "Analysis",
-              "leagueName": "English FA Cup",
+              "leagueName": "English Premier League",
               "sportName": "soccer",
-              "trackId": "dm_260213_COM_SOC_Analysis_Onuoha_Chelsea_made_Hull_look_very_average_20260213_GLOBAL",
-              "trackName": "COM_SOC Analysis (Onuoha: Chelsea made Hull look very average) 2026/02/13 GLOBAL"
+              "trackId": "dm_260302_COM_SOC_Analysis_Marcotti_brands_ArsenalE28099s_win_over_Chelsea_E28098garbage_to_watchE28099_GLOBAL_2026-03-02",
+              "trackName": "COM_SOC Analysis (Marcotti brands Arsenal\u2019s win over Chelsea \u2018garbage to watch\u2019) GLOBAL 2026-03-02"
+            }
+          },
+          {
+            "ad": {
+              "sport": "Soccer",
+              "bundle": "espnfc"
+            },
+            "cerebroId": "69a591d3177b157a4e2ea41b",
+            "id": "48080779",
+            "description": "ESPN's Gab Marcotti and Julien Laurens react to Chelsea's damaging UEFA European Club Landscape report.",
+            "duration": "1:51",
+            "imgSrc": "https://a.espncdn.com/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Are_Chelsea_in_serious_financial_trouble3F__GLOBAL_2026-01-02/dm_260302_COM_SOC_Analysis_Are_Chelsea_in_serious_financial_trouble3F__GLOBAL_2026-01-02.jpg",
+            "imgSrcWidth": 1200,
+            "imgSrcHeight": 630,
+            "lang": "en",
+            "expirationDate": "2027-03-05T13:31:36Z",
+            "lastModified": "2026-03-02T13:36:46Z",
+            "publishDate": "2026-03-02T13:34:12Z",
+            "source": "espn",
+            "headline": "Are Chelsea in serious financial trouble?",
+            "customMetaData": {
+              "ContentType": "Video",
+              "Edition": "en-gb",
+              "Embedded": "no",
+              "Language": "en_gb",
+              "Orientation": "desktop",
+              "Placement": "undefined:gamepackage:standalone",
+              "PlayLocation": "undefined:gamepackage",
+              "PlayerName": "Brightcove-vod",
+              "ReportSuite": "wdgespcom,wdgespge",
+              "Site": "espnuk",
+              "TrackingServer": "w88.espn.com",
+              "VideoType": "VOD"
+            },
+            "videoSrc": {
+              "defaultSrc": "https://media.video-cdn.espn.com/motion/2026/0302/dm_260302_COM_SOC_Analysis_Are_Chelsea_in_serious_financial_trouble3F__GLOBAL_2026-01-02/dm_260302_COM_SOC_Analysis_Are_Chelsea_in_serious_financial_trouble3F__GLOBAL_2026-01-02_360p30_1464k.mp4",
+              "webSrc": "https://www.espn.co.uk/video/clip?id=48080779"
+            },
+            "track": {
+              "coverageType": "Analysis",
+              "leagueName": "English Premier League",
+              "sportName": "soccer",
+              "trackId": "dm_260302_COM_SOC_Analysis_Are_Chelsea_in_serious_financial_trouble3F__GLOBAL_2026-01-02",
+              "trackName": "COM_SOC Analysis (Are Chelsea in serious financial trouble? ) GLOBAL 2026-01-02"
             }
           }
         ],
-        "lnk": "/football/report/_/gameId/401850946",
-        "hdln": "Neto hat trick sees Chelsea cruise to win at Hull",
-        "desc": "Pedro Neto scored a hat trick as Chelsea boss Liam Rosenior's first return to former club Hull ended in a comfortable 4-0 victory in the fourth round of the FA Cup.",
+        "lnk": "/football/report/_/gameId/740871",
+        "hdln": "Arsenal edge past 10-man Chelsea, stretch PL lead",
+        "desc": "Arsenal passed a major test of their Premier League title credentials after Jurri\u00ebn Timber and William Saliba both scored from corners in a 2-1 win over Chelsea on Sunday.",
         "athrs": [
           {
-            "dspNm": "PA"
+            "dspNm": "ESPN"
           }
         ]
       },
@@ -6089,16 +7045,16 @@
       "gmLdrs": {
         "tm": [
           {
-            "abbrev": "HUL",
-            "color": "f28800",
-            "id": "306",
-            "location": "Hull City",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-            "teamDisplayName": "Hull City",
-            "teamDisplayNameLong": "Hull City",
-            "name": "Hull City",
-            "uid": "s:600~t:306",
-            "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city"
+            "abbrev": "ARS",
+            "color": "e20520",
+            "id": "359",
+            "location": "Arsenal",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "teamDisplayName": "Arsenal",
+            "teamDisplayNameLong": "Arsenal",
+            "name": "Arsenal",
+            "uid": "s:600~t:359",
+            "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal"
           },
           {
             "abbrev": "CHE",
@@ -6119,319 +7075,542 @@
       "lineUps": [
         {
           "playersMap": {
-            "159450": {
-              "id": "159450",
-              "uId": "s:600~a:159450",
-              "name": "John Lundstram",
-              "lstName": "Lundstram",
-              "nmbr": "5",
+            "169532": {
+              "id": "169532",
+              "uId": "s:600~a:169532",
+              "name": "Kepa Arrizabalaga",
+              "lstName": "Arrizabalaga",
+              "nmbr": "13",
               "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/159450/john-lundstram",
-              "plyrPlys": [
-                {
-                  "minute": "64'",
-                  "substitution": true
-                },
-                {
-                  "minute": "73'",
-                  "yellowCard": true
-                }
-              ]
-            },
-            "168424": {
-              "id": "168424",
-              "uId": "s:600~a:168424",
-              "name": "John Egan",
-              "lstName": "Egan",
-              "nmbr": "15",
-              "frmtnPlc": "5",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/168424/john-egan"
-            },
-            "191603": {
-              "id": "191603",
-              "uId": "s:600~a:191603",
-              "name": "Dillon Phillips",
-              "lstName": "Phillips",
-              "nmbr": "12",
-              "frmtnPlc": "1",
-              "jrsyClr": "A5A6A7",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/191603/dillon-phillips"
-            },
-            "194114": {
-              "id": "194114",
-              "uId": "s:600~a:194114",
-              "name": "Kieran Dowell",
-              "lstName": "Dowell",
-              "nmbr": "26",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/194114/kieran-dowell",
-              "plyrPlys": [
-                {
-                  "minute": "80'",
-                  "substitution": true
-                }
-              ]
-            },
-            "210139": {
-              "id": "210139",
-              "uId": "s:600~a:210139",
-              "name": "Paddy McNair",
-              "lstName": "McNair",
-              "nmbr": "37",
-              "frmtnPlc": "6",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/210139/paddy-mcnair"
-            },
-            "221961": {
-              "id": "221961",
-              "uId": "s:600~a:221961",
-              "name": "Amir Hadziahmetovic",
-              "lstName": "Hadziahmetovic",
-              "nmbr": "20",
-              "frmtnPlc": "7",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/221961/amir-hadziahmetovic",
-              "plyrPlys": [
-                {
-                  "minute": "64'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "159450"
-            },
-            "231826": {
-              "id": "231826",
-              "uId": "s:600~a:231826",
-              "name": "Lewie Coyle",
-              "lstName": "Coyle",
-              "nmbr": "2",
-              "frmtnPlc": "2",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/231826/lewie-coyle",
-              "plyrPlys": [
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "279786"
-            },
-            "241449": {
-              "id": "241449",
-              "uId": "s:600~a:241449",
-              "name": "Akin Famewo",
-              "lstName": "Famewo",
-              "nmbr": "23",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/241449/akin-famewo",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/169532/kepa-arrizabalaga",
               "stats": {}
             },
-            "243576": {
-              "id": "243576",
-              "uId": "s:600~a:243576",
-              "name": "Ryan Giles",
-              "lstName": "Giles",
-              "nmbr": "3",
-              "frmtnPlc": "3",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/243576/ryan-giles"
-            },
-            "249851": {
-              "id": "249851",
-              "uId": "s:600~a:249851",
-              "name": "Regan Slater",
-              "lstName": "Slater",
-              "nmbr": "27",
-              "frmtnPlc": "8",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/249851/regan-slater"
-            },
-            "271879": {
-              "id": "271879",
-              "uId": "s:600~a:271879",
-              "name": "Liam Millar",
-              "lstName": "Millar",
-              "nmbr": "7",
+            "174980": {
+              "id": "174980",
+              "uId": "s:600~a:174980",
+              "name": "Leandro Trossard",
+              "lstName": "Trossard",
+              "nmbr": "19",
               "frmtnPlc": "11",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/271879/liam-millar",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/174980/leandro-trossard",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "2",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
               "plyrPlys": [
                 {
-                  "minute": "64'",
+                  "minute": "56'",
                   "substitution": true
                 }
               ],
-              "subbedInPlayer": "277531"
+              "subbedInPlayer": "269844"
             },
-            "277234": {
-              "id": "277234",
-              "uId": "s:600~a:277234",
-              "name": "Ivor Pandur",
-              "lstName": "Pandur",
-              "nmbr": "1",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/277234/ivor-pandur",
-              "stats": {}
-            },
-            "277531": {
-              "id": "277531",
-              "uId": "s:600~a:277531",
-              "name": "Joe Gelhardt",
-              "lstName": "Gelhardt",
-              "nmbr": "21",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/277531/joe-gelhardt",
-              "plyrPlys": [
-                {
-                  "minute": "64'",
-                  "substitution": true
-                },
-                {
-                  "minute": "90'",
-                  "yellowCard": true
-                }
-              ]
-            },
-            "279786": {
-              "id": "279786",
-              "uId": "s:600~a:279786",
-              "name": "Cody Drameh",
-              "lstName": "Drameh",
-              "nmbr": "18",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/279786/cody-drameh",
-              "plyrPlys": [
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ]
-            },
-            "291172": {
-              "id": "291172",
-              "uId": "s:600~a:291172",
-              "name": "Matty Jacob",
-              "lstName": "Jacob",
+            "178077": {
+              "id": "178077",
+              "uId": "s:600~a:178077",
+              "name": "Christian N\u00f8rgaard",
+              "lstName": "N\u00f8rgaard",
               "nmbr": "16",
               "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/291172/matty-jacob",
-              "stats": {}
-            },
-            "306812": {
-              "id": "306812",
-              "uId": "s:600~a:306812",
-              "name": "Kyle Joseph",
-              "lstName": "Joseph",
-              "nmbr": "22",
-              "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/306812/kyle-joseph",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/178077/christian-n\u00f8rgaard",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
               "plyrPlys": [
                 {
-                  "minute": "77'",
+                  "minute": "76'",
                   "substitution": true
                 }
               ]
             },
-            "350661": {
-              "id": "350661",
-              "uId": "s:600~a:350661",
-              "name": "Lewis Koumas",
-              "lstName": "Koumas",
-              "nmbr": "36",
-              "frmtnPlc": "9",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/350661/lewis-koumas"
+            "196176": {
+              "id": "196176",
+              "uId": "s:600~a:196176",
+              "name": "David Raya",
+              "lstName": "Raya",
+              "nmbr": "1",
+              "frmtnPlc": "1",
+              "jrsyClr": "A5A6A7",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/196176/david-raya",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "saves": "4",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              }
             },
-            "378851": {
-              "id": "378851",
-              "uId": "s:600~a:378851",
-              "name": "Yu Hirakawa",
-              "lstName": "Hirakawa",
-              "nmbr": "13",
-              "frmtnPlc": "10",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/378851/yu-hirakawa",
-              "plyrPlys": [
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "306812"
-            },
-            "379270": {
-              "id": "379270",
-              "uId": "s:600~a:379270",
-              "name": "Nathan Tinsdale",
-              "lstName": "Tinsdale",
-              "nmbr": "47",
+            "217289": {
+              "id": "217289",
+              "uId": "s:600~a:217289",
+              "name": "Gabriel Jesus",
+              "lstName": "Jesus",
+              "nmbr": "9",
               "frmtnPlc": "0",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/379270/nathan-tinsdale",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/217289/gabriel-jesus",
               "stats": {}
             },
-            "406350": {
-              "id": "406350",
-              "uId": "s:600~a:406350",
-              "name": "Cathal McCarthy",
-              "lstName": "Mccarthy",
-              "nmbr": "58",
-              "frmtnPlc": "4",
-              "jrsyClr": "#1d1e1f",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/406350/cathal-mccarthy",
+            "231182": {
+              "id": "231182",
+              "uId": "s:600~a:231182",
+              "name": "Kai Havertz",
+              "lstName": "Havertz",
+              "nmbr": "29",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/231182/kai-havertz",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
               "plyrPlys": [
                 {
-                  "minute": "80'",
+                  "minute": "76'",
+                  "substitution": true
+                }
+              ]
+            },
+            "236322": {
+              "id": "236322",
+              "uId": "s:600~a:236322",
+              "name": "Gabriel Magalh\u00e3es",
+              "lstName": "Magalh\u00e3es",
+              "nmbr": "6",
+              "frmtnPlc": "6",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/236322/gabriel-magalhaes",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "1",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "1",
+                "offsides": "0",
+                "shotsOnTarget": "1",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "21'"
+                },
+                {
+                  "minute": "75'",
+                  "yellowCard": true
+                }
+              ]
+            },
+            "238262": {
+              "id": "238262",
+              "uId": "s:600~a:238262",
+              "name": "Declan Rice",
+              "lstName": "Rice",
+              "nmbr": "41",
+              "frmtnPlc": "4",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/238262/declan-rice",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "1",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "66'"
+                },
+                {
+                  "minute": "76'",
                   "substitution": true
                 }
               ],
-              "subbedInPlayer": "194114"
+              "subbedInPlayer": "178077"
+            },
+            "251400": {
+              "id": "251400",
+              "uId": "s:600~a:251400",
+              "name": "Eberechi Eze",
+              "lstName": "Eze",
+              "nmbr": "10",
+              "frmtnPlc": "10",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/251400/eberechi-eze",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "2",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "1",
+                "totalGoals": "0",
+                "totalShots": "3"
+              }
+            },
+            "258906": {
+              "id": "258906",
+              "uId": "s:600~a:258906",
+              "name": "Viktor Gy\u00f6keres",
+              "lstName": "Gy\u00f6keres",
+              "nmbr": "14",
+              "frmtnPlc": "9",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/258906/viktor-gyokeres",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "76'",
+                  "substitution": true
+                }
+              ],
+              "subbedInPlayer": "231182"
+            },
+            "269844": {
+              "id": "269844",
+              "uId": "s:600~a:269844",
+              "name": "Gabriel Martinelli",
+              "lstName": "Martinelli",
+              "nmbr": "11",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/269844/gabriel-martinelli",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "56'",
+                  "substitution": true
+                }
+              ]
+            },
+            "277385": {
+              "id": "277385",
+              "uId": "s:600~a:277385",
+              "name": "William Saliba",
+              "lstName": "Saliba",
+              "nmbr": "2",
+              "frmtnPlc": "5",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/277385/william-saliba",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "2",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "1",
+                "totalGoals": "1",
+                "totalShots": "1"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "21'",
+                  "goal": true
+                }
+              ]
+            },
+            "280555": {
+              "id": "280555",
+              "uId": "s:600~a:280555",
+              "name": "Bukayo Saka",
+              "lstName": "Saka",
+              "nmbr": "7",
+              "frmtnPlc": "7",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/280555/bukayo-saka",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "3",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              }
+            },
+            "282716": {
+              "id": "282716",
+              "uId": "s:600~a:282716",
+              "name": "Jurri\u00ebn Timber",
+              "lstName": "Timber",
+              "nmbr": "12",
+              "frmtnPlc": "2",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/282716/jurrien-timber",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "2",
+                "totalGoals": "1",
+                "totalShots": "2"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "66'",
+                  "goal": true
+                }
+              ]
+            },
+            "287266": {
+              "id": "287266",
+              "uId": "s:600~a:287266",
+              "name": "Mart\u00edn Zubimendi",
+              "lstName": "Zubimendi",
+              "nmbr": "36",
+              "frmtnPlc": "8",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/287266/martin-zubimendi",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              }
+            },
+            "292062": {
+              "id": "292062",
+              "uId": "s:600~a:292062",
+              "name": "Piero Hincapi\u00e9",
+              "lstName": "Hincapi\u00e9",
+              "nmbr": "5",
+              "frmtnPlc": "3",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/292062/piero-hincapie",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "2",
+                "foulsSuffered": "1",
+                "ownGoals": "1",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "1",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "45'+2'",
+                  "goal": true,
+                  "ownGoal": true
+                }
+              ]
+            },
+            "293236": {
+              "id": "293236",
+              "uId": "s:600~a:293236",
+              "name": "Noni Madueke",
+              "lstName": "Madueke",
+              "nmbr": "20",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/293236/noni-madueke",
+              "stats": {}
+            },
+            "298329": {
+              "id": "298329",
+              "uId": "s:600~a:298329",
+              "name": "Riccardo Calafiori",
+              "lstName": "Calafiori",
+              "nmbr": "33",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/298329/riccardo-calafiori",
+              "stats": {}
+            },
+            "328497": {
+              "id": "328497",
+              "uId": "s:600~a:328497",
+              "name": "Cristhian Mosquera",
+              "lstName": "Mosquera",
+              "nmbr": "3",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/328497/cristhian-mosquera",
+              "stats": {}
+            },
+            "352758": {
+              "id": "352758",
+              "uId": "s:600~a:352758",
+              "name": "Myles Lewis-Skelly",
+              "lstName": "Lewis-Skelly",
+              "nmbr": "49",
+              "frmtnPlc": "0",
+              "jrsyClr": "#e20520",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/352758/myles-lewis-skelly",
+              "stats": {}
             }
           },
           "team": {
-            "displayName": "Hull City",
-            "abbreviation": "HUL",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-            "color": "f28800",
-            "alternateColor": "ffffff",
+            "displayName": "Arsenal",
+            "abbreviation": "ARS",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "color": "e20520",
+            "alternateColor": "132257",
             "homeAway": "home"
           },
           "players": [
-            "191603",
-            "168424",
-            "406350",
-            "210139",
-            "249851",
-            "221961",
-            "243576",
-            "231826",
-            "350661",
-            "271879",
-            "378851"
+            "196176",
+            "236322",
+            "277385",
+            "292062",
+            "282716",
+            "251400",
+            "238262",
+            "287266",
+            "258906",
+            "174980",
+            "280555"
           ],
           "substitutes": [
-            "194114",
-            "277531",
-            "306812",
-            "159450",
-            "279786"
+            "178077",
+            "231182",
+            "269844"
           ],
           "unused": [
-            "241449",
-            "291172",
-            "379270",
-            "277234"
+            "293236",
+            "298329",
+            "217289",
+            "328497",
+            "352758",
+            "169532"
           ],
-          "formation": "3-4-2-1"
+          "formation": "4-2-3-1"
         },
         {
           "playersMap": {
@@ -6443,7 +7622,23 @@
               "nmbr": "1",
               "frmtnPlc": "1",
               "jrsyClr": "A5A6A7",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/108662/robert-sanchez"
+              "lnk": "https://www.espn.co.uk/football/player/_/id/108662/robert-sanchez",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "saves": "3",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              }
             },
             "189007": {
               "id": "189007",
@@ -6454,13 +7649,48 @@
               "frmtnPlc": "2",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/189007/reece-james",
-              "plyrPlys": [
-                {
-                  "minute": "60'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "285450"
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              }
+            },
+            "227784": {
+              "id": "227784",
+              "uId": "s:600~a:227784",
+              "name": "Trevoh Chalobah",
+              "lstName": "Chalobah",
+              "nmbr": "23",
+              "frmtnPlc": "5",
+              "jrsyClr": "#144992",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/227784/trevoh-chalobah",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              }
             },
             "231198": {
               "id": "231198",
@@ -6471,9 +7701,25 @@
               "frmtnPlc": "0",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/231198/tosin-adarabioyo",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
               "plyrPlys": [
                 {
-                  "minute": "77'",
+                  "minute": "90'",
                   "substitution": true
                 }
               ]
@@ -6487,41 +7733,32 @@
               "frmtnPlc": "10",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/256115/pedro-neto",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "2",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "1",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
               "plyrPlys": [
                 {
-                  "minute": "40'",
-                  "goal": true
-                },
-                {
-                  "minute": "45'+1'",
+                  "minute": "67'",
                   "yellowCard": true
                 },
                 {
-                  "minute": "51'",
-                  "goal": true
-                },
-                {
-                  "minute": "71'",
-                  "goal": true
+                  "minute": "70'",
+                  "redCard": true
                 }
               ]
-            },
-            "270190": {
-              "id": "270190",
-              "uId": "s:600~a:270190",
-              "name": "Wesley Fofana",
-              "lstName": "Fofana",
-              "nmbr": "29",
-              "frmtnPlc": "5",
-              "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/270190/wesley-fofana",
-              "plyrPlys": [
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "231198"
             },
             "282585": {
               "id": "282585",
@@ -6540,10 +7777,25 @@
               "name": "Jo\u00e3o Pedro",
               "lstName": "Jo\u00e3o Pedro",
               "nmbr": "20",
-              "frmtnPlc": "0",
+              "frmtnPlc": "9",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/284960/joao-pedro",
-              "stats": {}
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "2",
+                "foulsSuffered": "2",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "1",
+                "shotsOnTarget": "2",
+                "totalGoals": "0",
+                "totalShots": "4"
+              }
             },
             "285450": {
               "id": "285450",
@@ -6551,15 +7803,36 @@
               "name": "Enzo Fern\u00e1ndez",
               "lstName": "Fern\u00e1ndez",
               "nmbr": "8",
-              "frmtnPlc": "0",
+              "frmtnPlc": "8",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/285450/enzo-fernandez",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "3",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "1",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "1",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
               "plyrPlys": [
                 {
-                  "minute": "60'",
+                  "minute": "79'",
+                  "yellowCard": true
+                },
+                {
+                  "minute": "86'",
                   "substitution": true
                 }
-              ]
+              ],
+              "subbedInPlayer": "307114"
             },
             "289877": {
               "id": "289877",
@@ -6567,26 +7840,72 @@
               "name": "Mois\u00e9s Caicedo",
               "lstName": "Caicedo",
               "nmbr": "25",
-              "frmtnPlc": "4",
+              "frmtnPlc": "7",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/289877/moises-caicedo",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "4",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              }
+            },
+            "296395": {
+              "id": "296395",
+              "uId": "s:600~a:296395",
+              "name": "Cole Palmer",
+              "lstName": "Palmer",
+              "nmbr": "10",
+              "frmtnPlc": "11",
+              "jrsyClr": "#144992",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/296395/cole-palmer",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "3",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "1",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
               "plyrPlys": [
                 {
-                  "minute": "60'",
+                  "minute": "59'",
+                  "yellowCard": true
+                },
+                {
+                  "minute": "86'",
                   "substitution": true
                 }
               ],
-              "subbedInPlayer": "368317"
+              "subbedInPlayer": "325555"
             },
-            "300049": {
-              "id": "300049",
-              "uId": "s:600~a:300049",
-              "name": "Teddy Sharman-Lowe",
-              "lstName": "Sharman-Lowe",
-              "nmbr": "28",
+            "304256": {
+              "id": "304256",
+              "uId": "s:600~a:304256",
+              "name": "Filip J\u00f8rgensen",
+              "lstName": "J\u00f8rgensen",
+              "nmbr": "12",
               "frmtnPlc": "0",
               "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/300049/teddy-sharman-lowe",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/304256/filip-j\u00f8rgensen",
               "stats": {}
             },
             "307114": {
@@ -6595,25 +7914,63 @@
               "name": "Liam Delap",
               "lstName": "Delap",
               "nmbr": "9",
-              "frmtnPlc": "9",
+              "frmtnPlc": "0",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/307114/liam-delap",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "1",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
               "plyrPlys": [
                 {
-                  "minute": "40'"
-                },
-                {
-                  "minute": "59'"
-                },
-                {
-                  "minute": "71'"
-                },
-                {
-                  "minute": "88'",
+                  "minute": "86'",
                   "substitution": true
                 }
-              ],
-              "subbedInPlayer": "372013"
+              ]
+            },
+            "308217": {
+              "id": "308217",
+              "uId": "s:600~a:308217",
+              "name": "Romeo Lavia",
+              "lstName": "Lavia",
+              "nmbr": "45",
+              "frmtnPlc": "0",
+              "jrsyClr": "#144992",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/308217/romeo-lavia",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "75'",
+                  "substitution": true
+                }
+              ]
             },
             "308947": {
               "id": "308947",
@@ -6624,7 +7981,28 @@
               "frmtnPlc": "0",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/308947/malo-gusto",
-              "stats": {}
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "75'",
+                  "substitution": true
+                }
+              ]
             },
             "314858": {
               "id": "314858",
@@ -6632,9 +8010,32 @@
               "name": "Andrey Santos",
               "lstName": "Santos",
               "nmbr": "17",
-              "frmtnPlc": "8",
+              "frmtnPlc": "4",
               "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/314858/andrey-santos"
+              "lnk": "https://www.espn.co.uk/football/player/_/id/314858/andrey-santos",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "1",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "75'",
+                  "substitution": true
+                }
+              ],
+              "subbedInPlayer": "308217"
             },
             "325555": {
               "id": "325555",
@@ -6642,9 +8043,31 @@
               "name": "Alejandro Garnacho",
               "lstName": "Garnacho",
               "nmbr": "49",
-              "frmtnPlc": "11",
+              "frmtnPlc": "0",
               "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/325555/alejandro-garnacho"
+              "lnk": "https://www.espn.co.uk/football/player/_/id/325555/alejandro-garnacho",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "1",
+                "yellowCards": "0",
+                "goalsConceded": "0",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "86'",
+                  "substitution": true
+                }
+              ]
             },
             "353951": {
               "id": "353951",
@@ -6654,7 +8077,34 @@
               "nmbr": "21",
               "frmtnPlc": "3",
               "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/353951/jorrel-hato"
+              "lnk": "https://www.espn.co.uk/football/player/_/id/353951/jorrel-hato",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "2",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "1",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "0"
+              },
+              "plyrPlys": [
+                {
+                  "minute": "65'",
+                  "yellowCard": true
+                },
+                {
+                  "minute": "75'",
+                  "substitution": true
+                }
+              ],
+              "subbedInPlayer": "308947"
             },
             "355433": {
               "id": "355433",
@@ -6665,12 +8115,40 @@
               "frmtnPlc": "6",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/355433/mamadou-sarr",
+              "stats": {
+                "appearances": "1",
+                "foulsCommitted": "0",
+                "foulsSuffered": "0",
+                "ownGoals": "0",
+                "redCards": "0",
+                "subIns": "0",
+                "yellowCards": "0",
+                "goalsConceded": "2",
+                "shotsFaced": "0",
+                "goalAssists": "0",
+                "offsides": "0",
+                "shotsOnTarget": "0",
+                "totalGoals": "0",
+                "totalShots": "1"
+              },
               "plyrPlys": [
                 {
-                  "minute": "66'",
-                  "yellowCard": true
+                  "minute": "90'",
+                  "substitution": true
                 }
-              ]
+              ],
+              "subbedInPlayer": "231198"
+            },
+            "363038": {
+              "id": "363038",
+              "uId": "s:600~a:363038",
+              "name": "Marc Guiu",
+              "lstName": "Guiu",
+              "nmbr": "38",
+              "frmtnPlc": "0",
+              "jrsyClr": "#144992",
+              "lnk": "https://www.espn.co.uk/football/player/_/id/363038/marc-guiu",
+              "stats": {}
             },
             "368317": {
               "id": "368317",
@@ -6681,65 +8159,7 @@
               "frmtnPlc": "0",
               "jrsyClr": "#144992",
               "lnk": "https://www.espn.co.uk/football/player/_/id/368317/josh-acheampong",
-              "plyrPlys": [
-                {
-                  "minute": "60'",
-                  "substitution": true
-                }
-              ]
-            },
-            "372013": {
-              "id": "372013",
-              "uId": "s:600~a:372013",
-              "name": "Shim Mheuka",
-              "lstName": "Mheuka",
-              "nmbr": "62",
-              "frmtnPlc": "0",
-              "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/372013/shim-mheuka",
-              "plyrPlys": [
-                {
-                  "minute": "88'",
-                  "substitution": true
-                }
-              ]
-            },
-            "373759": {
-              "id": "373759",
-              "uId": "s:600~a:373759",
-              "name": "Jesse Derry",
-              "lstName": "Derry",
-              "nmbr": "55",
-              "frmtnPlc": "0",
-              "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/373759/jesse-derry",
-              "plyrPlys": [
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ]
-            },
-            "376481": {
-              "id": "376481",
-              "uId": "s:600~a:376481",
-              "name": "Est\u00eav\u00e3o",
-              "lstName": "Est\u00eav\u00e3o",
-              "nmbr": "41",
-              "frmtnPlc": "7",
-              "jrsyClr": "#144992",
-              "lnk": "https://www.espn.co.uk/football/player/_/id/376481/estevao",
-              "plyrPlys": [
-                {
-                  "minute": "59'",
-                  "goal": true
-                },
-                {
-                  "minute": "77'",
-                  "substitution": true
-                }
-              ],
-              "subbedInPlayer": "373759"
+              "stats": {}
             }
           },
           "team": {
@@ -6753,166 +8173,166 @@
           "players": [
             "108662",
             "355433",
-            "270190",
+            "227784",
             "353951",
             "189007",
-            "256115",
-            "289877",
             "314858",
-            "307114",
-            "325555",
-            "376481"
+            "285450",
+            "289877",
+            "284960",
+            "296395",
+            "256115"
           ],
           "substitutes": [
+            "308947",
+            "325555",
+            "308217",
             "231198",
-            "368317",
-            "372013",
-            "373759",
-            "285450"
+            "307114"
           ],
           "unused": [
-            "308947",
-            "300049",
-            "284960",
+            "368317",
+            "304256",
+            "363038",
             "282585"
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-3-3"
         }
       ],
       "statistics": {
         "form": [
           {
             "team": {
-              "id": "306",
-              "displayName": "Hull City",
-              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-              "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-              "uid": "s:600~t:306"
+              "id": "359",
+              "displayName": "Arsenal",
+              "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+              "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+              "uid": "s:600~t:359"
             },
             "events": [
               {
-                "id": "744962",
-                "hmId": "306",
-                "awyId": "333",
-                "gmDate": "2026-02-07T15:01Z",
-                "lgName": "English League Championship",
-                "lgAbbrv": "EFL Championship",
+                "id": "740865",
+                "hmId": "367",
+                "awyId": "359",
+                "gmDate": "2026-02-22T16:30Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
                 "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "367",
+                  "displayName": "Tottenham Hotspur",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/367/tottenham-hotspur",
+                  "uid": "s:600~t:367"
                 },
                 "awyTeam": {
-                  "id": "333",
-                  "displayName": "Bristol City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/333/bristol-city",
-                  "uid": "s:600~t:333"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
-                "parsedScore": "2 - 3",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/744962/bristol-city-hull-city",
-                "gmResult": "L"
+                "parsedScore": "1 - 4",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740865/arsenal-tottenham-hotspur",
+                "gmResult": "W"
               },
               {
-                "id": "744906",
-                "hmId": "306",
-                "awyId": "395",
-                "gmDate": "2026-02-03T19:45Z",
-                "lgName": "English League Championship",
-                "lgAbbrv": "EFL Championship",
+                "id": "740901",
+                "hmId": "380",
+                "awyId": "359",
+                "gmDate": "2026-02-18T20:00Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
                 "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "380",
+                  "displayName": "Wolverhampton Wanderers",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/380/wolverhampton-wanderers",
+                  "uid": "s:600~t:380"
                 },
                 "awyTeam": {
-                  "id": "395",
-                  "displayName": "Watford",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/395/watford",
-                  "uid": "s:600~t:395"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
-                "parsedScore": "0 - 0",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/744906/watford-hull-city",
+                "parsedScore": "2 - 2",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740901/arsenal-wolverhampton-wanderers",
                 "gmResult": "D"
               },
               {
-                "id": "744948",
-                "hmId": "365",
-                "awyId": "306",
-                "gmDate": "2026-01-31T15:00Z",
-                "lgName": "English League Championship",
-                "lgAbbrv": "EFL Championship",
+                "id": "401850951",
+                "hmId": "359",
+                "awyId": "350",
+                "gmDate": "2026-02-15T16:30Z",
+                "lgName": "English FA Cup",
+                "lgAbbrv": "English FA Cup",
                 "hmTeam": {
-                  "id": "365",
-                  "displayName": "Blackburn Rovers",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/365/blackburn-rovers",
-                  "uid": "s:600~t:365"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
                 "awyTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "350",
+                  "displayName": "Wigan Athletic",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/350.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/350/wigan-athletic",
+                  "uid": "s:600~t:350"
                 },
-                "parsedScore": "0 - 1",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/744948/hull-city-blackburn-rovers",
+                "parsedScore": "4 - 0",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/401850951/wigan-athletic-arsenal",
                 "gmResult": "W"
               },
               {
-                "id": "744944",
-                "hmId": "306",
-                "awyId": "318",
-                "gmDate": "2026-01-24T15:00Z",
-                "lgName": "English League Championship",
-                "lgAbbrv": "EFL Championship",
+                "id": "740847",
+                "hmId": "337",
+                "awyId": "359",
+                "gmDate": "2026-02-12T20:00Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
                 "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "337",
+                  "displayName": "Brentford",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/337/brentford",
+                  "uid": "s:600~t:337"
                 },
                 "awyTeam": {
-                  "id": "318",
-                  "displayName": "Swansea City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/318/swansea-city",
-                  "uid": "s:600~t:318"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
-                "parsedScore": "2 - 1",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/744944/swansea-city-hull-city",
-                "gmResult": "W"
+                "parsedScore": "1 - 1",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740847/arsenal-brentford",
+                "gmResult": "D"
               },
               {
-                "id": "744928",
-                "hmId": "394",
-                "awyId": "306",
-                "gmDate": "2026-01-20T19:45Z",
-                "lgName": "English League Championship",
-                "lgAbbrv": "EFL Championship",
+                "id": "740836",
+                "hmId": "359",
+                "awyId": "366",
+                "gmDate": "2026-02-07T15:00Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
                 "hmTeam": {
-                  "id": "394",
-                  "displayName": "Preston North End",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/394/preston-north-end",
-                  "uid": "s:600~t:394"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
                 "awyTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "366",
+                  "displayName": "Sunderland",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/366/sunderland",
+                  "uid": "s:600~t:366"
                 },
-                "parsedScore": "0 - 3",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/744928/hull-city-preston-north-end",
+                "parsedScore": "3 - 0",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740836/sunderland-arsenal",
                 "gmResult": "W"
               }
             ]
@@ -6926,6 +8346,56 @@
               "uid": "s:600~t:363"
             },
             "events": [
+              {
+                "id": "740864",
+                "hmId": "363",
+                "awyId": "379",
+                "gmDate": "2026-02-21T15:00Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
+                "hmTeam": {
+                  "id": "363",
+                  "displayName": "Chelsea",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
+                  "uid": "s:600~t:363"
+                },
+                "awyTeam": {
+                  "id": "379",
+                  "displayName": "Burnley",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/379/burnley",
+                  "uid": "s:600~t:379"
+                },
+                "parsedScore": "1 - 1",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740864/burnley-chelsea",
+                "gmResult": "D"
+              },
+              {
+                "id": "401850946",
+                "hmId": "306",
+                "awyId": "363",
+                "gmDate": "2026-02-13T19:45Z",
+                "lgName": "English FA Cup",
+                "lgAbbrv": "English FA Cup",
+                "hmTeam": {
+                  "id": "306",
+                  "displayName": "Hull City",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
+                  "uid": "s:600~t:306"
+                },
+                "awyTeam": {
+                  "id": "363",
+                  "displayName": "Chelsea",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
+                  "uid": "s:600~t:363"
+                },
+                "parsedScore": "0 - 4",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/401850946/chelsea-hull-city",
+                "gmResult": "W"
+              },
               {
                 "id": "740848",
                 "hmId": "363",
@@ -7000,56 +8470,6 @@
                 "parsedScore": "1 - 0",
                 "href": "https://www.espn.co.uk/football/match/_/gameId/401842435/chelsea-arsenal",
                 "gmResult": "L"
-              },
-              {
-                "id": "740835",
-                "hmId": "363",
-                "awyId": "371",
-                "gmDate": "2026-01-31T17:30Z",
-                "lgName": "English Premier League",
-                "lgAbbrv": "Premier League",
-                "hmTeam": {
-                  "id": "363",
-                  "displayName": "Chelsea",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
-                  "uid": "s:600~t:363"
-                },
-                "awyTeam": {
-                  "id": "371",
-                  "displayName": "West Ham United",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/371/west-ham-united",
-                  "uid": "s:600~t:371"
-                },
-                "parsedScore": "3 - 2",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/740835/west-ham-united-chelsea",
-                "gmResult": "W"
-              },
-              {
-                "id": "757792",
-                "hmId": "114",
-                "awyId": "363",
-                "gmDate": "2026-01-28T20:00Z",
-                "lgName": "UEFA Champions League",
-                "lgAbbrv": "UEFA Champions League",
-                "hmTeam": {
-                  "id": "114",
-                  "displayName": "Napoli",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/114/napoli",
-                  "uid": "s:600~t:114"
-                },
-                "awyTeam": {
-                  "id": "363",
-                  "displayName": "Chelsea",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
-                  "uid": "s:600~t:363"
-                },
-                "parsedScore": "2 - 3",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/757792/chelsea-napoli",
-                "gmResult": "W"
               }
             ]
           }
@@ -7060,18 +8480,18 @@
           {
             "events": [
               {
-                "id": "563548",
-                "hmId": "306",
+                "id": "401842435",
+                "hmId": "359",
                 "awyId": "363",
-                "gmDate": "2020-01-25T17:30Z",
-                "lgName": "English FA Cup",
-                "lgAbbrv": "English FA Cup",
+                "gmDate": "2026-02-03T20:00Z",
+                "lgName": "English Carabao Cup",
+                "lgAbbrv": "Carabao Cup",
                 "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
                 "awyTeam": {
                   "id": "363",
@@ -7080,16 +8500,16 @@
                   "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
                   "uid": "s:600~t:363"
                 },
-                "parsedScore": "1 - 2",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/563548/chelsea-hull-city"
+                "parsedScore": "1 - 0",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/401842435/chelsea-arsenal"
               },
               {
-                "id": "506574",
+                "id": "401842432",
                 "hmId": "363",
-                "awyId": "306",
-                "gmDate": "2018-02-16T20:00Z",
-                "lgName": "English FA Cup",
-                "lgAbbrv": "English FA Cup",
+                "awyId": "359",
+                "gmDate": "2026-01-14T20:00Z",
+                "lgName": "English Carabao Cup",
+                "lgAbbrv": "Carabao Cup",
                 "hmTeam": {
                   "id": "363",
                   "displayName": "Chelsea",
@@ -7098,86 +8518,86 @@
                   "uid": "s:600~t:363"
                 },
                 "awyTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
-                },
-                "parsedScore": "4 - 0",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/506574/hull-city-chelsea"
-              },
-              {
-                "id": "450790",
-                "hmId": "363",
-                "awyId": "306",
-                "gmDate": "2017-01-22T16:30Z",
-                "lgName": "English Premier League",
-                "lgAbbrv": "Premier League",
-                "hmTeam": {
-                  "id": "363",
-                  "displayName": "Chelsea",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
-                  "uid": "s:600~t:363"
-                },
-                "awyTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
-                },
-                "parsedScore": "2 - 0",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/450790/hull-city-chelsea"
-              },
-              {
-                "id": "450940",
-                "hmId": "306",
-                "awyId": "363",
-                "gmDate": "2016-10-01T14:00Z",
-                "lgName": "English Premier League",
-                "lgAbbrv": "Premier League",
-                "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
-                },
-                "awyTeam": {
-                  "id": "363",
-                  "displayName": "Chelsea",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
-                  "uid": "s:600~t:363"
-                },
-                "parsedScore": "0 - 2",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/450940/chelsea-hull-city"
-              },
-              {
-                "id": "395492",
-                "hmId": "306",
-                "awyId": "363",
-                "gmDate": "2015-03-22T16:00Z",
-                "lgName": "English Premier League",
-                "lgAbbrv": "Premier League",
-                "hmTeam": {
-                  "id": "306",
-                  "displayName": "Hull City",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/306/hull-city",
-                  "uid": "s:600~t:306"
-                },
-                "awyTeam": {
-                  "id": "363",
-                  "displayName": "Chelsea",
-                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
-                  "uid": "s:600~t:363"
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
                 },
                 "parsedScore": "2 - 3",
-                "href": "https://www.espn.co.uk/football/match/_/gameId/395492/chelsea-hull-city"
+                "href": "https://www.espn.co.uk/football/match/_/gameId/401842432/arsenal-chelsea"
+              },
+              {
+                "id": "740719",
+                "hmId": "363",
+                "awyId": "359",
+                "gmDate": "2025-11-30T16:30Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
+                "hmTeam": {
+                  "id": "363",
+                  "displayName": "Chelsea",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
+                  "uid": "s:600~t:363"
+                },
+                "awyTeam": {
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
+                },
+                "parsedScore": "1 - 1",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/740719/arsenal-chelsea"
+              },
+              {
+                "id": "704559",
+                "hmId": "359",
+                "awyId": "363",
+                "gmDate": "2025-03-16T13:30Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
+                "hmTeam": {
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
+                },
+                "awyTeam": {
+                  "id": "363",
+                  "displayName": "Chelsea",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
+                  "uid": "s:600~t:363"
+                },
+                "parsedScore": "1 - 0",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/704559/chelsea-arsenal"
+              },
+              {
+                "id": "704380",
+                "hmId": "363",
+                "awyId": "359",
+                "gmDate": "2024-11-10T16:30Z",
+                "lgName": "English Premier League",
+                "lgAbbrv": "Premier League",
+                "hmTeam": {
+                  "id": "363",
+                  "displayName": "Chelsea",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/363/chelsea",
+                  "uid": "s:600~t:363"
+                },
+                "awyTeam": {
+                  "id": "359",
+                  "displayName": "Arsenal",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+                  "href": "https://www.espn.co.uk/football/club/_/id/359/arsenal",
+                  "uid": "s:600~t:359"
+                },
+                "parsedScore": "1 - 1",
+                "href": "https://www.espn.co.uk/football/match/_/gameId/704380/arsenal-chelsea"
               }
             ]
           }
@@ -7193,34 +8613,32 @@
             "type": "default",
             "icnLbl": "soccer.icon.default",
             "icnType": "",
-            "dtls": "Match ends, Hull City 0, Chelsea 4.",
+            "dtls": "Match ends, Arsenal 2, Chelsea 1.",
             "adddExtr": 0
           },
           {
             "id": "comment-1",
-            "time": "90'+4'",
-            "scnds": 5400,
-            "min": 94,
-            "type": "end-regular-time",
-            "icnLbl": "soccer.icon.end-regular-time",
-            "icnType": "soccer__time_possession",
-            "dtls": "Second Half ends, Hull City 0, Chelsea 4.",
-            "shrtDtls": "Second Half ends, Hull City 0, Chelsea 4.",
-            "adddExtr": 4,
-            "wllclck": "2026-02-13T21:37:04Z"
+            "time": "90'+7'",
+            "scnds": 0,
+            "min": 0,
+            "type": "default",
+            "icnLbl": "soccer.icon.default",
+            "icnType": "",
+            "dtls": "Second Half ends, Arsenal 2, Chelsea 1.",
+            "adddExtr": 0
           },
           {
             "id": "comment-2",
-            "time": "90'+4'",
+            "time": "90'+5'",
             "scnds": 5400,
-            "min": 94,
-            "type": "shot-blocked",
-            "icnLbl": "soccer.icon.shot-blocked",
-            "icnType": "soccer__missed_penalty",
-            "dtls": "Attempt blocked. John Egan (Hull City) header from the centre of the box is blocked. Assisted by Ryan Giles with a cross.",
-            "shrtDtls": "John Egan Shot Blocked",
-            "adddExtr": 4,
-            "wllclck": "2026-02-13T21:36:43Z"
+            "min": 95,
+            "type": "offside",
+            "icnLbl": "soccer.icon.offside",
+            "icnType": "soccer__off_sides",
+            "dtls": "Offside, Chelsea. Jo\u00e3o Pedro is caught offside.",
+            "shrtDtls": "Tosin Adarabioyo Offside",
+            "adddExtr": 5,
+            "wllclck": "2026-03-01T18:25:51Z"
           }
         ]
       },
@@ -7228,7 +8646,7 @@
         "progressionLength": 100,
         "keyEvents": [
           {
-            "id": "46974108",
+            "id": "47114943",
             "time": "KO",
             "scnds": 0,
             "min": 0,
@@ -7238,249 +8656,249 @@
             "dtls": "Kickoff",
             "shrtDtls": "Kickoff",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T19:45:57Z",
+            "wllclck": "2026-03-01T16:30:29Z",
             "homeAway": "",
             "spclEvnt": true,
             "percentOfTimeline": 0
           },
           {
-            "id": "46974727",
-            "time": "40",
-            "scnds": 2370,
-            "min": 40,
-            "type": "goal",
-            "icnLbl": "soccer.icon.goal",
+            "id": "47115224",
+            "time": "21",
+            "scnds": 1246,
+            "min": 21,
+            "type": "goal---header",
+            "icnLbl": "soccer.icon.goal---header",
             "icnType": "soccer__penalty_shot",
-            "dtls": "Goal! Hull City 0, Chelsea 1. Pedro Neto (Chelsea) left footed shot from outside the box to the bottom right corner. Assisted by Liam Delap.",
-            "shrtDtls": "Pedro Neto Goal",
+            "dtls": "Goal! Arsenal 1, Chelsea 0. William Saliba (Arsenal) header from very close range to the high centre of the goal. Assisted by Gabriel Magalh\u00e3es with a headed pass following a corner.",
+            "shrtDtls": "William Saliba Goal - Header",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T20:25:28Z",
-            "homeAway": "away",
-            "percentOfTimeline": 41
+            "wllclck": "2026-03-01T16:51:15Z",
+            "homeAway": "home",
+            "percentOfTimeline": 20
           },
           {
-            "id": "46974861",
-            "time": "45+1",
-            "scnds": 2700,
-            "min": 46,
-            "type": "yellow-card",
-            "icnLbl": "soccer.icon.yellow-card",
-            "icnType": "soccer__card",
-            "dtls": "Pedro Neto (Chelsea) is shown the yellow card for a bad foul.",
-            "shrtDtls": "Pedro Neto Yellow Card",
-            "adddExtr": 1,
-            "wllclck": "2026-02-13T20:31:15Z",
-            "homeAway": "away",
-            "percentOfTimeline": 47
-          },
-          {
-            "id": "46975011",
-            "time": "HT",
+            "id": "47115620",
+            "time": "45+2",
             "scnds": 2700,
             "min": 47,
+            "type": "own-goal",
+            "icnLbl": "soccer.icon.own-goal",
+            "icnType": "soccer__penalty_shot",
+            "dtls": "Own Goal by Piero Hincapi\u00e9, Arsenal. Arsenal 1, Chelsea 1.",
+            "shrtDtls": "Piero Hincapi\u00e9 (OG)",
+            "adddExtr": 2,
+            "wllclck": "2026-03-01T17:16:36Z",
+            "homeAway": "away",
+            "percentOfTimeline": 46
+          },
+          {
+            "id": "47115664",
+            "time": "HT",
+            "scnds": 2700,
+            "min": 50,
             "type": "halftime",
             "icnLbl": "soccer.icon.halftime",
             "icnType": "",
-            "dtls": "First Half ends, Hull City 0, Chelsea 1.",
-            "shrtDtls": "First Half ends, Hull City 0, Chelsea 1.",
-            "adddExtr": 2,
-            "wllclck": "2026-02-13T20:32:16Z",
+            "dtls": "Halftime",
+            "shrtDtls": "Halftime",
+            "adddExtr": 5,
+            "wllclck": "2026-03-01T17:19:59Z",
             "homeAway": "",
             "spclEvnt": true,
-            "percentOfTimeline": 48
+            "percentOfTimeline": 49
           },
           {
-            "id": "46975251",
-            "time": "51",
-            "scnds": 3013,
-            "min": 53,
-            "type": "goal",
-            "icnLbl": "soccer.icon.goal",
-            "icnType": "soccer__penalty_shot",
-            "dtls": "Goal! Hull City 0, Chelsea 2. Pedro Neto (Chelsea) left footed shot from a difficult angle and long range on the right to the bottom right corner following a corner.",
-            "shrtDtls": "Pedro Neto Goal",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T20:53:40Z",
-            "homeAway": "away",
-            "percentOfTimeline": 55
-          },
-          {
-            "id": "46975357",
-            "time": "59",
-            "scnds": 3517,
+            "id": "47116217",
+            "time": "56",
+            "scnds": 3307,
             "min": 61,
-            "type": "goal",
-            "icnLbl": "soccer.icon.goal",
-            "icnType": "soccer__penalty_shot",
-            "dtls": "Goal! Hull City 0, Chelsea 3. Est\u00eav\u00e3o (Chelsea) left footed shot from the centre of the box to the centre of the goal. Assisted by Liam Delap.",
-            "shrtDtls": "Est\u00eav\u00e3o Goal",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T21:02:03Z",
-            "homeAway": "away",
-            "percentOfTimeline": 63
-          },
-          {
-            "id": "46975381",
-            "time": "60",
-            "scnds": 3599,
-            "min": 62,
             "type": "substitution",
             "icnLbl": "soccer.icon.substitution",
             "icnType": "soccer__substitution",
-            "dtls": "Substitution, Chelsea. Josh Acheampong replaces Mois\u00e9s Caicedo.",
-            "shrtDtls": "On: Josh Acheampong | Off: Mois\u00e9s Caicedo\nOn: Enzo Fern\u00e1ndez | Off: Reece James",
+            "dtls": "Substitution, Arsenal. Gabriel Martinelli replaces Leandro Trossard.",
+            "shrtDtls": "On: Gabriel Martinelli | Off: Leandro Trossard",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:03:25Z",
-            "homeAway": "away",
-            "percentOfTimeline": 64
-          },
-          {
-            "id": "46975433",
-            "time": "64",
-            "scnds": 3799,
-            "min": 66,
-            "type": "substitution",
-            "icnLbl": "soccer.icon.substitution",
-            "icnType": "soccer__substitution",
-            "dtls": "Substitution, Hull City. Joe Gelhardt replaces Liam Millar.",
-            "shrtDtls": "On: Joe Gelhardt | Off: Liam Millar\nOn: John Lundstram | Off: Amir Hadziahmetovic",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T21:06:45Z",
+            "wllclck": "2026-03-01T17:46:08Z",
             "homeAway": "home",
+            "percentOfTimeline": 59
+          },
+          {
+            "id": "47116287",
+            "time": "59",
+            "scnds": 3511,
+            "min": 64,
+            "type": "yellow-card",
+            "icnLbl": "soccer.icon.yellow-card",
+            "icnType": "soccer__card",
+            "dtls": "Cole Palmer (Chelsea) is shown the yellow card for a bad foul.",
+            "shrtDtls": "Cole Palmer Yellow Card",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T17:49:32Z",
+            "homeAway": "away",
+            "percentOfTimeline": 62
+          },
+          {
+            "id": "47116350",
+            "time": "65",
+            "scnds": 3852,
+            "min": 70,
+            "type": "yellow-card",
+            "icnLbl": "soccer.icon.yellow-card",
+            "icnType": "soccer__card",
+            "dtls": "Jorrel Hato (Chelsea) is shown the yellow card for a bad foul.",
+            "shrtDtls": "Jorrel Hato Yellow Card",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T17:55:12Z",
+            "homeAway": "away",
             "percentOfTimeline": 68
           },
           {
-            "id": "46975460",
+            "id": "47116365",
             "time": "66",
-            "scnds": 3959,
-            "min": 68,
-            "type": "yellow-card",
-            "icnLbl": "soccer.icon.yellow-card",
-            "icnType": "soccer__card",
-            "dtls": "Mamadou Sarr (Chelsea) is shown the yellow card for a bad foul.",
-            "shrtDtls": "Mamadou Sarr Yellow Card",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T21:09:26Z",
-            "homeAway": "away",
-            "percentOfTimeline": 71
-          },
-          {
-            "id": "46975514",
-            "time": "71",
-            "scnds": 4212,
-            "min": 73,
-            "type": "goal",
-            "icnLbl": "soccer.icon.goal",
+            "scnds": 3949,
+            "min": 71,
+            "type": "goal---header",
+            "icnLbl": "soccer.icon.goal---header",
             "icnType": "soccer__penalty_shot",
-            "dtls": "Goal! Hull City 0, Chelsea 4. Pedro Neto (Chelsea) right footed shot from the centre of the box to the bottom left corner. Assisted by Liam Delap.",
-            "shrtDtls": "Pedro Neto Goal",
+            "dtls": "Goal! Arsenal 2, Chelsea 1. Jurri\u00ebn Timber (Arsenal) header from very close range to the centre of the goal. Assisted by Declan Rice with a cross following a corner.",
+            "shrtDtls": "Jurri\u00ebn Timber Goal - Header",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:13:39Z",
-            "homeAway": "away",
-            "percentOfTimeline": 76
+            "wllclck": "2026-03-01T17:56:50Z",
+            "homeAway": "home",
+            "percentOfTimeline": 69
           },
           {
-            "id": "46975567",
-            "time": "73",
-            "scnds": 4379,
-            "min": 75,
+            "id": "47116397",
+            "time": "67",
+            "scnds": 4005,
+            "min": 72,
             "type": "yellow-card",
             "icnLbl": "soccer.icon.yellow-card",
             "icnType": "soccer__card",
-            "dtls": "John Lundstram (Hull City) is shown the yellow card for a bad foul.",
-            "shrtDtls": "John Lundstram Yellow Card",
+            "dtls": "Pedro Neto (Chelsea) is shown the yellow card.",
+            "shrtDtls": "Pedro Neto Yellow Card",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:16:25Z",
+            "wllclck": "2026-03-01T17:57:46Z",
+            "homeAway": "away",
+            "percentOfTimeline": 70
+          },
+          {
+            "id": "47116409",
+            "time": "70",
+            "scnds": 4168,
+            "min": 75,
+            "type": "red-card",
+            "icnLbl": "soccer.icon.red-card",
+            "icnType": "soccer__card",
+            "dtls": "Second yellow card to Pedro Neto (Chelsea) for a bad foul.",
+            "shrtDtls": "Pedro Neto Red Card",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T18:00:28Z",
+            "homeAway": "away",
+            "percentOfTimeline": 73
+          },
+          {
+            "id": "47116487",
+            "time": "75",
+            "scnds": 4461,
+            "min": 80,
+            "type": "yellow-card",
+            "icnLbl": "soccer.icon.yellow-card",
+            "icnType": "soccer__card",
+            "dtls": "Gabriel Magalh\u00e3es (Arsenal) is shown the yellow card for a bad foul.",
+            "shrtDtls": "Gabriel Magalh\u00e3es Yellow Card",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T18:05:22Z",
             "homeAway": "home",
             "percentOfTimeline": 78
           },
           {
-            "id": "46975609",
-            "time": "77",
-            "scnds": 4578,
-            "min": 79,
+            "id": "47116489",
+            "time": "75",
+            "scnds": 4486,
+            "min": 80,
             "type": "substitution",
             "icnLbl": "soccer.icon.substitution",
             "icnType": "soccer__substitution",
-            "dtls": "Substitution, Chelsea. Tosin Adarabioyo replaces Wesley Fofana.",
-            "shrtDtls": "On: Tosin Adarabioyo | Off: Wesley Fofana\nOn: Jesse Derry | Off: Est\u00eav\u00e3o",
+            "dtls": "Substitution, Chelsea. Malo Gusto replaces Jorrel Hato.",
+            "shrtDtls": "On: Malo Gusto | Off: Jorrel Hato\nOn: Romeo Lavia | Off: Andrey Santos",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:19:44Z",
+            "wllclck": "2026-03-01T18:05:47Z",
             "homeAway": "away",
-            "percentOfTimeline": 82
+            "percentOfTimeline": 78
           },
           {
-            "id": "46975611",
-            "time": "77",
-            "scnds": 4610,
-            "min": 79,
+            "id": "47116514",
+            "time": "76",
+            "scnds": 4523,
+            "min": 81,
             "type": "substitution",
             "icnLbl": "soccer.icon.substitution",
             "icnType": "soccer__substitution",
-            "dtls": "Substitution, Hull City. Cody Drameh replaces Lewie Coyle.",
-            "shrtDtls": "On: Cody Drameh | Off: Lewie Coyle\nOn: Kyle Joseph | Off: Yu Hirakawa",
+            "dtls": "Substitution, Arsenal. Kai Havertz replaces Viktor Gy\u00f6keres.",
+            "shrtDtls": "On: Kai Havertz | Off: Viktor Gy\u00f6keres\nOn: Christian N\u00f8rgaard | Off: Declan Rice",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:20:16Z",
+            "wllclck": "2026-03-01T18:06:24Z",
             "homeAway": "home",
-            "percentOfTimeline": 82
+            "percentOfTimeline": 79
           },
           {
-            "id": "46975667",
-            "time": "80",
-            "scnds": 4782,
-            "min": 82,
-            "type": "substitution",
-            "icnLbl": "soccer.icon.substitution",
-            "icnType": "soccer__substitution",
-            "dtls": "Substitution, Hull City. Kieran Dowell replaces Cathal McCarthy.",
-            "shrtDtls": "On: Kieran Dowell | Off: Cathal McCarthy",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T21:23:08Z",
-            "homeAway": "home",
-            "percentOfTimeline": 85
-          },
-          {
-            "id": "46975767",
-            "time": "88",
-            "scnds": 5235,
-            "min": 90,
-            "type": "substitution",
-            "icnLbl": "soccer.icon.substitution",
-            "icnType": "soccer__substitution",
-            "dtls": "Substitution, Chelsea. Shumaira Mheuka replaces Liam Delap.",
-            "shrtDtls": "On: Shim Mheuka | Off: Liam Delap",
-            "adddExtr": 0,
-            "wllclck": "2026-02-13T21:30:41Z",
-            "homeAway": "away",
-            "percentOfTimeline": 94
-          },
-          {
-            "id": "46975806",
-            "time": "90",
-            "scnds": 5342,
-            "min": 92,
+            "id": "47116555",
+            "time": "79",
+            "scnds": 4689,
+            "min": 84,
             "type": "yellow-card",
             "icnLbl": "soccer.icon.yellow-card",
             "icnType": "soccer__card",
-            "dtls": "Joe Gelhardt (Hull City) is shown the yellow card for a bad foul.",
-            "shrtDtls": "Joe Gelhardt Yellow Card",
+            "dtls": "Enzo Fern\u00e1ndez (Chelsea) is shown the yellow card.",
+            "shrtDtls": "Enzo Fern\u00e1ndez Yellow Card",
             "adddExtr": 0,
-            "wllclck": "2026-02-13T21:32:28Z",
-            "homeAway": "home",
-            "percentOfTimeline": 96
+            "wllclck": "2026-03-01T18:09:09Z",
+            "homeAway": "away",
+            "percentOfTimeline": 82
           },
           {
-            "id": "46975891",
+            "id": "47116628",
+            "time": "86",
+            "scnds": 5112,
+            "min": 91,
+            "type": "substitution",
+            "icnLbl": "soccer.icon.substitution",
+            "icnType": "soccer__substitution",
+            "dtls": "Substitution, Chelsea. Alejandro Garnacho replaces Cole Palmer.",
+            "shrtDtls": "On: Alejandro Garnacho | Off: Cole Palmer\nOn: Liam Delap | Off: Enzo Fern\u00e1ndez",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T18:16:12Z",
+            "homeAway": "away",
+            "percentOfTimeline": 89
+          },
+          {
+            "id": "47116666",
+            "time": "90",
+            "scnds": 5366,
+            "min": 95,
+            "type": "substitution",
+            "icnLbl": "soccer.icon.substitution",
+            "icnType": "soccer__substitution",
+            "dtls": "Substitution, Chelsea. Tosin Adarabioyo replaces Mamadou Sarr.",
+            "shrtDtls": "On: Tosin Adarabioyo | Off: Mamadou Sarr",
+            "adddExtr": 0,
+            "wllclck": "2026-03-01T18:20:26Z",
+            "homeAway": "away",
+            "percentOfTimeline": 93
+          },
+          {
+            "id": "47116716",
             "time": "FT",
             "scnds": 5400,
-            "min": 96,
+            "min": 102,
             "type": "end-regular-time",
             "icnLbl": "soccer.icon.end-regular-time",
             "icnType": "",
-            "dtls": "Second Half ends, Hull City 0, Chelsea 4.",
-            "shrtDtls": "Second Half ends, Hull City 0, Chelsea 4.",
-            "adddExtr": 4,
-            "wllclck": "2026-02-13T21:37:04Z",
+            "dtls": "End Regular Time",
+            "shrtDtls": "End Regular Time",
+            "adddExtr": 7,
+            "wllclck": "2026-03-01T18:27:45Z",
             "homeAway": "",
             "spclEvnt": true,
             "percentOfTimeline": 100
@@ -7488,14 +8906,14 @@
         ],
         "teams": {
           "home": {
-            "abbrev": "HUL",
-            "displayName": "Hull City",
-            "id": "306",
+            "abbrev": "ARS",
+            "displayName": "Arsenal",
+            "id": "359",
             "isHome": true,
-            "links": "/football/club/_/id/306/hull-city",
-            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-            "shortDisplayName": "Hull",
-            "uid": "s:600~t:306"
+            "links": "/football/club/_/id/359/arsenal",
+            "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+            "shortDisplayName": "Arsenal",
+            "uid": "s:600~t:359"
           },
           "away": {
             "abbrev": "CHE",
@@ -7518,9 +8936,85 @@
         "findMoreLink": "http://www.bet365.com/dl/~offer?affiliate=365_728984",
         "gameStatus": "post"
       },
+      "mtchStatsGrph": {
+        "teams": [
+          {
+            "abbrv": "ARS",
+            "id": "359",
+            "dspNm": "Arsenal",
+            "color": "#e20520",
+            "isHome": true,
+            "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&cquality=80&h=80&w=80",
+            "link": "/football/club/_/id/359/arsenal",
+            "uid": "s:600~t:359"
+          },
+          {
+            "abbrv": "CHE",
+            "id": "363",
+            "dspNm": "Chelsea",
+            "color": "#144992",
+            "isHome": false,
+            "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&cquality=80&h=80&w=80",
+            "link": "/football/club/_/id/363/chelsea",
+            "uid": "s:600~t:363"
+          }
+        ],
+        "stats": [
+          {
+            "data": [
+              {
+                "name": "Possession",
+                "values": [
+                  "41.1",
+                  "58.9"
+                ],
+                "isPctStat": true,
+                "type": "pie"
+              },
+              {
+                "name": "Shots on Goal",
+                "values": [
+                  "5",
+                  "3"
+                ]
+              },
+              {
+                "name": "Shot Attempts",
+                "values": [
+                  "12",
+                  "9"
+                ]
+              },
+              {
+                "name": "Yellow Cards",
+                "values": [
+                  "1",
+                  "3"
+                ]
+              },
+              {
+                "name": "Corner Kicks",
+                "values": [
+                  "5",
+                  "10"
+                ]
+              },
+              {
+                "name": "Saves",
+                "values": [
+                  "4",
+                  "3"
+                ]
+              }
+            ]
+          }
+        ],
+        "header": "Match Stats",
+        "footerLabel": "Full Stats"
+      },
       "meta": {
         "gmHilghts": {
-          "lnk": "/football/video/_/gameId/401850946"
+          "lnk": "/football/video/_/gameId/740871"
         },
         "tmStats": {
           "grphHdrs": {
@@ -7543,7 +9037,7 @@
               }
             ]
           },
-          "lnk": "/football/matchstats/_/gameId/401850946"
+          "lnk": "/football/matchstats/_/gameId/740871"
         },
         "mtchStats": {
           "grphHdrs": {
@@ -7588,7 +9082,7 @@
               }
             ]
           },
-          "lnk": "/football/matchstats/_/gameId/401850946"
+          "lnk": "/football/matchstats/_/gameId/740871"
         },
         "stndngs": {
           "headers": [
@@ -7621,7 +9115,7 @@
           }
         },
         "mtchCmmntry": {
-          "lnk": "/football/commentary/_/gameId/401850946"
+          "lnk": "/football/commentary/_/gameId/740871"
         },
         "oddsHdrs": [
           "line",
@@ -7700,9 +9194,9 @@
     "sport": "soccer",
     "league": "",
     "siteSection": "espn",
-    "game_detail": "401850946 Chelsea vs Hull City",
+    "game_detail": "740871 Chelsea vs Arsenal",
     "subPage": "match",
-    "leagueName": "English FA Cup"
+    "leagueName": "English Premier League"
   },
   "ads": {
     "level": "espn.uk/soccer/match",
@@ -7729,7 +9223,7 @@
       },
       {
         "name": "league",
-        "value": "engfa"
+        "value": "eng1"
       },
       {
         "name": "darkmode",
@@ -7737,7 +9231,7 @@
       },
       {
         "name": "ajx_url",
-        "value": "https://www.espn.co.uk/football/match/_/gameId/401850946/chelsea-hull-city"
+        "value": "https://www.espn.co.uk/football/match/_/gameId/740871/chelsea-arsenal"
       },
       {
         "name": "pgn",

@@ -6859,6 +6859,16 @@
           "slug": "mlb"
         },
         {
+          "league": "world-baseball-classic",
+          "sport": "baseball",
+          "sportId": 3454,
+          "displayName": "World Baseball Classic",
+          "href": "/world-baseball-classic/scoreboard",
+          "linkText": "Full Scoreboard &#187;",
+          "top25Only": true,
+          "slug": "world-baseball-classic"
+        },
+        {
           "league": "atp",
           "sport": "tennis",
           "sportId": 851,
@@ -6949,6 +6959,16 @@
           "slug": "f1"
         },
         {
+          "league": "fifa.shebelieves",
+          "sport": "soccer",
+          "sportId": 19728,
+          "displayName": "SheBelieves",
+          "href": "/soccer/scoreboard?league=FIFA.SHEBELIEVES",
+          "linkText": "Full Scoreboard &#187;",
+          "top25Only": true,
+          "slug": "fifa.shebelieves"
+        },
+        {
           "league": "mens-college-hockey",
           "sport": "hockey",
           "sportId": 91,
@@ -7009,11 +7029,18 @@
           "slug": "womens-college-lacrosse"
         },
         {
-          "league": "eng.1",
+          "league": "esp.1",
           "sport": "soccer",
-          "sportId": "700",
-          "displayName": "Premier League",
-          "slug": "eng.1"
+          "sportId": "740",
+          "displayName": "LALIGA",
+          "slug": "esp.1"
+        },
+        {
+          "league": "ita.1",
+          "sport": "soccer",
+          "sportId": "730",
+          "displayName": "Serie A",
+          "slug": "ita.1"
         }
       ],
       "collegeConfs": null
@@ -7375,10 +7402,6 @@
             "link": "https://www.vividseats.com/sports/soccer/?wsUser=717"
           },
           {
-            "name": "3/1 vs VfL Wolfsburg 18 tickets left",
-            "link": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-2-28-2026--sports-soccer/production/5886241?wsUser=717"
-          },
-          {
             "name": "3/15 vs RB Leipzig 6 tickets left",
             "link": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-3-14-2026--sports-soccer/production/5886242?wsUser=717"
           },
@@ -7408,15 +7431,15 @@
           }
         ],
         "seats": {
-          "opponentTeamName": "VfL Wolfsburg",
+          "opponentTeamName": "RB Leipzig",
           "currentTeamName": "VfB Stuttgart",
           "venueName": "MHPArena",
-          "summary": "Tickets as low as $438",
-          "date": "2026-03-01T14:30:00.000+00:00",
-          "dateShort": "3/1",
+          "summary": "Tickets as low as $460",
+          "date": "2026-03-15T18:30:00.000+00:00",
+          "dateShort": "3/15",
           "dateDay": "Sun",
           "homeAway": "home",
-          "eventLink": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-2-28-2026--sports-soccer/production/5886241?wsUser=717",
+          "eventLink": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-3-14-2026--sports-soccer/production/5886242?wsUser=717",
           "venueLink": "https://www.vividseats.com/venues/mhp-arena-tickets.html?wsUser=717",
           "genericLink": "https://www.vividseats.com?wsUser=717",
           "teamLink": "https://www.vividseats.com/ger.1soccer/vfb-stuttgart-tickets.html?wsUser=717",
@@ -7424,7 +7447,7 @@
           "timeValid": true
         },
         "links": {
-          "event": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-2-28-2026--sports-soccer/production/5886241?wsUser=717&wsVar=us~player,en",
+          "event": "https://www.vividseats.com/vfb-stuttgart-tickets-mhp-arena-3-14-2026--sports-soccer/production/5886242?wsUser=717&wsVar=us~player,en",
           "generic": "https://www.vividseats.com?wsUser=717&wsVar=us~player,en",
           "team": "https://www.vividseats.com/ger.1soccer/vfb-stuttgart-tickets.html?wsUser=717&wsVar=us~player,en",
           "venue": "https://www.vividseats.com/venues/mhp-arena-tickets.html?wsUser=717&wsVar=us~player,en"
@@ -7850,265 +7873,261 @@
       "nws": {
         "items": [
           {
-            "id": 48059884,
+            "id": 48086245,
             "type": "Story",
-            "link": "/soccer/story/_/id/48059884/afc-asian-women-cup-there-were-self-doubts-sam-kerr-opens-hard-journey",
-            "headline": "There were self doubts: Kerr opens up on journey",
+            "link": "/soccer/story/_/id/48086245/football-life-dani-rojas-ted-lasso-trial-usl-club",
+            "headline": "Football is life! 'Dani Rojas' from Ted Lasso is on trial at a USL club",
             "image": {
               "width": 1296,
-              "height": 864,
-              "url": "https://a.espncdn.com/photo/2026/0228/r1621204_2_1296x864_3-2.jpg",
-              "name": "Sam Kerr [1296x864]",
-              "caption": "Matildas captain Sam Kerr has opened up about the self doubts that crept in during her comeback from a knee injury, saying she is still about 15% off from her usual self."
+              "height": 518,
+              "alt": "Cristo Fernandez",
+              "url": "https://a.espncdn.com/photo/2026/0303/r1622425_1296x518_5-2.jpg",
+              "name": "Cristo Fernandez [1296x518]",
+              "caption": "Cristo Fernandez"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-28T07:24:07.000+00:00",
-            "byline": "AAP",
-            "authors": []
-          },
-          {
-            "id": 48057240,
-            "type": "Story",
-            "link": "/soccer/story/_/id/48057240/new-england-revolution-postpone-home-opener-historic-blizzard",
-            "headline": "Revs postpone home opener after historic blizzard",
-            "image": {
-              "width": 1296,
-              "height": 864,
-              "alt": "General view inside the stadium prior to the MLS match between New England Revolution and Orlando City at Gillette Stadium on July 19, 2025 in Foxborough, Massachusetts.",
-              "url": "https://a.espncdn.com/photo/2026/0228/r1621084_1296x864_3-2.jpg",
-              "name": "Gillette Stadium general [1296x864]",
-              "caption": "Gillette Stadium\u2019s new natural grass field will not be ready to host the New England Revolution's scheduled home opener."
-            },
-            "description": "",
-            "isPremium": false,
-            "published": "2026-02-28T00:16:33.000+00:00",
-            "byline": "ESPN News Services",
-            "authors": []
-          },
-          {
-            "id": 48050987,
-            "type": "Story",
-            "link": "/soccer/story/_/id/48050987/uslpa-authorizes-strike-season-kickoff-looming",
-            "headline": "USL players authorize strike as CBA talks stall",
-            "image": {
-              "width": 1296,
-              "height": 864,
-              "url": "https://a.espncdn.com/photo/2023/0712/r1196753_1296x864_3-2.jpg",
-              "name": "USL logo pro_rel [1296x864]"
-            },
-            "description": "",
-            "isPremium": false,
-            "published": "2026-02-27T23:22:45.000+00:00",
-            "byline": "Jeff Carlisle",
+            "published": "2026-03-03T05:03:00.000+00:00",
+            "byline": "Joey Lynch",
             "authors": [
               {
-                "displayName": "Jeff Carlisle",
-                "headshotSrc": "https://a.espncdn.com/photo/2024/0610/r1344124_600x600_1-1.jpg",
+                "displayName": "Joey Lynch",
                 "contributorLink": false
               }
             ]
           },
           {
-            "id": 48056892,
+            "id": 47892929,
             "type": "Story",
-            "link": "/soccer/story/_/id/48056892/pep-guardiola-man-city-real-madrid-again-uefa-champions-league-draw",
-            "headline": "Guardiola: 'Bit weird' that City face Madrid again",
+            "link": "/soccer/story/_/id/47892929/womens-asian-cup-2026-how-watch-matildas-fixtures-results",
+            "headline": "Women's Asian Cup 2026: How to watch the Matildas, fixtures, results -- all you need to know",
             "image": {
               "width": 1296,
-              "height": 864,
-              "alt": "MADRID, SPAIN - DECEMBER 10: Goalkeeper of Real Madrid Thibaut Courtois greets coach of Manchester City Pep Guardiola following the UEFA Champions League 2025/26 League Phase MD6 football match between Real Madrid C.F. and Manchester City (Man City) at Es",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1621056_2_1296x864_3-2.jpg",
-              "name": "Goalkeeper of Real Madrid Thibaut Courtois greets coach of Manchester City  [1296x864]"
+              "height": 518,
+              "alt": "Women's Asian Cup",
+              "url": "https://a.espncdn.com/photo/2026/0216/r1615827_1296x518_5-2.jpg",
+              "name": "Women's Asian Cup [1296x518]",
+              "caption": "Women's Asian Cup"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T22:59:06.000+00:00",
-            "byline": "PA",
+            "published": "2026-03-03T04:04:07.000+00:00",
+            "byline": "Marissa Lordanic",
             "authors": []
           },
           {
-            "id": 48056632,
+            "id": 48085833,
             "type": "Story",
-            "link": "/soccer/story/_/id/48056632/benfica-suspend-fans-racist-behaviour-real-madrid-vini-jr",
-            "headline": "Benfica suspend 5 fans for racist acts vs. Madrid",
+            "link": "/soccer/story/_/id/48085833/matildas-show-support-womens-asian-cup-opponents-iran",
+            "headline": "Tillies show support for Asian Cup opponents Iran",
             "image": {
               "width": 1296,
-              "height": 864,
-              "alt": "General view inside the stadium prior to the UEFA Champions League 2025/26 League Knockout Play-off First Leg match between SL Benfica and Real Madrid C.F. at Estadio do SL Benfica on February 17, 2026 in Lisbon, Portugal.",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1621053_1296x864_3-2.jpg",
-              "name": "Benfica Stadium general view [1296x864]",
-              "caption": "Benfica has suspended five supporters following the club's game with Real Madrid on Feb. 17."
+              "height": 518,
+              "alt": "Amy Sayer",
+              "url": "https://a.espncdn.com/photo/2026/0303/r1622412_1296x518_5-2.jpg",
+              "name": "Amy Sayer [1296x518]",
+              "caption": "Amy Sayer"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T23:00:18.000+00:00",
-            "byline": "ESPN News Services",
+            "published": "2026-03-03T03:32:29.000+00:00",
+            "byline": "AAP",
             "authors": []
           },
           {
-            "id": 48056354,
+            "id": 48080170,
             "type": "Story",
-            "link": "/soccer/story/_/id/48056354/barcelona-punishment-late-players-fines-bench-hansi-flick",
-            "headline": "Bar\u00e7a now punishing late players with 'huge' fines",
+            "link": "/soccer/story/_/id/48080170/jordi-alba-debuts-alongside-legends-soccer-aid-2026",
+            "headline": "Jordi Alba to debut with legends at Soccer Aid '26",
             "image": {
-              "width": 1296,
-              "height": 864,
-              "alt": "Raphinha Dias Belloli of FC Barcelona celebrates a goal with Markus Rashford during the Joan Gamper Trophy, football match played between FC Barcelona and Como 1907 at Johan Cruyff Stadium on August 10, 2025 in Sant Joan Despi, Spain",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1621019_1296x864_3-2.jpg",
-              "name": "Raphinha and Rashford [1296x864]",
-              "caption": "Raphinha and Marcus Rashford have both been benched for tardiness this season."
+              "width": 594,
+              "height": 238,
+              "url": "https://a.espncdn.com/photo/2026/0302/r1622029_594x238_5-2.jpg",
+              "name": "Jordi Alba [594x238]"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T21:47:42.000+00:00",
-            "byline": "Sam Marsden",
+            "published": "2026-03-03T00:02:54.000+00:00",
+            "byline": "Nina Hristova",
+            "authors": []
+          },
+          {
+            "id": 48084583,
+            "type": "Story",
+            "link": "/soccer/story/_/id/48084583/real-madrid-drop-2nd-row-laliga-race-not-over",
+            "headline": "Madrid drop 2nd in a row, insist LaLiga not over",
+            "image": {
+              "width": 1296,
+              "height": 518,
+              "alt": "Alvaro Arbeloa's Real Madrid side have lost two games in a row in LaLiga for the first time since 2019.",
+              "url": "https://a.espncdn.com/photo/2026/0302/r1622331_1296x518_5-2.jpg",
+              "name": "Arbeloa dugout Madrid Getafe_260302 [1296x518]",
+              "caption": "Alvaro Arbeloa's Real Madrid side have lost two games in a row in LaLiga for the first time since 2019."
+            },
+            "description": "",
+            "isPremium": false,
+            "published": "2026-03-02T23:47:00.000+00:00",
+            "byline": "Alex Kirkland",
             "authors": [
               {
-                "displayName": "Sam Marsden",
+                "displayName": "Alex Kirkland",
                 "headshotSrc": "http://a.espncdn.com/i/columnists/espn_generic_m.jpg",
                 "contributorLink": false
               }
             ]
           },
           {
-            "id": 48051584,
+            "id": 48084063,
             "type": "Story",
-            "link": "/soccer/story/_/id/48051584/transfer-rumors-news-man-united-chelsea-psg-watch-genk-trio",
-            "headline": "Transfer rumors, news: Arsenal lead Liverpool, Man United for Anthony Gordon",
+            "link": "/soccer/story/_/id/48084063/fabregas-wants-little-bombanera-coppa-tilt-inter",
+            "headline": "Fabregas wants 'little Bombonera' for Inter visit",
             "image": {
               "width": 1296,
-              "height": 864,
-              "url": "https://a.espncdn.com/photo/2026/0218/r1617052_1296x864_3-2.jpg",
-              "name": "Anthony Gordon [1296x864]"
+              "height": 518,
+              "url": "https://a.espncdn.com/photo/2025/0827/r1537361_1296x518_5-2.jpg",
+              "name": "Fabregas celeb Como 250827 [1296x518]"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T21:29:27.000+00:00",
+            "published": "2026-03-02T22:08:41.000+00:00",
+            "byline": "PA",
+            "authors": []
+          },
+          {
+            "id": 48079544,
+            "type": "Story",
+            "link": "/soccer/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts",
+            "headline": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s",
+            "image": {
+              "width": 1296,
+              "height": 518,
+              "url": "https://a.espncdn.com/photo/2026/0302/r1622254_1296x518_5-2.jpg",
+              "name": "Chema Andr\u00e9s [1296x518]"
+            },
+            "description": "",
+            "isPremium": false,
+            "published": "2026-03-02T21:18:15.000+00:00",
             "byline": "ESPN",
             "authors": []
           },
           {
-            "id": 48055929,
+            "id": 48082651,
             "type": "Story",
-            "link": "/soccer/story/_/id/48055929/bayern-munich-vincent-kompany-borussia-dormund-der-klassiker-title",
-            "headline": "Kompany: Klassiker win deserves its own title",
+            "link": "/soccer/story/_/id/48082651/newcastle-united-manchester-united-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26",
+            "headline": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news",
             "image": {
-              "width": 1296,
-              "height": 864,
-              "alt": "Pascal Gross of Borussia Dortmund in action during the Bundesliga soccer match between FC Bayern Muenchen and Borussia Dortmund at Allianz Arena on October 18, 2025 in Munich, Germany.",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1620987_2_1296x864_3-2.jpg",
-              "name": "Bayern vs Dortmund [1296x864]",
-              "caption": "Bayern Munich beat Borussia Dortmund 2-1 when the sides last met in October."
+              "width": 1024,
+              "height": 410,
+              "url": "https://a.espncdn.com/photo/2026/0301/r1621607_1024x410_5-2.jpg",
+              "name": "Benjamin Sesko Man United [1024x410]",
+              "caption": "Benjamin Sesko of Man United arrives at Old Trafford ahead of the match vs Crystal Palace."
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T23:47:04.000+00:00",
-            "byline": "ESPN News Services",
+            "published": "2026-03-02T20:43:47.000+00:00",
+            "byline": "Anirudh Menon",
             "authors": []
           },
           {
-            "id": 48054324,
+            "id": 48079690,
             "type": "Story",
-            "link": "/soccer/story/_/id/48054324/fifa-gianni-infantino-speaks-mexico-president-ahead-world-cup",
-            "headline": "FIFA to visit Mexico to assess World Cup security",
+            "link": "/soccer/story/_/id/48079690/brighton-hove-albion-vs-arsenal-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26",
+            "headline": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
             "image": {
               "width": 1296,
-              "height": 864,
-              "alt": "Guadalajara",
-              "url": "https://a.espncdn.com/photo/2026/0226/r1620346_1296x864_3-2.jpg",
-              "name": "Guadalajara 260220 [1296x864]",
-              "caption": "Guadalajara"
+              "height": 518,
+              "url": "https://a.espncdn.com/photo/2025/1227/r1594105_1296x518_5-2.jpg",
+              "name": " Mikel Arteta, Manager of Arsenal [1296x518]"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T19:58:33.000+00:00",
-            "byline": "Associated Press",
+            "published": "2026-03-02T20:38:55.000+00:00",
+            "byline": "Sunaadh Sagar",
             "authors": []
           },
           {
-            "id": 48048301,
+            "id": 48081796,
             "type": "Story",
-            "link": "/soccer/story/_/id/48048301/neymar-shushes-critics-first-goals-santos-return",
-            "headline": "Neymar shushes critics after first goals in return",
+            "link": "/soccer/story/_/id/48081796/mls-power-ranking-inter-miami-surge-comeback-win",
+            "headline": "MLS Power Rankings: Messi's Inter Miami surge after comeback win",
             "image": {
               "width": 1296,
-              "height": 864,
-              "alt": "Neymar celebrates after scoring a goal for Santos against Vasco da Gama.",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1620633_1296x864_3-2.jpg",
-              "name": "Neymar celeb Santos_260226 [1296x864]",
-              "caption": "Neymar celebrates after scoring a goal for Santos against Vasco da Gama."
+              "height": 518,
+              "url": "https://a.espncdn.com/photo/2026/0302/r1622196_1296x518_5-2.jpg",
+              "name": "Lionel Messi [1296x518]"
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T18:43:23.000+00:00",
-            "byline": "ESPN News Services",
-            "authors": []
-          },
-          {
-            "id": 48055169,
-            "type": "Story",
-            "link": "/soccer/story/_/id/48055169/columbus-crew-owners-columbus-nwsl-expansion-cleveland-browns",
-            "headline": "Crew owner exploring Columbus NWSL expansion",
-            "image": {
-              "width": 1296,
-              "height": 864,
-              "alt": "Managing and principal partners Jimmy Haslam and Dee Haslam of the Cleveland Browns watch a drill during a mandatory minicamp workout at their CrossCountry Mortgage Campus on June 13, 2024 in Berea, Ohio.",
-              "url": "https://a.espncdn.com/photo/2026/0227/r1620926_1296x864_3-2.jpg",
-              "name": "Jimmy and Dee Haslam [1296x864]",
-              "caption": "Jimmy Haslam and Dee Haslam are majority owners of the NFL's Cleveland Browns."
-            },
-            "description": "",
-            "isPremium": false,
-            "published": "2026-02-27T19:15:58.000+00:00",
-            "byline": "Jeff Carlisle, Jeff Kassouf",
+            "published": "2026-03-02T20:50:21.000+00:00",
+            "byline": "Joe Lowery",
             "authors": [
               {
-                "displayName": "Jeff Carlisle",
-                "headshotSrc": "https://a.espncdn.com/photo/2024/0610/r1344124_600x600_1-1.jpg",
-                "contributorLink": false
-              },
-              {
-                "displayName": "Jeff Kassouf",
-                "headshotSrc": "https://a.espncdn.com/i/columnists/full/kassouf_jeff.png",
+                "displayName": "Joe Lowery",
+                "headshotSrc": "http://a.espncdn.com/i/columnists/espn_generic_m.jpg",
                 "contributorLink": false
               }
             ]
           },
           {
-            "id": 48055139,
+            "id": 48082775,
             "type": "Story",
-            "link": "/soccer/story/_/id/48055139/ivan-toney-looking-stop-cristiano-ronaldo-making-saudi-pro-league-history",
-            "headline": "Toney eager to deny Ronaldo making Saudi history",
+            "link": "/soccer/story/_/id/48082775/real-madrid-confirm-kylian-mbappe-knee-sprain-conservative-treatment",
+            "headline": "Real Madrid: No surgery for Mbapp\u00e9 knee sprain",
             "image": {
               "width": 1296,
-              "height": 864,
-              "url": "https://a.espncdn.com/photo/2024/1125/r1419574_1296x864_3-2.jpg",
-              "name": "Al Ain vs. Al Ahli: Ivan Toney [1296x864]",
-              "caption": "Ivan Toney scored his first goals in continental club football on Monday to inspire Al Ahli to a 2-1 win over Al Ain that maintained their perfect start to the 2024-25 AFC Champions League Elite campaign after five games."
+              "height": 518,
+              "alt": "Kylian Mbappe centre-forward of Real Madrid and France reacts during the LaLiga EA Sports match between CA Osasuna and Real Madrid CF at Estadio El Sadar on February 21, 2026 in Pamplona, Spai",
+              "url": "https://a.espncdn.com/photo/2026/0224/r1619508_1296x518_5-2.jpg",
+              "name": "Mbappe Madrid woe [1296x518]",
+              "caption": "Kylian Mbapp\u00e9 is a doubt for the second leg of Real Madrid's playoff tie with Benfica."
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T18:23:12.000+00:00",
-            "byline": "ESPN",
+            "published": "2026-03-03T02:16:50.000+00:00",
+            "byline": "Alex Kirkland",
+            "authors": [
+              {
+                "displayName": "Alex Kirkland",
+                "headshotSrc": "http://a.espncdn.com/i/columnists/espn_generic_m.jpg",
+                "contributorLink": false
+              }
+            ]
+          },
+          {
+            "id": 48082737,
+            "type": "Story",
+            "link": "/soccer/story/_/id/48082737/daniel-farke-doubts-leeds-booing-was-ramadan-break",
+            "headline": "Farke doubts Leeds booing for Ramadan break",
+            "image": {
+              "width": 1296,
+              "height": 518,
+              "alt": "LEEDS, ENGLAND - FEBRUARY 28:  A message is seen on the LED screen as break in play to allow players to break their fast during Ramadan during the Premier League match between Leeds United and Manchester City at Elland Road on February 28, 2026 in Leeds,",
+              "url": "https://a.espncdn.com/photo/2026/0228/r1621395_1296x518_5-2.jpg",
+              "name": "A message is seen on the LED screen [1296x518]"
+            },
+            "description": "",
+            "isPremium": false,
+            "published": "2026-03-02T20:12:41.000+00:00",
+            "byline": "PA",
             "authors": []
           },
           {
-            "id": 48054907,
+            "id": 48041376,
             "type": "Story",
-            "link": "/soccer/story/_/id/48054907/sidney-lopes-cabral-vinicius-jr-real-madrid-shirt-swap",
-            "headline": "Fear of 'problems' stopped Cabral-Vini shirt swap",
+            "link": "/soccer/story/_/id/48041376/usmnt-weston-mckennie-signs-new-juventus-deal-2030",
+            "headline": "USMNT's McKennie signs new Juve deal until 2030",
             "image": {
               "width": 1296,
-              "height": 864,
-              "url": "https://a.espncdn.com/photo/2026/0227/r1620900_1296x864_3-2.jpg",
-              "name": "Vinicius and Sidny Lopes [1296x864]",
-              "caption": "Sidny Lopes Cabral and Vin\u00edcius Jr. did not exchange shirts after the second-leg match."
+              "height": 518,
+              "alt": "Weston McKennie of Juventus celebrates his goal during the Serie A match between Juventus FC and SS Lazio at Allianz stadium on February 08, 2026 in Turin, Italy.",
+              "url": "https://a.espncdn.com/photo/2026/0208/r1612381_1296x518_5-2.jpg",
+              "name": "Weston McKennie [1296x518]",
+              "caption": "Weston McKennie scored Juventus' first goal against Lazio."
             },
             "description": "",
             "isPremium": false,
-            "published": "2026-02-27T17:54:19.000+00:00",
-            "byline": "Adriana Garcia",
+            "published": "2026-03-02T20:35:43.000+00:00",
+            "byline": "ESPN",
             "authors": []
           }
         ]
@@ -8123,38 +8142,38 @@
             }
           ],
           "completed": false,
-          "date": "2026-03-01T14:30:00.000+00:00",
+          "date": "2026-03-07T14:30:00.000+00:00",
           "gmlnkTtl": "Game Summary",
-          "id": "746933",
-          "link": "https://www.espn.com/soccer/match/_/gameId/746933/vfl-wolfsburg-vfb-stuttgart",
+          "id": "746936",
+          "link": "https://www.espn.com/soccer/match/_/gameId/746936/vfb-stuttgart-mainz",
           "note": "2025-26 German Bundesliga",
           "name": "soccer",
           "odds": {
-            "details": "VFB -1.5"
+            "details": "VFB -0.5"
           },
           "showTeamColors": false,
           "status": {
             "clock": "0.0",
             "completed": false,
             "description": "Scheduled",
-            "detail": "3/1 - 9:30 AM EST",
-            "shortDetail": "3/1 - 9:30 AM EST",
+            "detail": "3/7 - 9:30 AM EST",
+            "shortDetail": "3/7 - 9:30 AM EST",
             "period": 0,
             "state": "pre"
           },
           "statusState": "pre",
           "statusId": "1",
           "tbd": false,
-          "teamColorAway": "81f733",
-          "teamColorHome": "ffffff",
+          "teamColorAway": "ffffff",
+          "teamColorHome": "DA0308",
           "teams": [
             {
-              "id": "134",
-              "uid": "s:600~t:134",
-              "abbrev": "VFB",
-              "displayName": "VfB Stuttgart",
-              "shortDisplayName": "VfB Stuttgart",
-              "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+              "id": "2950",
+              "uid": "s:600~t:2950",
+              "abbrev": "M05",
+              "displayName": "Mainz",
+              "shortDisplayName": "Mainz",
+              "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2950.png&w=80&h=80&scale=crop&cquality=40&location=origin",
               "isHome": true,
               "order": 0,
               "winner": false,
@@ -8171,12 +8190,12 @@
               ]
             },
             {
-              "id": "138",
-              "uid": "s:600~t:138",
-              "abbrev": "WOB",
-              "displayName": "VfL Wolfsburg",
-              "shortDisplayName": "VfL Wolfsburg",
-              "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/138.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+              "id": "134",
+              "uid": "s:600~t:134",
+              "abbrev": "VFB",
+              "displayName": "VfB Stuttgart",
+              "shortDisplayName": "VfB Stuttgart",
+              "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&w=80&h=80&scale=crop&cquality=40&location=origin",
               "isHome": false,
               "order": 1,
               "winner": false,

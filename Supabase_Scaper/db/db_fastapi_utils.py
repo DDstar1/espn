@@ -266,7 +266,7 @@ def get_all_scraped_and_live_teams() -> list:
     Mirrors: get_all_scraped_and_live_teams()
     Includes the original randomised sleep before fetching.
     """
-    random_seconds = random.randint(1, 10) * 0.5
+    random_seconds = random.randint(1, 10) * 19
     my_print(f"Waiting for {random_seconds} seconds before fetching next team url")
     time.sleep(random_seconds)
 

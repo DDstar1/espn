@@ -4,6 +4,7 @@
   "type": "team",
   "meta": {
     "altTags": null,
+<<<<<<< HEAD
     "title": "Senegal 2023 Results - ESPN",
     "description": "Get all the Senegal results for the 2023 season on ESPN. Includes all the Senegal results from all national and international games.",
     "canonical": "https://africa.espn.com/football/team/results/_/id/21823/season/2023",
@@ -13,118 +14,217 @@
       "width": 500,
       "height": 500,
       "title": "Senegal Results"
+=======
+    "title": "South Korea U17 2025 Results - ESPN",
+    "description": "Get all the South Korea U17 results for the 2025 season on ESPN. Includes all the South Korea U17 results from all national and international games.",
+    "canonical": "https://africa.espn.com/football/team/results/_/id/8414/season/2025",
+    "robots": "",
+    "ogMetadata": {
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8414.png",
+      "width": 500,
+      "height": 500,
+      "title": "South Korea U17 Results"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
     },
     "jsonld": "",
     "hrefLangs": [
       {
         "key": "en-us",
         "region": "us",
+<<<<<<< HEAD
         "url": "https://www.espn.com/soccer/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.com/soccer/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "pt-br",
         "region": "br",
+<<<<<<< HEAD
         "url": "https://www.espn.com.br/futebol/time/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.br/futebol/time/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-in",
         "region": "in",
+<<<<<<< HEAD
         "url": "https://www.espn.in/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.in/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-za",
         "region": "za",
+<<<<<<< HEAD
         "url": "https://africa.espn.com/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://africa.espn.com/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-au",
         "region": "au",
+<<<<<<< HEAD
         "url": "https://www.espn.com.au/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.com.au/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ve",
         "region": "ve",
+<<<<<<< HEAD
         "url": "https://www.espn.com.ve/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.ve/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-cl",
         "region": "cl",
+<<<<<<< HEAD
         "url": "https://www.espn.cl/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.cl/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-mx",
         "region": "mx",
+<<<<<<< HEAD
         "url": "https://www.espn.com.mx/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.mx/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-co",
         "region": "co",
+<<<<<<< HEAD
         "url": "https://www.espn.com.co/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.co/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-pe",
         "region": "pe",
+<<<<<<< HEAD
         "url": "https://www.espn.com.pe/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.pe/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ar",
         "region": "ar",
+<<<<<<< HEAD
         "url": "https://www.espn.com.ar/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.ar/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-us",
         "region": "us",
+<<<<<<< HEAD
         "url": "https://espndeportes.espn.com/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://espndeportes.espn.com/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-ph",
         "region": "ph",
+<<<<<<< HEAD
         "url": "https://www.espn.ph/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.ph/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-gb",
         "region": "gb",
+<<<<<<< HEAD
         "url": "https://www.espn.co.uk/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.co.uk/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-sg",
         "region": "sg",
+<<<<<<< HEAD
         "url": "https://www.espn.com.sg/football/team/results/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.com.sg/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-gt",
         "region": "gt",
+<<<<<<< HEAD
         "url": "https://www.espn.com.gt/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.gt/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-uy",
         "region": "uy",
+<<<<<<< HEAD
         "url": "https://www.espn.com.uy/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.uy/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-do",
         "region": "do",
+<<<<<<< HEAD
         "url": "https://www.espn.com.do/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.do/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ec",
         "region": "ec",
+<<<<<<< HEAD
         "url": "https://www.espn.com.ec/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.ec/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-pa",
         "region": "pa",
+<<<<<<< HEAD
         "url": "https://www.espn.com.pa/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.com.pa/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-cr",
         "region": "cr",
+<<<<<<< HEAD
         "url": "https://www.espn.co.cr/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
+        "url": "https://www.espn.co.cr/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "nl-nl",
         "region": "nl",
+<<<<<<< HEAD
         "url": "https://www.espn.nl/voetbal/team/scorebord/_/id/21823/season/2023"
+=======
+        "url": "https://www.espn.nl/voetbal/team/scorebord/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       }
     ]
   },
@@ -4527,15 +4627,25 @@
     },
     "isMyBetActive": false,
     "subNavigation": {
+<<<<<<< HEAD
       "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sen.png&w=80&h=80&cquality=40&scale=crop&location=origin&transparent=true",
       "href": "/football/team/_/id/21823",
       "text": "Senegal",
+=======
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kor.png&w=80&h=80&cquality=40&scale=crop&location=origin&transparent=true",
+      "href": "/football/team/_/id/8414",
+      "text": "South Korea U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       "items": [
         {
           "l": {
             "t": "Home",
             "w": {
+<<<<<<< HEAD
               "h": "/football/team/_/id/21823"
+=======
+              "h": "/football/team/_/id/8414"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12386737
@@ -4544,7 +4654,11 @@
           "l": {
             "t": "Fixtures",
             "w": {
+<<<<<<< HEAD
               "h": "https://africa.espn.com/football/team/fixtures/_/id/21823/sen.w"
+=======
+              "h": "https://africa.espn.com/football/team/fixtures/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854062
@@ -4553,7 +4667,11 @@
           "l": {
             "t": "Results",
             "w": {
+<<<<<<< HEAD
               "h": "https://africa.espn.com/football/team/results/_/id/21823/sen.w"
+=======
+              "h": "https://africa.espn.com/football/team/results/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854060
@@ -4562,7 +4680,11 @@
           "l": {
             "t": "Squad",
             "w": {
+<<<<<<< HEAD
               "h": "/football/team/squad/_/id/21823/sen.w"
+=======
+              "h": "/football/team/squad/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854289
@@ -4571,7 +4693,11 @@
           "l": {
             "t": "Statistics",
             "w": {
+<<<<<<< HEAD
               "h": "/football/team/stats/_/id/21823"
+=======
+              "h": "/football/team/stats/_/id/8414"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12294592
@@ -4583,7 +4709,11 @@
               "a": {
                 "page": "standings"
               },
+<<<<<<< HEAD
               "h": "/football/table/_/league/caf.w.nations"
+=======
+              "h": "/football/table/_/league/fifa.world.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 20993225
@@ -4593,7 +4723,11 @@
             "t": "Video",
             "w": {
               "e": true,
+<<<<<<< HEAD
               "h": "http://www.espnfc.co.uk/team/sen.w/21823/video"
+=======
+              "h": "http://www.espnfc.co.uk/team/kor.u17/8414/video"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12299748
@@ -5053,6 +5187,7 @@
     "streampicker": {},
     "results": {
       "news": {
+<<<<<<< HEAD
         "header": "Women's Africa Cup of Nations News",
         "articles": [
           {
@@ -5250,6 +5385,205 @@
           "abbreviation": "Women's Africa Cup of Nations",
           "shortName": "Women's Africa Cup of Nations",
           "midsizeName": "CAF.W.NATIONS",
+=======
+        "header": "FIFA U-17 World Cup News",
+        "articles": [
+          {
+            "id": 47892929,
+            "headline": "Women's Asian Cup 2026: How to watch the Matildas, fixtures, results -- all you need to know",
+            "byLine": "Marissa Lordanic",
+            "description": "The Women's Asian Cup is on Australian soil and we've got all the answers to your questions about the tournament. When's the final? Is Sam Kerr playing? How can I watch the Matildas games?",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0216/r1615827_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T04:04:07Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0216/r1615827_1296x729_16-9.jpg&w=220",
+                "alt": "Women's Asian Cup 2026: How to watch the Matildas, fixtures, results -- all you need to know"
+              }
+            ],
+            "link": "/football/story/_/id/47892929/womens-asian-cup-2026-how-watch-matildas-fixtures-results"
+          },
+          {
+            "id": 48085833,
+            "headline": "Matildas show support for Women's Asian Cup opponents Iran",
+            "byLine": "AAP",
+            "description": "Australia playmaker Amy Sayer is saluting the bravery of Iran's players as they prepare to face the Matildas amid increasing political instability in their homeland.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622412_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T03:32:29Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622412_1296x729_16-9.jpg&w=220",
+                "alt": "Matildas show support for Women's Asian Cup opponents Iran"
+              }
+            ],
+            "link": "/football/story/_/id/48085833/matildas-show-support-womens-asian-cup-opponents-iran"
+          },
+          {
+            "id": 48080170,
+            "headline": "Jordi Alba debuts alongside legends at Soccer Aid 2026",
+            "byLine": "Nina Hristova",
+            "description": "Former Barcelona and Spain legend Jordi Alba will make his debut in the 20th edition of Soccer Aid for UNICEF, taking place on May 31 at the London Stadium.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622029_594x334_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T00:02:54Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622029_594x334_16-9.jpg&w=220",
+                "alt": "Jordi Alba debuts alongside legends at Soccer Aid 2026"
+              }
+            ],
+            "link": "/football/story/_/id/48080170/jordi-alba-debuts-alongside-legends-soccer-aid-2026"
+          },
+          {
+            "id": 48084583,
+            "headline": "Real Madrid drop 2nd in a row, insist LaLiga race not over",
+            "byLine": "Alex Kirkland",
+            "description": "Real Madrid coach \u00c1lvaro Arbeloa insisted that the LaLiga title race isn't over after his team's surprise 1-0 home defeat to Getafe left them four points behind leaders Barcelona.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622331_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:47:00Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622331_1296x729_16-9.jpg&w=220",
+                "alt": "Real Madrid drop 2nd in a row, insist LaLiga race not over"
+              }
+            ],
+            "link": "/football/story/_/id/48084583/real-madrid-drop-2nd-row-laliga-race-not-over"
+          },
+          {
+            "id": 48084778,
+            "headline": "Garcia: Kylian Mbapp\u00e9 injury 'not handled well' by Real Madrid",
+            "byLine": "",
+            "description": "Luis Garcia reacts to confirmation of Kylian Mbapp\u00e9's knee injury and the implications for Real Madrid.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:31:20Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL.jpg&w=220",
+                "alt": "Garcia: Kylian Mbapp\u00e9 injury 'not handled well' by Real Madrid"
+              }
+            ],
+            "link": "/video/clip/_/id/48084778"
+          },
+          {
+            "id": 48084612,
+            "headline": "Late drama as Real Madrid suffer title blow in Getafe defeat",
+            "byLine": "",
+            "description": "Getafe defeat Real Madrid 1-0 to leave Alvaro Arbeloa's side four points adrift from Barcelona in the LaLiga title race.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:12:33Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302.jpg&w=220",
+                "alt": "Late drama as Real Madrid suffer title blow in Getafe defeat"
+              }
+            ],
+            "link": "/video/clip/_/id/48084612"
+          },
+          {
+            "id": 48084503,
+            "headline": "Moreno: Real Madrid lacking a 'game plan' after consecutive LaLiga defeats",
+            "byLine": "",
+            "description": "Ale Moreno reacts to Real Madrid's 1-0 defeat to Getafe following back-to-back defeats in a bid to chase Barcelona for the LaLiga title.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:40:12Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260.jpg&w=220",
+                "alt": "Moreno: Real Madrid lacking a 'game plan' after consecutive LaLiga defeats"
+              }
+            ],
+            "link": "/video/clip/_/id/48084503"
+          },
+          {
+            "id": 48084307,
+            "headline": "Real Madrid loses ground in title chase with 1-0 loss to Getafe",
+            "byLine": "",
+            "description": "Real Madrid falls behind Barcelona at the top of the table as they fall 1-0 at home to Getafe.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/40ca035f24194c8e9cbd710db739e89d1036/40ca035f24194c8e9cbd710db739e89d1036.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:17:08Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/40ca035f24194c8e9cbd710db739e89d1036/40ca035f24194c8e9cbd710db739e89d1036.jpg&w=220",
+                "alt": "Real Madrid loses ground in title chase with 1-0 loss to Getafe"
+              }
+            ],
+            "link": "/video/clip/_/id/48084307"
+          },
+          {
+            "id": 48084063,
+            "headline": "Fabregas wants little Bombonera for Coppa tilt with Inter",
+            "byLine": "PA",
+            "description": "Cesc Fabregas has urged Como fans to turn their Giuseppe Sinigaglia Stadium into a \"little Bombonera\" for Tuesday's Coppa Italia tie against Inter Milan.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/0827/r1537361_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:08:41Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/0827/r1537361_1296x729_16-9.jpg&w=220",
+                "alt": "Fabregas wants little Bombonera for Coppa tilt with Inter"
+              }
+            ],
+            "link": "/football/story/_/id/48084063/fabregas-wants-little-bombanera-coppa-tilt-inter"
+          },
+          {
+            "id": 48079544,
+            "headline": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s",
+            "byLine": "ESPN",
+            "description": "Manchester United could look to the Bundesliga for their newest midfield signing. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T21:18:15Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s"
+              }
+            ],
+            "link": "/football/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts"
+          }
+        ],
+        "link": "/football/league/_/name/fifa.world.u17",
+        "text": "All FIFA U-17 World Cup News"
+      },
+      "season": {
+        "year": 2025,
+        "type": 13384,
+        "name": "Final",
+        "displayName": "2025 FIFA U17 World Cup",
+        "half": 1
+      },
+      "team": {
+        "id": "8414",
+        "abbrev": "KOR",
+        "displayName": "South Korea U17",
+        "shortDisplayName": "South Korea U17",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+        "teamColor": "ce2028",
+        "defaultLeague": {
+          "id": "5697",
+          "alternateId": "2288",
+          "name": "FIFA Under-17 World Cup",
+          "abbreviation": "FIFA U-17 World Cup",
+          "shortName": "FIFA U-17 World Cup",
+          "midsizeName": "FIFA.WORLD.U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           "links": [
             {
               "language": "en-ZA",
@@ -5258,7 +5592,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://africa.espn.com/football/league/_/name/caf.w.nations",
+=======
+              "href": "https://africa.espn.com/football/league/_/name/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Index",
               "shortText": "Index",
               "isExternal": false,
@@ -5271,7 +5609,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://africa.espn.com/football/schedule/_/league/caf.w.nations",
+=======
+              "href": "https://africa.espn.com/football/schedule/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Schedule",
               "shortText": "Schedule",
               "isExternal": false,
@@ -5285,7 +5627,11 @@
                 "app",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:23523&section=scores",
+=======
+              "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:5697&section=scores",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Schedule",
               "shortText": "Schedule",
               "isExternal": false,
@@ -5298,7 +5644,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://www.espn.com/football/table/_/league/caf.w.nations",
+=======
+              "href": "https://www.espn.com/football/table/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Standings",
               "shortText": "Standings",
               "isExternal": false,
@@ -5311,7 +5661,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://africa.espn.com/football/scoreboard/_/league/caf.w.nations",
+=======
+              "href": "https://africa.espn.com/football/scoreboard/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Scores",
               "shortText": "Scores",
               "isExternal": false,
@@ -5325,7 +5679,11 @@
                 "app",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:23523&section=scores",
+=======
+              "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:5697&section=scores",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Scores",
               "shortText": "Scores",
               "isExternal": false,
@@ -5338,7 +5696,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://africa.espn.com/football/stats/_/league/caf.w.nations",
+=======
+              "href": "https://africa.espn.com/football/stats/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Stats",
               "shortText": "Stats",
               "isExternal": false,
@@ -5351,13 +5713,18 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
               "href": "https://africa.espn.com/football/teams/_/league/caf.w.nations",
+=======
+              "href": "https://africa.espn.com/football/teams/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Teams",
               "shortText": "Teams",
               "isExternal": false,
               "isPremium": false
             }
           ],
+<<<<<<< HEAD
           "logos": []
         },
         "recordSummary": "",
@@ -5381,11 +5748,146 @@
               "standingSummary": "",
               "location": "South Africa",
               "links": "/football/team/_/id/13313/south-africa",
+=======
+          "logos": [
+            {
+              "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png",
+              "width": 500,
+              "height": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "default"
+              ],
+              "lastUpdated": "2019-07-30T20:49Z"
+            },
+            {
+              "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2288.png",
+              "width": 500,
+              "height": 500,
+              "alt": "",
+              "rel": [
+                "full",
+                "dark"
+              ],
+              "lastUpdated": "2019-07-30T20:49Z"
+            }
+          ]
+        },
+        "recordSummary": "",
+        "standingSummary": "",
+        "location": "South Korea U17",
+        "links": "",
+        "isNational": true
+      },
+      "seasonTypeYear": "2025",
+      "events": [
+        {
+          "id": "761097",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5054",
+              "abbrev": "ENG",
+              "displayName": "England U17",
+              "shortDisplayName": "England U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "England U17",
+              "links": "/football/team/_/id/5054/england-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2025-11-15T12:30Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/761097/england-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5054",
+              "abbrev": "ENG",
+              "displayName": "England U17",
+              "shortDisplayName": "England U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "England U17",
+              "links": "/football/team/_/id/5054/england-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 2",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/761097/england-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Aspire Zone Pitch 8",
+            "address": {
+              "city": "Ar-Rayyan",
+              "country": "Qatar"
+            }
+          },
+          "attnd": 0,
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "736020",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0,
               "winner": true
             },
             {
+<<<<<<< HEAD
               "id": "21823",
               "abbrev": "SEN",
               "displayName": "Senegal",
@@ -5395,10 +5897,22 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+              "id": "5351",
+              "abbrev": "CIV",
+              "displayName": "Ivory Coast U17",
+              "shortDisplayName": "Ivory Coast U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Ivory Coast U17",
+              "links": "/football/team/_/id/5351/ivory-coast-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
+<<<<<<< HEAD
           "date": "2025-07-19T19:00Z",
           "tbd": false,
           "completed": true,
@@ -5415,11 +5929,30 @@
               "standingSummary": "",
               "location": "South Africa",
               "links": "/football/team/_/id/13313/south-africa",
+=======
+          "date": "2025-11-10T12:30Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/736020/ivory-coast-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0,
               "winner": true
             },
             {
+<<<<<<< HEAD
               "id": "21823",
               "abbrev": "SEN",
               "displayName": "Senegal",
@@ -5429,12 +5962,24 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+              "id": "5351",
+              "abbrev": "CIV",
+              "displayName": "Ivory Coast U17",
+              "shortDisplayName": "Ivory Coast U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Ivory Coast U17",
+              "links": "/football/team/_/id/5351/ivory-coast-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
           "isTie": false,
           "tickets": null,
+<<<<<<< HEAD
           "note": "South Africa advance 4-1 on penalties",
           "dateFormat": "ddd, D MMM",
           "score": "0 - 0",
@@ -5535,6 +6080,21 @@
             "address": {
               "city": "Rabat",
               "country": "Morocco"
+=======
+          "dateFormat": "ddd, D MMM",
+          "score": "3 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/736020/ivory-coast-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Aspire Zone Pitch 8",
+            "address": {
+              "city": "Ar-Rayyan",
+              "country": "Qatar"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "attnd": 0,
@@ -5542,6 +6102,7 @@
           "notes": ""
         },
         {
+<<<<<<< HEAD
           "id": "747964",
           "competitors": [
             {
@@ -5568,10 +6129,38 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+          "id": "736000",
+          "competitors": [
+            {
+              "id": "130888",
+              "abbrev": "SUI",
+              "displayName": "Switzerland U17",
+              "shortDisplayName": "Switzerland U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Switzerland U17",
+              "links": "/football/team/_/id/130888/switzerland-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
+<<<<<<< HEAD
           "date": "2025-07-09T16:00Z",
           "tbd": false,
           "completed": true,
@@ -5726,10 +6315,29 @@
               "standingSummary": "",
               "location": "Tunisia",
               "links": "/football/team/_/id/21301/tunisia",
+=======
+          "date": "2025-11-07T15:15Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/736000/south-korea-u17-switzerland-u17",
+          "teams": [
+            {
+              "id": "130888",
+              "abbrev": "SUI",
+              "displayName": "Switzerland U17",
+              "shortDisplayName": "Switzerland U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Switzerland U17",
+              "links": "/football/team/_/id/130888/switzerland-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
               "id": "21823",
               "abbrev": "SEN",
               "displayName": "Senegal",
@@ -5930,6 +6538,17 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
@@ -5937,6 +6556,7 @@
           "isTie": true,
           "tickets": null,
           "dateFormat": "ddd, D MMM",
+<<<<<<< HEAD
           "score": "1 - 1",
           "status": {
             "state": "post",
@@ -5944,11 +6564,28 @@
             "link": "/football/match/_/gameId/666612/senegal-thailand"
           },
           "league": "Women's International Friendly",
+=======
+          "score": "0 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/736000/south-korea-u17-switzerland-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Aspire Pitch 4",
+            "address": {
+              "city": "Ar-Rayyan",
+              "country": "Qatar"
+            }
+          },
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           "attnd": 0,
           "odds": false,
           "notes": ""
         },
         {
+<<<<<<< HEAD
           "id": "661488",
           "competitors": [
             {
@@ -5961,10 +6598,25 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+          "id": "735986",
+          "competitors": [
+            {
+              "id": "5379",
+              "abbrev": "MEX",
+              "displayName": "Mexico U17",
+              "shortDisplayName": "Mexico U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Mexico U17",
+              "links": "/football/team/_/id/5379/mexico-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
               "id": "2891",
               "abbrev": "HAI",
               "displayName": "Haiti",
@@ -5974,11 +6626,23 @@
               "standingSummary": "",
               "location": "Haiti",
               "links": "/football/team/_/id/2891/haiti",
+=======
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0,
               "winner": true
             }
           ],
+<<<<<<< HEAD
           "date": "2023-02-18T01:00Z",
           "tbd": false,
           "completed": true,
@@ -5995,10 +6659,29 @@
               "standingSummary": "",
               "location": "Senegal",
               "links": "/football/team/_/id/21823/senegal",
+=======
+          "date": "2025-11-04T13:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/735986/south-korea-u17-mexico-u17",
+          "teams": [
+            {
+              "id": "5379",
+              "abbrev": "MEX",
+              "displayName": "Mexico U17",
+              "shortDisplayName": "Mexico U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Mexico U17",
+              "links": "/football/team/_/id/5379/mexico-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
               "id": "2891",
               "abbrev": "HAI",
               "displayName": "Haiti",
@@ -6008,6 +6691,17 @@
               "standingSummary": "",
               "location": "Haiti",
               "links": "/football/team/_/id/2891/haiti",
+=======
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0,
               "winner": true
@@ -6016,6 +6710,7 @@
           "isTie": false,
           "tickets": null,
           "dateFormat": "ddd, D MMM",
+<<<<<<< HEAD
           "score": "0 - 4",
           "status": {
             "state": "post",
@@ -6028,18 +6723,1069 @@
             "address": {
               "city": "Auckland",
               "country": "New Zealand"
+=======
+          "score": "1 - 2",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/735986/south-korea-u17-mexico-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Aspire Complex",
+            "address": {
+              "city": "Ar-Rayyan",
+              "country": "Qatar"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "attnd": 0,
           "odds": false,
           "notes": ""
+<<<<<<< HEAD
         }
       ],
       "pageHeading": "Senegal Results",
+=======
+        },
+        {
+          "id": "688188",
+          "competitors": [
+            {
+              "id": "22033",
+              "abbrev": "BFA",
+              "displayName": "Burkina Faso U17",
+              "shortDisplayName": "Burkina Faso U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bka.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Burkina Faso U17",
+              "links": "/football/team/_/id/22033/burkina-faso-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2023-11-18T12:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/688188/south-korea-u17-burkina-faso-u17",
+          "teams": [
+            {
+              "id": "22033",
+              "abbrev": "BFA",
+              "displayName": "Burkina Faso U17",
+              "shortDisplayName": "Burkina Faso U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bka.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Burkina Faso U17",
+              "links": "/football/team/_/id/22033/burkina-faso-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "2 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/688188/south-korea-u17-burkina-faso-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Jalak Harupat Soreang Stadium",
+            "address": {
+              "city": "Bandung",
+              "country": "Indonesia"
+            }
+          },
+          "attnd": "3,400",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "688176",
+          "competitors": [
+            {
+              "id": "8415",
+              "abbrev": "FRA",
+              "displayName": "France U17",
+              "shortDisplayName": "France U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "France U17",
+              "links": "/football/team/_/id/8415/france-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2023-11-15T12:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/688176/south-korea-u17-france-u17",
+          "teams": [
+            {
+              "id": "8415",
+              "abbrev": "FRA",
+              "displayName": "France U17",
+              "shortDisplayName": "France U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "France U17",
+              "links": "/football/team/_/id/8415/france-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/688176/south-korea-u17-france-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Jakarta International Stadium",
+            "address": {
+              "city": "Jakarta",
+              "country": "Indonesia"
+            }
+          },
+          "attnd": "7,476",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "688164",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "17975",
+              "abbrev": "USA",
+              "displayName": "United States U17",
+              "shortDisplayName": "United States U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "United States U17",
+              "links": "/football/team/_/id/17975/united-states-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2023-11-12T12:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/688164/united-states-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "17975",
+              "abbrev": "USA",
+              "displayName": "United States U17",
+              "shortDisplayName": "United States U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "United States U17",
+              "links": "/football/team/_/id/17975/united-states-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 3",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/688164/united-states-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Jakarta International Stadium",
+            "address": {
+              "city": "Jakarta",
+              "country": "Indonesia"
+            }
+          },
+          "attnd": "4,317",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "559619",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5379",
+              "abbrev": "MEX",
+              "displayName": "Mexico U17",
+              "shortDisplayName": "Mexico U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Mexico U17",
+              "links": "/football/team/_/id/5379/mexico-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2019-11-10T23:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/559619/mexico-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5379",
+              "abbrev": "MEX",
+              "displayName": "Mexico U17",
+              "shortDisplayName": "Mexico U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Mexico U17",
+              "links": "/football/team/_/id/5379/mexico-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/559619/mexico-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Kl\u00e9ber Andrade",
+            "address": {
+              "city": "Esp\u00edrito Santo",
+              "country": "Brazil"
+            }
+          },
+          "attnd": "5,087",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "559300",
+          "competitors": [
+            {
+              "id": "20067",
+              "abbrev": "ANG",
+              "displayName": "Angola U17",
+              "shortDisplayName": "Angola U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ang.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Angola U17",
+              "links": "",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2019-11-05T19:30Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/559300/south-korea-u17-angola-u17",
+          "teams": [
+            {
+              "id": "20067",
+              "abbrev": "ANG",
+              "displayName": "Angola U17",
+              "shortDisplayName": "Angola U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ang.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Angola U17",
+              "links": "",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/559300/south-korea-u17-angola-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Olimpico Pedro Ludovico",
+            "address": {
+              "city": "Goi\u00e3nia",
+              "country": "Brazil"
+            }
+          },
+          "attnd": "390",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "552056",
+          "competitors": [
+            {
+              "id": "17976",
+              "abbrev": "CHI",
+              "displayName": "Chile U17",
+              "shortDisplayName": "Chile U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Chile U17",
+              "links": "/football/team/_/id/17976/chile-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2019-11-02T20:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/552056/south-korea-u17-chile-u17",
+          "teams": [
+            {
+              "id": "17976",
+              "abbrev": "CHI",
+              "displayName": "Chile U17",
+              "shortDisplayName": "Chile U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Chile U17",
+              "links": "/football/team/_/id/17976/chile-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 2",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/552056/south-korea-u17-chile-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Kl\u00e9ber Andrade",
+            "address": {
+              "city": "Esp\u00edrito Santo",
+              "country": "Brazil"
+            }
+          },
+          "attnd": "4,686",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "552057",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8415",
+              "abbrev": "FRA",
+              "displayName": "France U17",
+              "shortDisplayName": "France U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "France U17",
+              "links": "/football/team/_/id/8415/france-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2019-10-30T20:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/552057/france-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8415",
+              "abbrev": "FRA",
+              "displayName": "France U17",
+              "shortDisplayName": "France U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "France U17",
+              "links": "/football/team/_/id/8415/france-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 3",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/552057/france-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Est\u00e1dio de Hail\u00e9 Pinheiro",
+            "address": {
+              "city": "Goi\u00e3nia",
+              "country": "Brazil"
+            }
+          },
+          "attnd": "696",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "552060",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "20063",
+              "abbrev": "HAI",
+              "displayName": "Haiti U17",
+              "shortDisplayName": "Haiti U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Haiti U17",
+              "links": "/football/team/_/id/20063/haiti-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2019-10-27T23:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/552060/haiti-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "20063",
+              "abbrev": "HAI",
+              "displayName": "Haiti U17",
+              "shortDisplayName": "Haiti U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Haiti U17",
+              "links": "/football/team/_/id/20063/haiti-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "2 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/552060/haiti-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Est\u00e1dio de Hail\u00e9 Pinheiro",
+            "address": {
+              "city": "Goi\u00e3nia",
+              "country": "Brazil"
+            }
+          },
+          "attnd": "1,433",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "436979",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "6649",
+              "abbrev": "BEL",
+              "displayName": "Belgium U17",
+              "shortDisplayName": "Belgium U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Belgium U17",
+              "links": "/football/team/_/id/6649/belgium-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2015-10-28T23:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/436979/belgium-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "6649",
+              "abbrev": "BEL",
+              "displayName": "Belgium U17",
+              "shortDisplayName": "Belgium U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Belgium U17",
+              "links": "/football/team/_/id/6649/belgium-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 2",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/436979/belgium-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Estadio La Portada",
+            "address": {
+              "city": "Estadio La Portada",
+              "country": "Chile"
+            }
+          },
+          "attnd": "6,388",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "433136",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5054",
+              "abbrev": "ENG",
+              "displayName": "England U17",
+              "shortDisplayName": "England U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "England U17",
+              "links": "/football/team/_/id/5054/england-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2015-10-23T20:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/433136/england-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "5054",
+              "abbrev": "ENG",
+              "displayName": "England U17",
+              "shortDisplayName": "England U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "England U17",
+              "links": "/football/team/_/id/5054/england-u17",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": true,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/433136/england-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Francisco S\u00e1nchez Rumoroso",
+            "address": {
+              "city": "Coquimbo",
+              "country": "Chile"
+            }
+          },
+          "attnd": "5,606",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "433145",
+          "competitors": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "17977",
+              "abbrev": "GUI",
+              "displayName": "Guinea U17",
+              "shortDisplayName": "Guinea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gui.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Guinea U17",
+              "links": "",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2015-10-20T23:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/433145/guinea-u17-south-korea-u17",
+          "teams": [
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "17977",
+              "abbrev": "GUI",
+              "displayName": "Guinea U17",
+              "shortDisplayName": "Guinea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gui.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Guinea U17",
+              "links": "",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/433145/guinea-u17-south-korea-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Estadio La Portada",
+            "address": {
+              "city": "Estadio La Portada",
+              "country": "Chile"
+            }
+          },
+          "attnd": "8,225",
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "433158",
+          "competitors": [
+            {
+              "id": "5377",
+              "abbrev": "BRA",
+              "displayName": "Brazil U17",
+              "shortDisplayName": "Brazil U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Brazil U17",
+              "links": "/football/team/_/id/5377/brazil-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2015-10-17T22:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/433158/south-korea-u17-brazil-u17",
+          "teams": [
+            {
+              "id": "5377",
+              "abbrev": "BRA",
+              "displayName": "Brazil U17",
+              "shortDisplayName": "Brazil U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Brazil U17",
+              "links": "/football/team/_/id/5377/brazil-u17",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "8414",
+              "abbrev": "KOR",
+              "displayName": "South Korea U17",
+              "shortDisplayName": "South Korea U17",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Korea U17",
+              "links": "/football/team/_/id/8414/south-korea-u17",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/433158/south-korea-u17-brazil-u17"
+          },
+          "league": "FIFA Under-17 World Cup",
+          "venue": {
+            "fullName": "Francisco S\u00e1nchez Rumoroso",
+            "address": {
+              "city": "Coquimbo",
+              "country": "Chile"
+            }
+          },
+          "attnd": "5,333",
+          "odds": false,
+          "notes": ""
+        }
+      ],
+      "pageHeading": "South Korea U17 Results",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       "dropdownLeagues": [
         {
           "title": "All Competitions",
           "value": "all",
+<<<<<<< HEAD
           "href": "/football/team/results/_/id/21823"
         },
         {
@@ -6056,10 +7802,19 @@
           "title": "FIFA Women's World Cup Qualifying - Playoff Tournament",
           "href": "/football/team/results/_/id/21823/league/FIFA.WWCQ.PLY",
           "value": "FIFA.WWCQ.PLY"
+=======
+          "href": "/football/team/results/_/id/8414"
+        },
+        {
+          "title": "FIFA Under-17 World Cup",
+          "href": "/football/team/results/_/id/8414/league/FIFA.WORLD.U17",
+          "value": "FIFA.WORLD.U17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
         }
       ],
       "seasons": [
         {
+<<<<<<< HEAD
           "value": 2026,
           "link": "/football/team/results/_/id/21823/season/2026"
         },
@@ -6070,6 +7825,26 @@
         {
           "value": 2023,
           "link": "/football/team/results/_/id/21823/season/2023"
+=======
+          "value": 2025,
+          "link": "/football/team/results/_/id/8414/season/2025"
+        },
+        {
+          "value": 2023,
+          "link": "/football/team/results/_/id/8414/season/2023"
+        },
+        {
+          "value": 2019,
+          "link": "/football/team/results/_/id/8414/season/2019"
+        },
+        {
+          "value": 2015,
+          "link": "/football/team/results/_/id/8414/season/2015"
+        },
+        {
+          "value": 2007,
+          "link": "/football/team/results/_/id/8414/season/2007"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
         }
       ],
       "headers": {
@@ -6109,7 +7884,7 @@
         ]
       },
       "soccerLinkBet": false,
-      "currentSeason": "2023"
+      "currentSeason": "2025"
     }
   },
   "subType": "results",
@@ -6139,13 +7914,21 @@
     "countryRegion": "en-za",
     "pageURL": "/",
     "vendors": [],
+<<<<<<< HEAD
     "teamName": "Senegal",
+=======
+    "teamName": "South Korea U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
     "edition": "en-za",
     "path": "/soccer/team/results",
     "sport": "soccer",
     "league": "",
     "siteSection": "espn",
+<<<<<<< HEAD
     "playerTeamDetail": "soccer:teamId=21823-senegal"
+=======
+    "playerTeamDetail": "soccer:teamId=8414-south+korea+u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
   },
   "ads": {
     "level": "espn.za/soccer/team/results",
@@ -6168,11 +7951,19 @@
       },
       {
         "name": "tm",
+<<<<<<< HEAD
         "value": "sen"
       },
       {
         "name": "league",
         "value": "caf.w.nations"
+=======
+        "value": "kor"
+      },
+      {
+        "name": "league",
+        "value": "fifa.world.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "name": "darkmode",
@@ -6180,7 +7971,11 @@
       },
       {
         "name": "ajx_url",
+<<<<<<< HEAD
         "value": "https://africa.espn.com/football/team/results/_/id/21823/season/2023"
+=======
+        "value": "https://africa.espn.com/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       }
     ]
   },

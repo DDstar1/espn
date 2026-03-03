@@ -5068,6 +5068,7 @@
         "header": "Premier League News",
         "articles": [
           {
+<<<<<<< HEAD
             "id": 48079937,
             "headline": "Iran's situation at the 2026 World Cup: Will they play? What happens if they don't?",
             "byLine": "ESPN",
@@ -5187,6 +5188,8 @@
             "link": "/football/story/_/id/48069891/wolves-vs-liverpool-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
           },
           {
+=======
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             "id": 48086245,
             "headline": "Football is life! 'Dani Rojas' from Ted Lasso is on trial at a USL club",
             "byLine": "Joey Lynch",
@@ -5236,6 +5239,128 @@
               }
             ],
             "link": "/football/story/_/id/48085833/matildas-show-support-womens-asian-cup-opponents-iran"
+<<<<<<< HEAD
+=======
+          },
+          {
+            "id": 48080170,
+            "headline": "Jordi Alba debuts alongside legends at Soccer Aid 2026",
+            "byLine": "Nina Hristova",
+            "description": "Former Barcelona and Spain legend Jordi Alba will make his debut in the 20th edition of Soccer Aid for UNICEF, taking place on May 31 at the London Stadium.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622029_594x334_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T00:02:54Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622029_594x334_16-9.jpg&w=220",
+                "alt": "Jordi Alba debuts alongside legends at Soccer Aid 2026"
+              }
+            ],
+            "link": "/football/story/_/id/48080170/jordi-alba-debuts-alongside-legends-soccer-aid-2026"
+          },
+          {
+            "id": 48084583,
+            "headline": "Real Madrid drop 2nd in a row, insist LaLiga race not over",
+            "byLine": "Alex Kirkland",
+            "description": "Real Madrid coach \u00c1lvaro Arbeloa insisted that the LaLiga title race isn't over after his team's surprise 1-0 home defeat to Getafe left them four points behind leaders Barcelona.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622331_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:47:00Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622331_1296x729_16-9.jpg&w=220",
+                "alt": "Real Madrid drop 2nd in a row, insist LaLiga race not over"
+              }
+            ],
+            "link": "/football/story/_/id/48084583/real-madrid-drop-2nd-row-laliga-race-not-over"
+          },
+          {
+            "id": 48084778,
+            "headline": "Garcia: Kylian Mbapp\u00e9 injury 'not handled well' by Real Madrid",
+            "byLine": "",
+            "description": "Luis Garcia reacts to confirmation of Kylian Mbapp\u00e9's knee injury and the implications for Real Madrid.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:31:20Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL/dm_260302_COM_SOC_Analysis_Garcia_Kylian_Mbappe_injury_not_handled_well_by_Real_Madrid_20260302_GLOBAL.jpg&w=220",
+                "alt": "Garcia: Kylian Mbapp\u00e9 injury 'not handled well' by Real Madrid"
+              }
+            ],
+            "link": "/video/clip/_/id/48084778"
+          },
+          {
+            "id": 48084612,
+            "headline": "Late drama as Real Madrid suffer title blow in Getafe defeat",
+            "byLine": "",
+            "description": "Getafe defeat Real Madrid 1-0 to leave Alvaro Arbeloa's side four points adrift from Barcelona in the LaLiga title race.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T23:12:33Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302/dm_260302_COM_SOC_Highlight_Late_drama_as_Real_Madrid_suffer_title_blow_in_Getafe_defeat_20260302.jpg&w=220",
+                "alt": "Late drama as Real Madrid suffer title blow in Getafe defeat"
+              }
+            ],
+            "link": "/video/clip/_/id/48084612"
+          },
+          {
+            "id": 48084503,
+            "headline": "Moreno: Real Madrid lacking a 'game plan' after consecutive LaLiga defeats",
+            "byLine": "",
+            "description": "Ale Moreno reacts to Real Madrid's 1-0 defeat to Getafe following back-to-back defeats in a bid to chase Barcelona for the LaLiga title.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:40:12Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260/dm_260302_COM_SOC_Analysis_Moreno_Real_Madrid_lacking_a_game_plan_after_consecutive_LaLiga_defeats_20260.jpg&w=220",
+                "alt": "Moreno: Real Madrid lacking a 'game plan' after consecutive LaLiga defeats"
+              }
+            ],
+            "link": "/video/clip/_/id/48084503"
+          },
+          {
+            "id": 48084307,
+            "headline": "Real Madrid loses ground in title chase with 1-0 loss to Getafe",
+            "byLine": "",
+            "description": "Real Madrid falls behind Barcelona at the top of the table as they fall 1-0 at home to Getafe.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/40ca035f24194c8e9cbd710db739e89d1036/40ca035f24194c8e9cbd710db739e89d1036.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:17:08Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/40ca035f24194c8e9cbd710db739e89d1036/40ca035f24194c8e9cbd710db739e89d1036.jpg&w=220",
+                "alt": "Real Madrid loses ground in title chase with 1-0 loss to Getafe"
+              }
+            ],
+            "link": "/video/clip/_/id/48084307"
+          },
+          {
+            "id": 48084063,
+            "headline": "Fabregas wants little Bombonera for Coppa tilt with Inter",
+            "byLine": "PA",
+            "description": "Cesc Fabregas has urged Como fans to turn their Giuseppe Sinigaglia Stadium into a \"little Bombonera\" for Tuesday's Coppa Italia tie against Inter Milan.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/0827/r1537361_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T22:08:41Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/0827/r1537361_1296x729_16-9.jpg&w=220",
+                "alt": "Fabregas wants little Bombonera for Coppa tilt with Inter"
+              }
+            ],
+            "link": "/football/story/_/id/48084063/fabregas-wants-little-bombanera-coppa-tilt-inter"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           }
         ],
         "link": "/football/league/_/name/eng.1",

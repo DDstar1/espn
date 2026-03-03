@@ -5261,13 +5261,6 @@
           "linkText": "Full Scoreboard &#187;",
           "top25Only": true,
           "slug": "mlb"
-        },
-        {
-          "league": "8604",
-          "sport": "cricket",
-          "sportId": "8604",
-          "displayName": "Men's T20 World Cup",
-          "slug": "8604"
         }
       ],
       "collegeConfs": null
@@ -5483,7 +5476,7 @@
           "ariaLabel": "Stuttgart v Young Boys",
           "isTie": false
         },
-        "gameSwitcherExpected": false,
+        "gameSwitcherExpected": true,
         "topic": "picker-soccer-uefa.europa"
       },
       "gpLinks": {
