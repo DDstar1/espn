@@ -114,20 +114,18 @@ def get_links_of_all_games_played(team_url):
                 f"https://www.espn.co.uk/football/match/_/gameId/{espn_game_id}",
                 f"commentary_and_matchstats_{espn_game_id}.json"
             )
+            
+            commentary_gamepackage_dic = commentary_and_matchstats_json.get("content", {}).get("gamepackage", {})
+            all_players_lineup_dic = commentary_gamepackage_dic.get("lineUps", [])
+            matchstats_gamepackage_dic = commentary_and_matchstats_json.get("content", {}).get("gamepackage", {}).get("mtchStatsGrph", {})
+
         except requests.exceptions.HTTPError as e:
             status_code = getattr(e.response, "status_code", None)
             if status_code == 404:
                 print(f"No ESPN data found for game {espn_game_id}, skipping...")
                 continue
             else:
-                raise  # re-raise any other HTTP errors
-
-        
-        commentary_gamepackage_dic = commentary_and_matchstats_json.get("content", {}).get("gamepackage", {})
-        all_players_lineup_dic = commentary_gamepackage_dic.get("lineUps", [])
-        matchstats_gamepackage_dic = commentary_and_matchstats_json.get("content", {}).get("gamepackage", {}).get("mtchStatsGrph", {})
-
-        
+                raise  # re-raise any other HTTP errors 
         # ====================================================================
         # STEP 5.1: Process Both Teams
         # ====================================================================
