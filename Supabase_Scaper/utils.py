@@ -1,3 +1,4 @@
+import logging
 import time
 from datetime import datetime
 import json
@@ -22,14 +23,35 @@ WORKER_PY_NAME = "main.py"        # Name of the Python worker file
 WORKER_EXE_NAME = "espn_scraper.exe"  # Name of the EXE worker file
 
 
-def my_print(string, should_print=True):
+
+# -------------------------
+# LOGGING CONFIG
+# -------------------------
+LOG_FILE = "espn_scraper.log"
+
+# Ensure log directory exists
+if os.path.dirname(LOG_FILE):
+    os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+
+logging.basicConfig(
+    level=logging.INFO,  # log everything as INFO
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, encoding="utf-8"),  # log to file
+        logging.StreamHandler(sys.stdout)                 # log to console
+    ]
+)
+
+
+def my_print(string, should_print=True, log_enabled=True):
     if should_print==True: print(string)
+    if log_enabled: logging.info(string)
     else: pass
 
 
 
 
-def extract_espnfitt(url: str, output_file_name: str | None = None, log_enabled: bool = True):
+def extract_espnfitt(url: str, output_file_name: str | None = None, log_enabled: bool = False):
     """
     Extract __espnfitt__ JSON data from ESPN pages safely with retry handling.
     """

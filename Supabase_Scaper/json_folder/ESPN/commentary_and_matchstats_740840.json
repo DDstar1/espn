@@ -5261,13 +5261,6 @@
           "linkText": "Full Scoreboard &#187;",
           "top25Only": true,
           "slug": "mlb"
-        },
-        {
-          "league": "8604",
-          "sport": "cricket",
-          "sportId": "8604",
-          "displayName": "Men's T20 World Cup",
-          "slug": "8604"
         }
       ],
       "collegeConfs": null
@@ -5470,7 +5463,7 @@
           "ariaLabel": "Wolves v Chelsea",
           "isTie": false
         },
-        "gameSwitcherExpected": false,
+        "gameSwitcherExpected": true,
         "topic": "picker-soccer-eng.1"
       },
       "gpLinks": {
@@ -5820,14 +5813,14 @@
                     "links": "/football/club/_/id/359/arsenal"
                   },
                   "stats": [
-                    "28",
+                    "29",
                     "3",
-                    "+35",
-                    "61",
+                    "+36",
+                    "64",
                     "7",
-                    "18",
+                    "19",
                     "1",
-                    "18-7-3"
+                    "19-7-3"
                   ]
                 },
                 {
@@ -5841,14 +5834,35 @@
                     "links": "/football/club/_/id/382/manchester-city"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "5",
-                    "+31",
-                    "56",
+                    "+32",
+                    "59",
                     "5",
-                    "17",
+                    "18",
                     "2",
-                    "17-5-5"
+                    "18-5-5"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "360",
+                    "displayName": "Manchester United",
+                    "shortDisplayName": "Manchester United",
+                    "uid": "s:600~t:360",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/360/manchester-united"
+                  },
+                  "stats": [
+                    "28",
+                    "5",
+                    "+12",
+                    "51",
+                    "9",
+                    "14",
+                    "3",
+                    "14-9-5"
                   ]
                 },
                 {
@@ -5868,50 +5882,8 @@
                     "51",
                     "6",
                     "15",
-                    "3",
-                    "15-6-7"
-                  ]
-                },
-                {
-                  "team": {
-                    "id": "360",
-                    "displayName": "Manchester United",
-                    "shortDisplayName": "Manchester United",
-                    "uid": "s:600~t:360",
-                    "recordSummary": "",
-                    "standingSummary": "",
-                    "links": "/football/club/_/id/360/manchester-united"
-                  },
-                  "stats": [
-                    "27",
-                    "5",
-                    "+11",
-                    "48",
-                    "9",
-                    "13",
                     "4",
-                    "13-9-5"
-                  ]
-                },
-                {
-                  "team": {
-                    "id": "363",
-                    "displayName": "Chelsea",
-                    "shortDisplayName": "Chelsea",
-                    "uid": "s:600~t:363",
-                    "recordSummary": "",
-                    "standingSummary": "",
-                    "links": "/football/club/_/id/363/chelsea"
-                  },
-                  "stats": [
-                    "27",
-                    "6",
-                    "+17",
-                    "45",
-                    "9",
-                    "12",
-                    "5",
-                    "12-9-6"
+                    "15-6-7"
                   ]
                 },
                 {
@@ -5925,14 +5897,35 @@
                     "links": "/football/club/_/id/364/liverpool"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "8",
-                    "+7",
+                    "+10",
+                    "48",
+                    "6",
+                    "14",
+                    "5",
+                    "14-6-8"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "363",
+                    "displayName": "Chelsea",
+                    "shortDisplayName": "Chelsea",
+                    "uid": "s:600~t:363",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/363/chelsea"
+                  },
+                  "stats": [
+                    "28",
+                    "7",
+                    "+16",
                     "45",
+                    "9",
+                    "12",
                     "6",
-                    "13",
-                    "6",
-                    "13-6-8"
+                    "12-9-7"
                   ]
                 },
                 {
@@ -5946,35 +5939,14 @@
                     "links": "/football/club/_/id/337/brentford"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "11",
-                    "+3",
-                    "40",
+                    "+4",
+                    "43",
                     "4",
-                    "12",
+                    "13",
                     "7",
-                    "12-4-11"
-                  ]
-                },
-                {
-                  "team": {
-                    "id": "349",
-                    "displayName": "AFC Bournemouth",
-                    "shortDisplayName": "AFC Bournemouth",
-                    "uid": "s:600~t:349",
-                    "recordSummary": "",
-                    "standingSummary": "",
-                    "links": "/football/club/_/id/349/afc-bournemouth"
-                  },
-                  "stats": [
-                    "27",
-                    "7",
-                    "-2",
-                    "38",
-                    "11",
-                    "9",
-                    "8",
-                    "9-11-7"
+                    "13-4-11"
                   ]
                 },
                 {
@@ -5988,14 +5960,14 @@
                     "links": "/football/club/_/id/368/everton"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "10",
-                    "-2",
-                    "37",
+                    "-1",
+                    "40",
                     "7",
-                    "10",
-                    "9",
-                    "10-7-10"
+                    "11",
+                    "8",
+                    "11-7-10"
                   ]
                 },
                 {
@@ -6009,77 +5981,35 @@
                     "links": "/football/club/_/id/370/fulham"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "12",
-                    "-3",
-                    "37",
+                    "-2",
+                    "40",
                     "4",
-                    "11",
-                    "10",
-                    "11-4-12"
-                  ]
-                },
-                {
-                  "team": {
-                    "id": "361",
-                    "displayName": "Newcastle United",
-                    "shortDisplayName": "Newcastle United",
-                    "uid": "s:600~t:361",
-                    "recordSummary": "",
-                    "standingSummary": "",
-                    "links": "/football/club/_/id/361/newcastle-united"
-                  },
-                  "stats": [
-                    "27",
-                    "11",
-                    "-1",
-                    "36",
-                    "6",
-                    "10",
-                    "11",
-                    "10-6-11"
-                  ]
-                },
-                {
-                  "team": {
-                    "id": "366",
-                    "displayName": "Sunderland",
-                    "shortDisplayName": "Sunderland",
-                    "uid": "s:600~t:366",
-                    "recordSummary": "",
-                    "standingSummary": "",
-                    "links": "/football/club/_/id/366/sunderland"
-                  },
-                  "stats": [
-                    "27",
-                    "9",
-                    "-5",
-                    "36",
-                    "9",
-                    "9",
                     "12",
-                    "9-9-9"
+                    "9",
+                    "12-4-12"
                   ]
                 },
                 {
                   "team": {
-                    "id": "384",
-                    "displayName": "Crystal Palace",
-                    "shortDisplayName": "Crystal Palace",
-                    "uid": "s:600~t:384",
+                    "id": "349",
+                    "displayName": "AFC Bournemouth",
+                    "shortDisplayName": "AFC Bournemouth",
+                    "uid": "s:600~t:349",
                     "recordSummary": "",
                     "standingSummary": "",
-                    "links": "/football/club/_/id/384/crystal-palace"
+                    "links": "/football/club/_/id/349/afc-bournemouth"
                   },
                   "stats": [
-                    "27",
-                    "10",
-                    "-3",
-                    "35",
-                    "8",
+                    "28",
+                    "7",
+                    "-2",
+                    "39",
+                    "12",
                     "9",
-                    "13",
-                    "9-8-10"
+                    "10",
+                    "9-12-7"
                   ]
                 },
                 {
@@ -6093,14 +6023,77 @@
                     "links": "/football/club/_/id/331/brighton-hove-albion"
                   },
                   "stats": [
-                    "27",
+                    "28",
                     "9",
-                    "+2",
-                    "34",
+                    "+3",
+                    "37",
                     "10",
+                    "9",
+                    "11",
+                    "9-10-9"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "366",
+                    "displayName": "Sunderland",
+                    "shortDisplayName": "Sunderland",
+                    "uid": "s:600~t:366",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/366/sunderland"
+                  },
+                  "stats": [
+                    "28",
+                    "9",
+                    "-5",
+                    "37",
+                    "10",
+                    "9",
+                    "12",
+                    "9-10-9"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "361",
+                    "displayName": "Newcastle United",
+                    "shortDisplayName": "Newcastle United",
+                    "uid": "s:600~t:361",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/361/newcastle-united"
+                  },
+                  "stats": [
+                    "28",
+                    "12",
+                    "-2",
+                    "36",
+                    "6",
+                    "10",
+                    "13",
+                    "10-6-12"
+                  ]
+                },
+                {
+                  "team": {
+                    "id": "384",
+                    "displayName": "Crystal Palace",
+                    "shortDisplayName": "Crystal Palace",
+                    "uid": "s:600~t:384",
+                    "recordSummary": "",
+                    "standingSummary": "",
+                    "links": "/football/club/_/id/384/crystal-palace"
+                  },
+                  "stats": [
+                    "28",
+                    "11",
+                    "-4",
+                    "35",
                     "8",
+                    "9",
                     "14",
-                    "8-10-9"
+                    "9-8-11"
                   ]
                 },
                 {
@@ -6114,14 +6107,14 @@
                     "links": "/football/club/_/id/357/leeds-united"
                   },
                   "stats": [
-                    "27",
-                    "10",
-                    "-9",
+                    "28",
+                    "11",
+                    "-10",
                     "31",
                     "10",
                     "7",
                     "15",
-                    "7-10-10"
+                    "7-10-11"
                   ]
                 },
                 {
@@ -6135,14 +6128,14 @@
                     "links": "/football/club/_/id/367/tottenham-hotspur"
                   },
                   "stats": [
-                    "27",
-                    "12",
-                    "-4",
+                    "28",
+                    "13",
+                    "-5",
                     "29",
                     "8",
                     "7",
                     "16",
-                    "7-8-12"
+                    "7-8-13"
                   ]
                 },
                 {
@@ -6156,14 +6149,14 @@
                     "links": "/football/club/_/id/393/nottingham-forest"
                   },
                   "stats": [
-                    "27",
-                    "14",
-                    "-14",
+                    "28",
+                    "15",
+                    "-15",
                     "27",
                     "6",
                     "7",
                     "17",
-                    "7-6-14"
+                    "7-6-15"
                   ]
                 },
                 {
@@ -6177,14 +6170,14 @@
                     "links": "/football/club/_/id/371/west-ham-united"
                   },
                   "stats": [
-                    "27",
-                    "14",
-                    "-17",
+                    "28",
+                    "15",
+                    "-20",
                     "25",
                     "7",
                     "6",
                     "18",
-                    "6-7-14"
+                    "6-7-15"
                   ]
                 },
                 {
@@ -6198,14 +6191,14 @@
                     "links": "/football/club/_/id/379/burnley"
                   },
                   "stats": [
-                    "27",
-                    "16",
-                    "-23",
+                    "28",
+                    "17",
+                    "-24",
                     "19",
                     "7",
                     "4",
                     "19",
-                    "4-7-16"
+                    "4-7-17"
                   ]
                 },
                 {
@@ -6406,55 +6399,55 @@
         "header": "Premier League News",
         "articles": [
           {
-            "id": 48056892,
-            "headline": "Pep Guardiola: 'Bit weird' that Man City are playing Real Madrid again",
-            "byLine": "PA",
-            "description": "Manchester City boss Pep Guardiola admits it feels \"a little bit weird\" to be facing Real Madrid in the Champions League yet again.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621056_2_1296x729_16-9.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T22:59:06Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621056_2_1296x729_16-9.jpg&w=220",
-                "alt": "Pep Guardiola: 'Bit weird' that Man City are playing Real Madrid again"
-              }
-            ],
-            "link": "/football/story/_/id/48056892/pep-guardiola-man-city-real-madrid-again-uefa-champions-league-draw"
-          },
-          {
-            "id": 48047363,
-            "headline": "Wolves move past PL record-low points total with win over Aston Villa",
-            "byLine": "PA",
-            "description": "Wolves moved past Derby's record-low Premier League points tally as they dealt a blow to Aston Villa's top-four hopes with a 2-0 win at Molineux.\n\n",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621023_1296x729_16-9.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T22:22:15Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621023_1296x729_16-9.jpg&w=220",
-                "alt": "Wolves move past PL record-low points total with win over Aston Villa"
-              }
-            ],
-            "link": "/football/report/_/gameId/740868"
-          },
-          {
-            "id": 48051584,
-            "headline": "Transfer rumors, news: Arsenal lead Liverpool, United for Gordon",
+            "id": 48079544,
+            "headline": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s",
             "byLine": "ESPN",
-            "description": "Arsenal, Liverpool and Manchester United are set to battle for Anthony Gordon. Transfer Talk has the latest.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0218/r1617052_1296x729_16-9.jpg&w=220",
+            "description": "Manchester United could look to the Bundesliga for their newest midfield signing. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-27T21:29:27Z",
+            "published": "2026-03-02T21:18:15Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0218/r1617052_1296x729_16-9.jpg&w=220",
-                "alt": "Transfer rumors, news: Arsenal lead Liverpool, United for Gordon"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622254_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Man United keeping tabs on Stuttgart's Andr\u00e9s"
               }
             ],
-            "link": "/football/story/_/id/48051584/transfer-rumors-news-man-united-chelsea-psg-watch-genk-trio"
+            "link": "/football/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts"
+          },
+          {
+            "id": 48082651,
+            "headline": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Anirudh Menon",
+            "description": "Everything you need to know about Newcastle United vs Manchester United including five key talking points",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T20:43:47Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
+                "alt": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48082651/newcastle-united-manchester-united-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
+          },
+          {
+            "id": 48079690,
+            "headline": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Sunaadh Sagar",
+            "description": "All you need to know about the Premier League clash between Brighton & Hove Albion and Arsenal.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T20:38:55Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
+                "alt": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48079690/brighton-hove-albion-vs-arsenal-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
           }
         ],
         "leagueUid": "s:600~l:700",
