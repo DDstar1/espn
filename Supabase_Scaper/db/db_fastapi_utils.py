@@ -11,6 +11,7 @@ so your scraper workers need zero changes — just replace the import:
     from db_client import insert_player, player_exists, ...
 """
 
+from getpass import  getuser
 import json
 import subprocess
 import os
@@ -25,7 +26,7 @@ from utils import my_print
 load_dotenv()
 
 # ── Worker identity (unchanged from original) ─────────────────────────────────
-username = os.getlogin()
+username = getuser()
 try:
     model = subprocess.check_output(
         "wmic computersystem get model", shell=True
