@@ -5034,13 +5034,6 @@
           "slug": "8328"
         },
         {
-          "league": "8604",
-          "sport": "cricket",
-          "sportId": "8604",
-          "displayName": "Men's T20 World Cup",
-          "slug": "8604"
-        },
-        {
           "league": "nba",
           "sport": "basketball",
           "sportId": "46",
@@ -5063,174 +5056,174 @@
         "header": "AFC Women's Asian Cup News",
         "articles": [
           {
-            "id": 48059394,
-            "headline": "Punjab stun Bengaluru FC with 2-0 win (Courtesy: FanCode)",
-            "byLine": "",
-            "description": "Nsungusi Effiong's brace guided Punjab to a shock win at the Kanteerava",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0227/dm_260227_ISL2526_HLs_M16_BFC_vs_PFC/dm_260227_ISL2526_HLs_M16_BFC_vs_PFC.jpg&w=220",
+            "id": 48079688,
+            "headline": "Mamelodi Sundowns vs. Golden Arrows - Teams, news, kick-off time, how to watch",
+            "byLine": "Leonard Solms",
+            "description": "Mamelodi Sundowns were knocked off the top of the Betway Premiership on goal difference over the weekend and will now look to get first place back at home to Golden Arrows on Wednesday.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1119/r1577585_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-28T05:03:24Z",
+            "published": "2026-03-02T09:30:48Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0227/dm_260227_ISL2526_HLs_M16_BFC_vs_PFC/dm_260227_ISL2526_HLs_M16_BFC_vs_PFC.jpg&w=220",
-                "alt": "Punjab stun Bengaluru FC with 2-0 win (Courtesy: FanCode)"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1119/r1577585_1296x729_16-9.jpg&w=220",
+                "alt": "Mamelodi Sundowns vs. Golden Arrows - Teams, news, kick-off time, how to watch"
               }
             ],
-            "link": "/video/clip/_/id/48059394"
+            "link": "/espn/story/_/id/48079688/mamelodi-sundowns-vs-golden-arrows-teams-news-kick-how-watch"
           },
           {
-            "id": 48057240,
-            "headline": "New England postpones MLS home opener after historic blizzard",
-            "byLine": "ESPN News Services",
-            "description": "The New England Revolution postponed their March 7 home opener against Houston because the field won't be ready at Gillette Stadium after a historic blizzard.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621084_1296x729_16-9.jpg&w=220",
+            "id": 48069891,
+            "headline": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Aaditya Narayan",
+            "description": "Everything you need to know about the Premier League clash between Wolves and Liverpool.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-28T00:16:33Z",
+            "published": "2026-03-02T08:37:40Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621084_1296x729_16-9.jpg&w=220",
-                "alt": "New England postpones MLS home opener after historic blizzard"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
+                "alt": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news"
               }
             ],
-            "link": "/football/story/_/id/48057240/new-england-revolution-postpone-home-opener-historic-blizzard"
+            "link": "/football/story/_/id/48069891/wolves-vs-liverpool-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
           },
           {
-            "id": 48050987,
-            "headline": "USLPA authorizes strike with season kickoff looming",
-            "byLine": "Jeff Carlisle",
-            "description": "The USLPA has voted to authorize its bargaining committee to call a strike unless an agreement with the USL can be reached on a new Collective Bargaining Agreement.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2023/0712/r1196753_1296x729_16-9.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T23:22:45Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2023/0712/r1196753_1296x729_16-9.jpg&w=220",
-                "alt": "USLPA authorizes strike with season kickoff looming"
-              }
-            ],
-            "link": "/football/story/_/id/48050987/uslpa-authorizes-strike-season-kickoff-looming"
-          },
-          {
-            "id": 48056892,
-            "headline": "Pep Guardiola: 'Bit weird' that Man City are playing Real Madrid again",
+            "id": 48079619,
+            "headline": "Pep Guardiola unsure about Erling Haaland injury absence",
             "byLine": "PA",
-            "description": "Manchester City boss Pep Guardiola admits it feels \"a little bit weird\" to be facing Real Madrid in the Champions League yet again.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621056_2_1296x729_16-9.jpg&w=220",
+            "description": "Manchester City are hopeful the injury which sidelined Erling Haaland at the weekend is not serious.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0129/r1607619_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-27T22:59:06Z",
+            "published": "2026-03-02T09:11:13Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621056_2_1296x729_16-9.jpg&w=220",
-                "alt": "Pep Guardiola: 'Bit weird' that Man City are playing Real Madrid again"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0129/r1607619_1296x729_16-9.jpg&w=220",
+                "alt": "Pep Guardiola unsure about Erling Haaland injury absence"
               }
             ],
-            "link": "/football/story/_/id/48056892/pep-guardiola-man-city-real-madrid-again-uefa-champions-league-draw"
+            "link": "/football/story/_/id/48079619/pep-guardiola-unsure-erling-haaland-injury-absence"
           },
           {
-            "id": 48056891,
-            "headline": "Rhind-Tutt: Dortmund game a chance for Bayern to make a title statement",
-            "byLine": "",
-            "description": "Archie Rhind-Tutt fears for Borussia Dortmund after their Champions League exit as they prepare to face Bayern Munich in a must-win game for their title hopes.",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0227/dm_260227_Rhind_Tutt_Dortmund_game_a_chance_for_Bayern_to_make_a_title_statement/dm_260227_Rhind_Tutt_Dortmund_game_a_chance_for_Bayern_to_make_a_title_statement.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T22:55:11Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0227/dm_260227_Rhind_Tutt_Dortmund_game_a_chance_for_Bayern_to_make_a_title_statement/dm_260227_Rhind_Tutt_Dortmund_game_a_chance_for_Bayern_to_make_a_title_statement.jpg&w=220",
-                "alt": "Rhind-Tutt: Dortmund game a chance for Bayern to make a title statement"
-              }
-            ],
-            "link": "/video/clip/_/id/48056891"
-          },
-          {
-            "id": 48056632,
-            "headline": "Benfica suspend 5 fans for racist behaviour vs. Real Madrid",
-            "byLine": "ESPN News Services",
-            "description": "Benfica suspended five supporters after an investigation found they engaged in behaviour of a \"racist nature\" in the club's match with Real Madrid.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621053_1296x729_16-9.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T23:00:18Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621053_1296x729_16-9.jpg&w=220",
-                "alt": "Benfica suspend 5 fans for racist behaviour vs. Real Madrid"
-              }
-            ],
-            "link": "/football/story/_/id/48056632/benfica-suspend-fans-racist-behaviour-real-madrid-vini-jr"
-          },
-          {
-            "id": 48056522,
-            "headline": "Levante vs. Alav\u00e9s - Game Highlights",
-            "byLine": "",
-            "description": "Watch the Game Highlights from Levante vs. Alav\u00e9s, 02/28/2026",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2026/0227/6418f238-db0e-45b1-9a38-9eace017eb75/6418f238-db0e-45b1-9a38-9eace017eb75.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T22:10:13Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2026/0227/6418f238-db0e-45b1-9a38-9eace017eb75/6418f238-db0e-45b1-9a38-9eace017eb75.jpg&w=220",
-                "alt": "Levante vs. Alav\u00e9s - Game Highlights"
-              }
-            ],
-            "link": "/video/clip/_/id/48056522"
-          },
-          {
-            "id": 48056354,
-            "headline": "Barcelona change punishment for late players to 'huge' fines",
-            "byLine": "Sam Marsden",
-            "description": "Barcelona coach Hansi Flick confirmed he has replaced dropping players with \"huge\" fines in the event they arrive late on match days.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621019_1296x729_16-9.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T21:47:42Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0227/r1621019_1296x729_16-9.jpg&w=220",
-                "alt": "Barcelona change punishment for late players to 'huge' fines"
-              }
-            ],
-            "link": "/football/story/_/id/48056354/barcelona-punishment-late-players-fines-bench-hansi-flick"
-          },
-          {
-            "id": 48056286,
-            "headline": "FC Augsburg vs. FC Cologne - Game Highlights",
-            "byLine": "",
-            "description": "Watch the Game Highlights from FC Augsburg vs. FC Cologne, 02/27/2026",
-            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2026/0227/9be33522-fd78-42a2-ac60-a19f1669e620/9be33522-fd78-42a2-ac60-a19f1669e620.jpg&w=220",
-            "premium": false,
-            "published": "2026-02-27T21:32:45Z",
-            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
-            "images": [
-              {
-                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/wsc/2026/0227/9be33522-fd78-42a2-ac60-a19f1669e620/9be33522-fd78-42a2-ac60-a19f1669e620.jpg&w=220",
-                "alt": "FC Augsburg vs. FC Cologne - Game Highlights"
-              }
-            ],
-            "link": "/video/clip/_/id/48056286"
-          },
-          {
-            "id": 48051584,
-            "headline": "Transfer rumors, news: Arsenal lead Liverpool, United for Gordon",
+            "id": 48079544,
+            "headline": "Transfer rumors, news: Will Kane, Vin\u00edcius extend their contracts?",
             "byLine": "ESPN",
-            "description": "Arsenal, Liverpool and Manchester United are set to battle for Anthony Gordon. Transfer Talk has the latest.",
-            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0218/r1617052_1296x729_16-9.jpg&w=220",
+            "description": "Bayern Munich want striker Harry Kane to sign a new contract, and Real Madrid want the same for Vin\u00edcius J\u00fanior. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0214/r1615196_1296x729_16-9.jpg&w=220",
             "premium": false,
-            "published": "2026-02-27T21:29:27Z",
+            "published": "2026-03-02T08:41:59Z",
             "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
             "images": [
               {
-                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0218/r1617052_1296x729_16-9.jpg&w=220",
-                "alt": "Transfer rumors, news: Arsenal lead Liverpool, United for Gordon"
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0214/r1615196_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Will Kane, Vin\u00edcius extend their contracts?"
               }
             ],
-            "link": "/football/story/_/id/48051584/transfer-rumors-news-man-united-chelsea-psg-watch-genk-trio"
+            "link": "/football/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts"
+          },
+          {
+            "id": 48079613,
+            "headline": "Antony scores bicycle kick, confronts fans, chases Yamal, Vin\u00edcius totals",
+            "byLine": "ESPN",
+            "description": "After finding an exit route from a torrid spell at Manchester United this summer, Antony's career revival shows no signs of letting up in Spain.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622009_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T09:16:31Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622009_1296x729_16-9.jpg&w=220",
+                "alt": "Antony scores bicycle kick, confronts fans, chases Yamal, Vin\u00edcius totals"
+              }
+            ],
+            "link": "/football/story/_/id/48079613/antony-scores-bicycle-kick-confronts-fans-chases-lamine-yamal-vinicius-junior-totals"
+          },
+          {
+            "id": 48078477,
+            "headline": "Stats: Messi nears 900, Ronaldo's 35th penalty miss, Yamal creates Barca history with hat-trick",
+            "byLine": "Sunaadh Sagar",
+            "description": "ESPN brings you the best stats from this weekend's football action.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622003_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T06:10:52Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622003_1296x729_16-9.jpg&w=220",
+                "alt": "Stats: Messi nears 900, Ronaldo's 35th penalty miss, Yamal creates Barca history with hat-trick"
+              }
+            ],
+            "link": "/football/story/_/id/48078477/stats-lionel-messi-nears-900-cristiano-ronaldo-35th-penalty-miss-lamine-yamal-creats-barca-history-hat-trick"
+          },
+          {
+            "id": 48071308,
+            "headline": "Meet India's 26-member squad for AFC Women's Asian Cup 2026",
+            "byLine": "Anirudh Menon",
+            "description": "The 26-member squad that India have picked for the tournament has a nice mixture of youth and experience.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1621991_608x342_16-9.png&w=220",
+            "premium": false,
+            "published": "2026-03-02T04:38:42Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1621991_608x342_16-9.png&w=220",
+                "alt": "Meet India's 26-member squad for AFC Women's Asian Cup 2026"
+              }
+            ],
+            "link": "/football/story/_/id/48071308/meet-india-26-member-squad-afc-womens-asian-cup-2026-know-your-team-manisha-kalyan-sweety-devi-dangmei-grace-sangita-basfore"
+          },
+          {
+            "id": 48078511,
+            "headline": "Alvarez's stoppage time winner lifts Atl\u00e9tico past Oviedo (Courtesy: FanCode)",
+            "byLine": "",
+            "description": "Atl\u00e9tico Madrid snatched a 1-0 win at bottom club Real Oviedo to move back third in LaLiga.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_LALIGA_ATM_OVI_HLs_FanCode/dm_260301_LALIGA_ATM_OVI_HLs_FanCode.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T03:52:58Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_LALIGA_ATM_OVI_HLs_FanCode/dm_260301_LALIGA_ATM_OVI_HLs_FanCode.jpg&w=220",
+                "alt": "Alvarez's stoppage time winner lifts Atl\u00e9tico past Oviedo (Courtesy: FanCode)"
+              }
+            ],
+            "link": "/video/clip/_/id/48078511"
+          },
+          {
+            "id": 48078501,
+            "headline": "Yamal hat-trick helps Barcelona ease past Villarreal (Courtesy: FanCode)",
+            "byLine": "",
+            "description": "Lamine Yamal scored the first hat-trick of his senior career as Barcelona stayed top of LaLiga.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_LALIGA_HLs_BAR_VIL_FanCode/dm_260301_LALIGA_HLs_BAR_VIL_FanCode.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T03:52:39Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_LALIGA_HLs_BAR_VIL_FanCode/dm_260301_LALIGA_HLs_BAR_VIL_FanCode.jpg&w=220",
+                "alt": "Yamal hat-trick helps Barcelona ease past Villarreal (Courtesy: FanCode)"
+              }
+            ],
+            "link": "/video/clip/_/id/48078501"
+          },
+          {
+            "id": 48078421,
+            "headline": "Late Chhangte goal helps Mumbai City hold NorthEast (Courtesy: FanCode)",
+            "byLine": "",
+            "description": "Lallianzuala Chhangte's late goal canceled out Jithin MS's opener for NorthEast United.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_ISL_M20_MCFC_vs_NEUFC_HLs_FanCode/dm_260301_ISL_M20_MCFC_vs_NEUFC_HLs_FanCode.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T03:38:00Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0301/dm_260301_ISL_M20_MCFC_vs_NEUFC_HLs_FanCode/dm_260301_ISL_M20_MCFC_vs_NEUFC_HLs_FanCode.jpg&w=220",
+                "alt": "Late Chhangte goal helps Mumbai City hold NorthEast (Courtesy: FanCode)"
+              }
+            ],
+            "link": "/video/clip/_/id/48078421"
           }
         ],
         "link": "/football/league/_/name/afc.w.asian.cup",

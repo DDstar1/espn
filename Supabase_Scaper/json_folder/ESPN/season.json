@@ -4,6 +4,17 @@
   "type": "team",
   "meta": {
     "altTags": null,
+<<<<<<< HEAD
+    "title": "Senegal 2023 Results - ESPN",
+    "description": "Get all the Senegal results for the 2023 season on ESPN. Includes all the Senegal results from all national and international games.",
+    "canonical": "https://africa.espn.com/football/team/results/_/id/21823/season/2023",
+    "robots": "",
+    "ogMetadata": {
+      "image": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21823.png",
+      "width": 500,
+      "height": 500,
+      "title": "Senegal Results"
+=======
     "title": "South Korea U17 2025 Results - ESPN",
     "description": "Get all the South Korea U17 results for the 2025 season on ESPN. Includes all the South Korea U17 results from all national and international games.",
     "canonical": "https://africa.espn.com/football/team/results/_/id/8414/season/2025",
@@ -13,118 +24,207 @@
       "width": 500,
       "height": 500,
       "title": "South Korea U17 Results"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
     },
     "jsonld": "",
     "hrefLangs": [
       {
         "key": "en-us",
         "region": "us",
+<<<<<<< HEAD
+        "url": "https://www.espn.com/soccer/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.com/soccer/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "pt-br",
         "region": "br",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.br/futebol/time/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.br/futebol/time/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-in",
         "region": "in",
+<<<<<<< HEAD
+        "url": "https://www.espn.in/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.in/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-za",
         "region": "za",
+<<<<<<< HEAD
+        "url": "https://africa.espn.com/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://africa.espn.com/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-au",
         "region": "au",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.au/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.com.au/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ve",
         "region": "ve",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.ve/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.ve/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-cl",
         "region": "cl",
+<<<<<<< HEAD
+        "url": "https://www.espn.cl/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.cl/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-mx",
         "region": "mx",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.mx/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.mx/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-co",
         "region": "co",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.co/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.co/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-pe",
         "region": "pe",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.pe/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.pe/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ar",
         "region": "ar",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.ar/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.ar/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-us",
         "region": "us",
+<<<<<<< HEAD
+        "url": "https://espndeportes.espn.com/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://espndeportes.espn.com/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-ph",
         "region": "ph",
+<<<<<<< HEAD
+        "url": "https://www.espn.ph/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.ph/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-gb",
         "region": "gb",
+<<<<<<< HEAD
+        "url": "https://www.espn.co.uk/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.co.uk/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "en-sg",
         "region": "sg",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.sg/football/team/results/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.com.sg/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-gt",
         "region": "gt",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.gt/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.gt/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-uy",
         "region": "uy",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.uy/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.uy/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-do",
         "region": "do",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.do/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.do/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-ec",
         "region": "ec",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.ec/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.ec/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-pa",
         "region": "pa",
+<<<<<<< HEAD
+        "url": "https://www.espn.com.pa/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.com.pa/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "es-cr",
         "region": "cr",
+<<<<<<< HEAD
+        "url": "https://www.espn.co.cr/futbol/equipo/resultados/_/id/21823/temporada/2023"
+=======
         "url": "https://www.espn.co.cr/futbol/equipo/resultados/_/id/8414/temporada/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "key": "nl-nl",
         "region": "nl",
+<<<<<<< HEAD
+        "url": "https://www.espn.nl/voetbal/team/scorebord/_/id/21823/season/2023"
+=======
         "url": "https://www.espn.nl/voetbal/team/scorebord/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       }
     ]
   },
@@ -4527,15 +4627,25 @@
     },
     "isMyBetActive": false,
     "subNavigation": {
+<<<<<<< HEAD
+      "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sen.png&w=80&h=80&cquality=40&scale=crop&location=origin&transparent=true",
+      "href": "/football/team/_/id/21823",
+      "text": "Senegal",
+=======
       "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kor.png&w=80&h=80&cquality=40&scale=crop&location=origin&transparent=true",
       "href": "/football/team/_/id/8414",
       "text": "South Korea U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       "items": [
         {
           "l": {
             "t": "Home",
             "w": {
+<<<<<<< HEAD
+              "h": "/football/team/_/id/21823"
+=======
               "h": "/football/team/_/id/8414"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12386737
@@ -4544,7 +4654,11 @@
           "l": {
             "t": "Fixtures",
             "w": {
+<<<<<<< HEAD
+              "h": "https://africa.espn.com/football/team/fixtures/_/id/21823/sen.w"
+=======
               "h": "https://africa.espn.com/football/team/fixtures/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854062
@@ -4553,7 +4667,11 @@
           "l": {
             "t": "Results",
             "w": {
+<<<<<<< HEAD
+              "h": "https://africa.espn.com/football/team/results/_/id/21823/sen.w"
+=======
               "h": "https://africa.espn.com/football/team/results/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854060
@@ -4562,7 +4680,11 @@
           "l": {
             "t": "Squad",
             "w": {
+<<<<<<< HEAD
+              "h": "/football/team/squad/_/id/21823/sen.w"
+=======
               "h": "/football/team/squad/_/id/8414/kor.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 23854289
@@ -4571,7 +4693,11 @@
           "l": {
             "t": "Statistics",
             "w": {
+<<<<<<< HEAD
+              "h": "/football/team/stats/_/id/21823"
+=======
               "h": "/football/team/stats/_/id/8414"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12294592
@@ -4583,7 +4709,11 @@
               "a": {
                 "page": "standings"
               },
+<<<<<<< HEAD
+              "h": "/football/table/_/league/caf.w.nations"
+=======
               "h": "/football/table/_/league/fifa.world.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 20993225
@@ -4593,7 +4723,11 @@
             "t": "Video",
             "w": {
               "e": true,
+<<<<<<< HEAD
+              "h": "http://www.espnfc.co.uk/team/sen.w/21823/video"
+=======
               "h": "http://www.espnfc.co.uk/team/kor.u17/8414/video"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "id": 12299748
@@ -5053,6 +5187,205 @@
     "streampicker": {},
     "results": {
       "news": {
+<<<<<<< HEAD
+        "header": "Women's Africa Cup of Nations News",
+        "articles": [
+          {
+            "id": 48080011,
+            "headline": "Arne Slot: Premier League games aren't enjoyable to watch",
+            "byLine": "",
+            "description": "Liverpool manager Arne Slot has revealed that he doesn't enjoy watching Premier League football.",
+            "image": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Arne_Slot3A_Premier_League_games_arent_enjoyable_to_watch_GLOBAL_2026-01-02/dm_260302_COM_SOC_Analysis_Arne_Slot3A_Premier_League_games_arent_enjoyable_to_watch_GLOBAL_2026-01-02.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T10:28:22Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/media/motion/2026/0302/dm_260302_COM_SOC_Analysis_Arne_Slot3A_Premier_League_games_arent_enjoyable_to_watch_GLOBAL_2026-01-02/dm_260302_COM_SOC_Analysis_Arne_Slot3A_Premier_League_games_arent_enjoyable_to_watch_GLOBAL_2026-01-02.jpg&w=220",
+                "alt": "Arne Slot: Premier League games aren't enjoyable to watch"
+              }
+            ],
+            "link": "/video/clip/_/id/48080011"
+          },
+          {
+            "id": 48079544,
+            "headline": "Transfer rumors, news: Will Kane, Vin\u00edcius extend their contracts?",
+            "byLine": "ESPN",
+            "description": "Bayern Munich want striker Harry Kane to sign a new contract, and Real Madrid want the same for Vin\u00edcius J\u00fanior. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0214/r1615196_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T10:18:02Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0214/r1615196_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Will Kane, Vin\u00edcius extend their contracts?"
+              }
+            ],
+            "link": "/football/story/_/id/48079544/transfer-rumors-news-harry-kane-vinicius-junior-extend-their-bayern-munich-real-madrid-contracts"
+          },
+          {
+            "id": 48079925,
+            "headline": "Al Nassr coach quells injury fears after Cristiano Ronaldo limps off",
+            "byLine": "Adriana Garcia",
+            "description": "Al Nassr coach Jorge Jesus has played down fears that his captain, Cristiano Ronaldo, had suffered a serious injury after he limped off the pitch in Saturday's 3-1 league win over Al-Fayha.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0212/r1614430_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T10:08:24Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0212/r1614430_1296x729_16-9.jpg&w=220",
+                "alt": "Al Nassr coach quells injury fears after Cristiano Ronaldo limps off"
+              }
+            ],
+            "link": "/football/story/_/id/48079925/al-nassr-coach-quells-injury-fears-cristiano-ronaldo-limps-off"
+          },
+          {
+            "id": 48079883,
+            "headline": "Richards Bay vs. Kaizer Chiefs - News, teams, kick-off time, how to watch",
+            "byLine": "Leonard Solms",
+            "description": "Kaizer Chiefs urgently need to bounce back from a dismal Soweto derby defeat when they visit Richards Bay in the Betway Premiership on Tuesday.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622016_1218x685_16-9.png&w=220",
+            "premium": false,
+            "published": "2026-03-02T10:00:05Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622016_1218x685_16-9.png&w=220",
+                "alt": "Richards Bay vs. Kaizer Chiefs - News, teams, kick-off time, how to watch"
+              }
+            ],
+            "link": "/espn/story/_/id/48079883/richards-bay-vs-kaizer-chiefs-news-teams-kick-how-watch"
+          },
+          {
+            "id": 48079792,
+            "headline": "Polokwane City vs. Orlando Pirates - Teams, news, kick-off time, how to watch",
+            "byLine": "Leonard Solms",
+            "description": "The Buccaneers will travel to Polokwane to face Polokwane City at the Old Peter Mokaba Stadium on Wednesday as they look to keep momentum going.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622014_1166x656_16-9.png&w=220",
+            "premium": false,
+            "published": "2026-03-02T09:47:11Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622014_1166x656_16-9.png&w=220",
+                "alt": "Polokwane City vs. Orlando Pirates - Teams, news, kick-off time, how to watch"
+              }
+            ],
+            "link": "/espn/story/_/id/48079792/polokwane-city-vs-orlando-pirates-teams-news-kick-how-watch"
+          },
+          {
+            "id": 48079688,
+            "headline": "Mamelodi Sundowns vs. Golden Arrows - Teams, news, kick-off time, how to watch",
+            "byLine": "Leonard Solms",
+            "description": "Mamelodi Sundowns were knocked off the top of the Betway Premiership on goal difference over the weekend and will now look to get first place back at home to Golden Arrows on Wednesday.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1119/r1577585_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T09:30:48Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1119/r1577585_1296x729_16-9.jpg&w=220",
+                "alt": "Mamelodi Sundowns vs. Golden Arrows - Teams, news, kick-off time, how to watch"
+              }
+            ],
+            "link": "/espn/story/_/id/48079688/mamelodi-sundowns-vs-golden-arrows-teams-news-kick-how-watch"
+          },
+          {
+            "id": 48069891,
+            "headline": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Aaditya Narayan",
+            "description": "Everything you need to know about the Premier League clash between Wolves and Liverpool.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T08:37:40Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
+                "alt": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48069891/wolves-vs-liverpool-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
+          },
+          {
+            "id": 48079619,
+            "headline": "Pep Guardiola unsure about Erling Haaland injury absence",
+            "byLine": "PA",
+            "description": "Manchester City are hopeful the injury which sidelined Erling Haaland at the weekend is not serious.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0129/r1607619_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T09:11:13Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0129/r1607619_1296x729_16-9.jpg&w=220",
+                "alt": "Pep Guardiola unsure about Erling Haaland injury absence"
+              }
+            ],
+            "link": "/football/story/_/id/48079619/pep-guardiola-unsure-erling-haaland-injury-absence"
+          },
+          {
+            "id": 48079613,
+            "headline": "Antony scores bicycle kick, confronts fans, chases Yamal, Vin\u00edcius totals",
+            "byLine": "ESPN",
+            "description": "After finding an exit route from a torrid spell at Manchester United this summer, Antony's career revival shows no signs of letting up in Spain.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622009_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T09:16:31Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622009_1296x729_16-9.jpg&w=220",
+                "alt": "Antony scores bicycle kick, confronts fans, chases Yamal, Vin\u00edcius totals"
+              }
+            ],
+            "link": "/football/story/_/id/48079613/antony-scores-bicycle-kick-confronts-fans-chases-lamine-yamal-vinicius-junior-totals"
+          },
+          {
+            "id": 48078477,
+            "headline": "Stats: Messi nears 900, Ronaldo's 35th penalty miss, Yamal creates Barca history with hat-trick",
+            "byLine": "Sunaadh Sagar",
+            "description": "ESPN brings you the best stats from this weekend's football action.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622003_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-02T06:10:52Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622003_1296x729_16-9.jpg&w=220",
+                "alt": "Stats: Messi nears 900, Ronaldo's 35th penalty miss, Yamal creates Barca history with hat-trick"
+              }
+            ],
+            "link": "/football/story/_/id/48078477/stats-lionel-messi-nears-900-cristiano-ronaldo-35th-penalty-miss-lamine-yamal-creats-barca-history-hat-trick"
+          }
+        ],
+        "link": "/football/league/_/name/caf.w.nations",
+        "text": "All Women's Africa Cup of Nations News"
+      },
+      "season": {
+        "year": 2026,
+        "type": 14033,
+        "name": "Group Stage",
+        "displayName": "2026 Women's Africa Cup of Nations",
+        "half": 1
+      },
+      "team": {
+        "id": "21823",
+        "abbrev": "SEN",
+        "displayName": "Senegal",
+        "shortDisplayName": "Senegal",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+        "teamColor": "00843d",
+        "defaultLeague": {
+          "id": "23523",
+          "alternateId": "2557",
+          "name": "Women's Africa Cup of Nations",
+          "abbreviation": "Women's Africa Cup of Nations",
+          "shortName": "Women's Africa Cup of Nations",
+          "midsizeName": "CAF.W.NATIONS",
+=======
         "header": "FIFA U-17 World Cup News",
         "articles": [
           {
@@ -5250,6 +5583,7 @@
           "abbreviation": "FIFA U-17 World Cup",
           "shortName": "FIFA U-17 World Cup",
           "midsizeName": "FIFA.WORLD.U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           "links": [
             {
               "language": "en-ZA",
@@ -5258,7 +5592,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://africa.espn.com/football/league/_/name/caf.w.nations",
+=======
               "href": "https://africa.espn.com/football/league/_/name/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Index",
               "shortText": "Index",
               "isExternal": false,
@@ -5271,7 +5609,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://africa.espn.com/football/schedule/_/league/caf.w.nations",
+=======
               "href": "https://africa.espn.com/football/schedule/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Schedule",
               "shortText": "Schedule",
               "isExternal": false,
@@ -5285,7 +5627,11 @@
                 "app",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:23523&section=scores",
+=======
               "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:5697&section=scores",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Schedule",
               "shortText": "Schedule",
               "isExternal": false,
@@ -5298,7 +5644,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://www.espn.com/football/table/_/league/caf.w.nations",
+=======
               "href": "https://www.espn.com/football/table/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Standings",
               "shortText": "Standings",
               "isExternal": false,
@@ -5311,7 +5661,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://africa.espn.com/football/scoreboard/_/league/caf.w.nations",
+=======
               "href": "https://africa.espn.com/football/scoreboard/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Scores",
               "shortText": "Scores",
               "isExternal": false,
@@ -5325,7 +5679,11 @@
                 "app",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:23523&section=scores",
+=======
               "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:5697&section=scores",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Scores",
               "shortText": "Scores",
               "isExternal": false,
@@ -5338,7 +5696,11 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://africa.espn.com/football/stats/_/league/caf.w.nations",
+=======
               "href": "https://africa.espn.com/football/stats/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Stats",
               "shortText": "Stats",
               "isExternal": false,
@@ -5351,13 +5713,42 @@
                 "desktop",
                 "league"
               ],
+<<<<<<< HEAD
+              "href": "https://africa.espn.com/football/teams/_/league/caf.w.nations",
+=======
               "href": "https://africa.espn.com/football/teams/_/league/fifa.world.u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "text": "Teams",
               "shortText": "Teams",
               "isExternal": false,
               "isPremium": false
             }
           ],
+<<<<<<< HEAD
+          "logos": []
+        },
+        "recordSummary": "",
+        "standingSummary": "4th in Women's Africa Cup of Nations",
+        "location": "Senegal",
+        "links": "",
+        "isNational": true
+      },
+      "seasonTypeYear": "2026",
+      "events": [
+        {
+          "id": "747979",
+          "competitors": [
+            {
+              "id": "13313",
+              "abbrev": "RSA",
+              "displayName": "South Africa",
+              "shortDisplayName": "South Africa",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Africa",
+              "links": "/football/team/_/id/13313/south-africa",
+=======
           "logos": [
             {
               "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2288.png",
@@ -5490,11 +5881,23 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0,
               "winner": true
             },
             {
+<<<<<<< HEAD
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
               "id": "5351",
               "abbrev": "CIV",
               "displayName": "Ivory Coast U17",
@@ -5504,10 +5907,29 @@
               "standingSummary": "",
               "location": "Ivory Coast U17",
               "links": "/football/team/_/id/5351/ivory-coast-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
+<<<<<<< HEAD
+          "date": "2025-07-19T19:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/747979/senegal-south-africa",
+          "teams": [
+            {
+              "id": "13313",
+              "abbrev": "RSA",
+              "displayName": "South Africa",
+              "shortDisplayName": "South Africa",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "South Africa",
+              "links": "/football/team/_/id/13313/south-africa",
+=======
           "date": "2025-11-10T12:30Z",
           "tbd": false,
           "completed": true,
@@ -5524,11 +5946,23 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0,
               "winner": true
             },
             {
+<<<<<<< HEAD
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
               "id": "5351",
               "abbrev": "CIV",
               "displayName": "Ivory Coast U17",
@@ -5538,12 +5972,115 @@
               "standingSummary": "",
               "location": "Ivory Coast U17",
               "links": "/football/team/_/id/5351/ivory-coast-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
           "isTie": false,
           "tickets": null,
+<<<<<<< HEAD
+          "note": "South Africa advance 4-1 on penalties",
+          "dateFormat": "ddd, D MMM",
+          "score": "0 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT-Pens",
+            "link": "/football/match/_/gameId/747979/senegal-south-africa"
+          },
+          "league": "Women's Africa Cup of Nations",
+          "venue": {
+            "fullName": "Stade d'Honneur d'Oujda",
+            "address": {
+              "city": "Oujda",
+              "country": "Morocco"
+            }
+          },
+          "attnd": 0,
+          "odds": false,
+          "notes": "South Africa wins 4-1 on Penalty Kicks"
+        },
+        {
+          "id": "747970",
+          "competitors": [
+            {
+              "id": "18221",
+              "abbrev": "MAR",
+              "displayName": "Morocco",
+              "shortDisplayName": "Morocco",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Morocco",
+              "links": "/football/team/_/id/18221/morocco",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2025-07-12T19:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/747970/senegal-morocco",
+          "teams": [
+            {
+              "id": "18221",
+              "abbrev": "MAR",
+              "displayName": "Morocco",
+              "shortDisplayName": "Morocco",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mor.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Morocco",
+              "links": "/football/team/_/id/18221/morocco",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/747970/senegal-morocco"
+          },
+          "league": "Women's Africa Cup of Nations",
+          "venue": {
+            "fullName": "Stade Olympique de Rabat",
+            "address": {
+              "city": "Rabat",
+              "country": "Morocco"
+=======
           "dateFormat": "ddd, D MMM",
           "score": "3 - 1",
           "status": {
@@ -5557,6 +6094,7 @@
             "address": {
               "city": "Ar-Rayyan",
               "country": "Qatar"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "attnd": 0,
@@ -5564,6 +6102,34 @@
           "notes": ""
         },
         {
+<<<<<<< HEAD
+          "id": "747964",
+          "competitors": [
+            {
+              "id": "20795",
+              "abbrev": "ZAM",
+              "displayName": "Zambia",
+              "shortDisplayName": "Zambia",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/zam.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Zambia",
+              "links": "/football/team/_/id/20795/zambia",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
           "id": "736000",
           "competitors": [
             {
@@ -5589,10 +6155,167 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
           ],
+<<<<<<< HEAD
+          "date": "2025-07-09T16:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/747964/senegal-zambia",
+          "teams": [
+            {
+              "id": "20795",
+              "abbrev": "ZAM",
+              "displayName": "Zambia",
+              "shortDisplayName": "Zambia",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/zam.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Zambia",
+              "links": "/football/team/_/id/20795/zambia",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "3 - 2",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/747964/senegal-zambia"
+          },
+          "league": "Women's Africa Cup of Nations",
+          "venue": {
+            "fullName": "Stade El Bachir",
+            "address": {
+              "city": "Mohammedia",
+              "country": "Morocco"
+            }
+          },
+          "attnd": 0,
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "747959",
+          "competitors": [
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "131255",
+              "abbrev": "COD",
+              "displayName": "Congo DR",
+              "shortDisplayName": "Congo DR",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cod.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Congo DR",
+              "links": "/football/team/_/id/131255/congo-dr",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2025-07-06T14:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/747959/congo-dr-senegal",
+          "teams": [
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "131255",
+              "abbrev": "COD",
+              "displayName": "Congo DR",
+              "shortDisplayName": "Congo DR",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cod.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Congo DR",
+              "links": "/football/team/_/id/131255/congo-dr",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "4 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/747959/congo-dr-senegal"
+          },
+          "league": "Women's Africa Cup of Nations",
+          "venue": {
+            "fullName": "Stade El Bachir",
+            "address": {
+              "city": "Mohammedia",
+              "country": "Morocco"
+            }
+          },
+          "attnd": 0,
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "689795",
+          "competitors": [
+            {
+              "id": "21301",
+              "abbrev": "TUN",
+              "displayName": "Tunisia",
+              "shortDisplayName": "Tunisia",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Tunisia",
+              "links": "/football/team/_/id/21301/tunisia",
+=======
           "date": "2025-11-07T15:15Z",
           "tbd": false,
           "completed": true,
@@ -5609,10 +6332,213 @@
               "standingSummary": "",
               "location": "Switzerland U17",
               "links": "/football/team/_/id/130888/switzerland-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "date": "2023-10-31T14:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/689795/senegal-tunisia",
+          "teams": [
+            {
+              "id": "21301",
+              "abbrev": "TUN",
+              "displayName": "Tunisia",
+              "shortDisplayName": "Tunisia",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Tunisia",
+              "links": "/football/team/_/id/21301/tunisia",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0,
+              "winner": true
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "2 - 3",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/689795/senegal-tunisia"
+          },
+          "league": "Women's International Friendly",
+          "attnd": 0,
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "668419",
+          "competitors": [
+            {
+              "id": "2757",
+              "abbrev": "GHA",
+              "displayName": "Ghana",
+              "shortDisplayName": "Ghana",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Ghana",
+              "links": "/football/team/_/id/2757/ghana",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2023-04-11T16:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/668419/senegal-ghana",
+          "teams": [
+            {
+              "id": "2757",
+              "abbrev": "GHA",
+              "displayName": "Ghana",
+              "shortDisplayName": "Ghana",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Ghana",
+              "links": "/football/team/_/id/2757/ghana",
+              "isHome": true,
+              "score": 0,
+              "winner": true
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "isTie": false,
+          "tickets": null,
+          "dateFormat": "ddd, D MMM",
+          "score": "1 - 0",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/668419/senegal-ghana"
+          },
+          "league": "Women's International Friendly",
+          "attnd": 0,
+          "odds": false,
+          "notes": ""
+        },
+        {
+          "id": "666612",
+          "competitors": [
+            {
+              "id": "17642",
+              "abbrev": "THA",
+              "displayName": "Thailand",
+              "shortDisplayName": "Thailand",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tha.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Thailand",
+              "links": "/football/team/_/id/17642/thailand",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+              "isHome": false,
+              "score": 0
+            }
+          ],
+          "date": "2023-02-21T06:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/666612/senegal-thailand",
+          "teams": [
+            {
+              "id": "17642",
+              "abbrev": "THA",
+              "displayName": "Thailand",
+              "shortDisplayName": "Thailand",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tha.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Thailand",
+              "links": "/football/team/_/id/17642/thailand",
+              "isHome": true,
+              "score": 0
+            },
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
               "id": "8414",
               "abbrev": "KOR",
               "displayName": "South Korea U17",
@@ -5622,6 +6548,7 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0
             }
@@ -5629,6 +6556,15 @@
           "isTie": true,
           "tickets": null,
           "dateFormat": "ddd, D MMM",
+<<<<<<< HEAD
+          "score": "1 - 1",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/666612/senegal-thailand"
+          },
+          "league": "Women's International Friendly",
+=======
           "score": "0 - 0",
           "status": {
             "state": "post",
@@ -5643,11 +6579,26 @@
               "country": "Qatar"
             }
           },
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           "attnd": 0,
           "odds": false,
           "notes": ""
         },
         {
+<<<<<<< HEAD
+          "id": "661488",
+          "competitors": [
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
           "id": "735986",
           "competitors": [
             {
@@ -5660,10 +6611,22 @@
               "standingSummary": "",
               "location": "Mexico U17",
               "links": "/football/team/_/id/5379/mexico-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
+              "id": "2891",
+              "abbrev": "HAI",
+              "displayName": "Haiti",
+              "shortDisplayName": "Haiti",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Haiti",
+              "links": "/football/team/_/id/2891/haiti",
+=======
               "id": "8414",
               "abbrev": "KOR",
               "displayName": "South Korea U17",
@@ -5673,11 +6636,30 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0,
               "winner": true
             }
           ],
+<<<<<<< HEAD
+          "date": "2023-02-18T01:00Z",
+          "tbd": false,
+          "completed": true,
+          "broadcasts": null,
+          "link": "/football/match/_/gameId/661488/haiti-senegal",
+          "teams": [
+            {
+              "id": "21823",
+              "abbrev": "SEN",
+              "displayName": "Senegal",
+              "shortDisplayName": "Senegal",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Senegal",
+              "links": "/football/team/_/id/21823/senegal",
+=======
           "date": "2025-11-04T13:00Z",
           "tbd": false,
           "completed": true,
@@ -5694,10 +6676,22 @@
               "standingSummary": "",
               "location": "Mexico U17",
               "links": "/football/team/_/id/5379/mexico-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": true,
               "score": 0
             },
             {
+<<<<<<< HEAD
+              "id": "2891",
+              "abbrev": "HAI",
+              "displayName": "Haiti",
+              "shortDisplayName": "Haiti",
+              "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+              "recordSummary": "",
+              "standingSummary": "",
+              "location": "Haiti",
+              "links": "/football/team/_/id/2891/haiti",
+=======
               "id": "8414",
               "abbrev": "KOR",
               "displayName": "South Korea U17",
@@ -5707,6 +6701,7 @@
               "standingSummary": "",
               "location": "South Korea U17",
               "links": "/football/team/_/id/8414/south-korea-u17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
               "isHome": false,
               "score": 0,
               "winner": true
@@ -5715,6 +6710,20 @@
           "isTie": false,
           "tickets": null,
           "dateFormat": "ddd, D MMM",
+<<<<<<< HEAD
+          "score": "0 - 4",
+          "status": {
+            "state": "post",
+            "detail": "FT",
+            "link": "/football/match/_/gameId/661488/haiti-senegal"
+          },
+          "league": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+          "venue": {
+            "fullName": "North Harbour Stadium",
+            "address": {
+              "city": "Auckland",
+              "country": "New Zealand"
+=======
           "score": "1 - 2",
           "status": {
             "state": "post",
@@ -5727,11 +6736,17 @@
             "address": {
               "city": "Ar-Rayyan",
               "country": "Qatar"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             }
           },
           "attnd": 0,
           "odds": false,
           "notes": ""
+<<<<<<< HEAD
+        }
+      ],
+      "pageHeading": "Senegal Results",
+=======
         },
         {
           "id": "688188",
@@ -6765,20 +7780,52 @@
         }
       ],
       "pageHeading": "South Korea U17 Results",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       "dropdownLeagues": [
         {
           "title": "All Competitions",
           "value": "all",
+<<<<<<< HEAD
+          "href": "/football/team/results/_/id/21823"
+        },
+        {
+          "title": "Women's Africa Cup of Nations",
+          "href": "/football/team/results/_/id/21823/league/CAF.W.NATIONS",
+          "value": "CAF.W.NATIONS"
+        },
+        {
+          "title": "Women's International Friendly",
+          "href": "/football/team/results/_/id/21823/league/FIFA.FRIENDLY.W",
+          "value": "FIFA.FRIENDLY.W"
+        },
+        {
+          "title": "FIFA Women's World Cup Qualifying - Playoff Tournament",
+          "href": "/football/team/results/_/id/21823/league/FIFA.WWCQ.PLY",
+          "value": "FIFA.WWCQ.PLY"
+=======
           "href": "/football/team/results/_/id/8414"
         },
         {
           "title": "FIFA Under-17 World Cup",
           "href": "/football/team/results/_/id/8414/league/FIFA.WORLD.U17",
           "value": "FIFA.WORLD.U17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
         }
       ],
       "seasons": [
         {
+<<<<<<< HEAD
+          "value": 2026,
+          "link": "/football/team/results/_/id/21823/season/2026"
+        },
+        {
+          "value": 2024,
+          "link": "/football/team/results/_/id/21823/season/2024"
+        },
+        {
+          "value": 2023,
+          "link": "/football/team/results/_/id/21823/season/2023"
+=======
           "value": 2025,
           "link": "/football/team/results/_/id/8414/season/2025"
         },
@@ -6797,6 +7844,7 @@
         {
           "value": 2007,
           "link": "/football/team/results/_/id/8414/season/2007"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
         }
       ],
       "headers": {
@@ -6866,13 +7914,21 @@
     "countryRegion": "en-za",
     "pageURL": "/",
     "vendors": [],
+<<<<<<< HEAD
+    "teamName": "Senegal",
+=======
     "teamName": "South Korea U17",
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
     "edition": "en-za",
     "path": "/soccer/team/results",
     "sport": "soccer",
     "league": "",
     "siteSection": "espn",
+<<<<<<< HEAD
+    "playerTeamDetail": "soccer:teamId=21823-senegal"
+=======
     "playerTeamDetail": "soccer:teamId=8414-south+korea+u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
   },
   "ads": {
     "level": "espn.za/soccer/team/results",
@@ -6895,11 +7951,19 @@
       },
       {
         "name": "tm",
+<<<<<<< HEAD
+        "value": "sen"
+      },
+      {
+        "name": "league",
+        "value": "caf.w.nations"
+=======
         "value": "kor"
       },
       {
         "name": "league",
         "value": "fifa.world.u17"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       },
       {
         "name": "darkmode",
@@ -6907,7 +7971,11 @@
       },
       {
         "name": "ajx_url",
+<<<<<<< HEAD
+        "value": "https://africa.espn.com/football/team/results/_/id/21823/season/2023"
+=======
         "value": "https://africa.espn.com/football/team/results/_/id/8414/season/2025"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
       }
     ]
   },

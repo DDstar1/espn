@@ -1,7 +1,7 @@
 from contextlib import asynccontextmanager
 import os
 import shutil
-from sys import platform
+import platform
 import sys
 from fastapi import FastAPI, Header, HTTPException,Request
 from pathlib import Path

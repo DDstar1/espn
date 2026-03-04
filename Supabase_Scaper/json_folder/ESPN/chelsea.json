@@ -5068,6 +5068,128 @@
         "header": "Premier League News",
         "articles": [
           {
+<<<<<<< HEAD
+            "id": 48079937,
+            "headline": "Iran's situation at the 2026 World Cup: Will they play? What happens if they don't?",
+            "byLine": "ESPN",
+            "description": "Iran are scheduled to play at the 2026 World Cup in just over 100 days' time. Here's what we know -- and what we don't -- about whether they will still take part.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622042_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T09:03:51Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0302/r1622042_1296x729_16-9.jpg&w=220",
+                "alt": "Iran's situation at the 2026 World Cup: Will they play? What happens if they don't?"
+              }
+            ],
+            "link": "/football/story/_/id/48079937/iran-2026-world-cup-play-happens"
+          },
+          {
+            "id": 48087297,
+            "headline": "No Haaland, no problem - Manchester City's Antoine Semenyo ruined Leeds', and Arsenal's, plans",
+            "byLine": "Ed Dove",
+            "description": "Antoine Semenyo's goal further vindicated City's decision to move for the 26-year-old during the January transfer window, with the Ghanaian giving a new energy and dimension, as well as valuable goals, to City's title challenge.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622445_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T09:06:13Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622445_1296x729_16-9.jpg&w=220",
+                "alt": "No Haaland, no problem - Manchester City's Antoine Semenyo ruined Leeds', and Arsenal's, plans"
+              }
+            ],
+            "link": "/espn/story/_/id/48087297/no-haaland-no-problem-manchester-city-antoine-semenyo-ruined-leeds-arsenals-plans"
+          },
+          {
+            "id": 48087222,
+            "headline": "Transfer rumors, news: Bruno Fernandes plans Man United future talks",
+            "byLine": "ESPN",
+            "description": "Bruno Fernandes has shown no signs of wanting to leave Manchester United, while Casemiro has urged the club to sign Bruno Guimar\u00e3es. Transfer Talk has the latest.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/0907/r1542084_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T08:33:19Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/0907/r1542084_1296x729_16-9.jpg&w=220",
+                "alt": "Transfer rumors, news: Bruno Fernandes plans Man United future talks"
+              }
+            ],
+            "link": "/football/story/_/id/48087222/transfer-rumors-news-bruno-fernandes-plans-man-united-future-talks"
+          },
+          {
+            "id": 48087190,
+            "headline": "Michail Antonio 'praying' for peace after signing for Qatar's Al Sailiya",
+            "byLine": "ESPN",
+            "description": "Michail Antonio has said he is \"praying that God brings peace to the whole region\" after his arrival at Qatari club Al Sailiya was confirmed.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622442_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T08:14:38Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0303/r1622442_1296x729_16-9.jpg&w=220",
+                "alt": "Michail Antonio 'praying' for peace after signing for Qatar's Al Sailiya"
+              }
+            ],
+            "link": "/football/story/_/id/48087190/michail-antonio-praying-peace-signing-qatar-al-sailiya-west-ham"
+          },
+          {
+            "id": 48079690,
+            "headline": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Sunaadh Sagar",
+            "description": "All you need to know about the Premier League clash between Brighton & Hove Albion and Arsenal.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T07:10:38Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2025/1227/r1594105_1296x729_16-9.jpg&w=220",
+                "alt": "Brighton vs Arsenal: TV channel, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48079690/brighton-hove-albion-vs-arsenal-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
+          },
+          {
+            "id": 48082651,
+            "headline": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Anirudh Menon",
+            "description": "Everything you need to know about Newcastle United vs Manchester United including five key talking points",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T07:10:53Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0301/r1621607_608x342_16-9.jpg&w=220",
+                "alt": "Newcastle United vs Man United: TV channel, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48082651/newcastle-united-manchester-united-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
+          },
+          {
+            "id": 48069891,
+            "headline": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news",
+            "byLine": "Aaditya Narayan",
+            "description": "Everything you need to know about the Premier League clash between Wolves and Liverpool.",
+            "image": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
+            "premium": false,
+            "published": "2026-03-03T07:10:01Z",
+            "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+            "images": [
+              {
+                "src": "https://a.espncdn.com/combiner/i?img=/photo/2026/0228/r1621250_608x342_16-9.jpg&w=220",
+                "alt": "Wolves vs. Liverpool: TV channel in UK, kick-off time, live stream, referee, injury and team news"
+              }
+            ],
+            "link": "/football/story/_/id/48069891/wolves-vs-liverpool-tv-channel-kickoff-live-stream-referee-injury-team-news-premier-league-2025-26"
+          },
+          {
+=======
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
             "id": 48086245,
             "headline": "Football is life! 'Dani Rojas' from Ted Lasso is on trial at a USL club",
             "byLine": "Joey Lynch",
@@ -5117,6 +5239,8 @@
               }
             ],
             "link": "/football/story/_/id/48085833/matildas-show-support-womens-asian-cup-opponents-iran"
+<<<<<<< HEAD
+=======
           },
           {
             "id": 48080170,
@@ -5236,6 +5360,7 @@
               }
             ],
             "link": "/football/story/_/id/48084063/fabregas-wants-little-bombanera-coppa-tilt-inter"
+>>>>>>> db12392ade33fce3a8a44652ddd58c3da35d8fed
           }
         ],
         "link": "/football/league/_/name/eng.1",
